@@ -1,0 +1,1258 @@
+Date	Year	Season	Site #	# Adult RAMU	# Subadults RAMU	# Metamorphs RAMU	# Adult + Subadult RAMU	# Subadult + Metamorph RAMU	# Pre-Metamorphs RAMU	# Metamorph + Pre-Metamorph RAMU	# Larvae RAMU	# RAMU egg masses	# Adult PSRE	# Subadult PSRE	# Larvae PSRE	# PSRE egg masses	Observer	air temp C	water temp C	Weather	start time	end time	total time (min)	Fish Present	Comments	
+08/07/97	1997	f	2	54	41	0	95	41	0	0	0	0	0	0	0	0	NA	24	19.84		13:06		26	No		
+08/07/97	1997	f	7	6	2	0	8	2	0	0	7	0	0	0	0	0	NA	27	NA		12:28		11	No		
+08/07/97	1997	f	8	2	0	0	2	0	0	0	0	0	0	0	56	0	Karen Pope	27.5	19.5		12:04	12:07	3	No	small shallow mucky pool.   0.12m deep	
+08/07/97	1997	f	9	6	4	0	10	4	0	0	1	0	0	0	200	0	Karen Pope	30	14.5		12:11		3	No	Numerous Hyla tads (200 is just a place holder	
+08/07/97	1997	f	10	2	0	0	2	0	0	0	0	0	0	0	0	0	NA	24	NA		12:42		2	No		
+08/07/97	1997	f	11	3	2	0	5	2	0	0	0	0	0	0	0	0	Karen Pope	18	22		13:37	13:40	3	No	0.15m	
+08/07/97	1997	f	33	8	3	0	11	3	0	0	0	0	0	0	0	0	NA	25	NA		12:16		9	No		
+08/16/97	1997	f	1	41	32	0	73	32	0	0	182	0	0	0	50	0	David Court	16	NA		10:00		129	Yes	152 tps in separated bay(maybe sectT).	
+08/16/97	1997	f	2	74	33	0	107	33	0	0	0	0	0	0	0	0	NA	16	15.36		10:07		33	No		
+08/16/97	1997	f	4	29	37	0	66	37	0	0	2	0	0	0	0	0	Karen Pope	15	16.44		11:24		18	No	KP and DC did 5 surveys on 8/16-8/18 at various times of day here and lk 2 probab to determine best times of day for surveying	
+08/16/97	1997	f	5	15	64	0	79	64	0	0	38	0	0	0	0	0	NA	16	NA		10:51		16	No		
+08/16/97	1997	f	6	10	20	0	30	20	0	0	0	0	0	0	100	0	Karen Pope	15	NA	"Clear,Windy"	11:12	11:18	6	No	"Said ""tons"" of Hyla tps(I just put in 100), pond is drying up, possibly Rana tps. Fairy shrimp. 0.25m depth"	
+08/16/97	1997	f	9	8	0	0	8	0	0	0	0	0	0	0	200	0	David Court	20	NA	"Clear, Calm"	14:42		6	No	tons of of Hyla tads(# is just a place holder).  Lake 8 is nearly dry-several Hyla tads left/no chance of survival.  0.15m deep	
+08/16/97	1997	f	10	2	0	0	2	0	0	0	0	0	0	0	0	0	NA	19.5	NA		14:27		5	No		
+08/16/97	1997	f	11	3	2	0	5	2	0	0	0	0	0	0	0	0	Karen Pope	NA	NA		10:44	10:48	4	No	"pond is drying out mostly exposed rock w/ water in gaps, no tps. 0.3m max d."	
+08/16/97	1997	f	33	9	2	0	11	2	0	0	0	0	0	0	0	0	NA	20	NA		14:29		10	No		
+08/17/97	1997	f	2	68	21	0	89	21	0	0	0	0	0	0	0	0	NA	16	15.36		9:45		38	No		
+08/17/97	1997	f	4	27	37	0	64	37	0	0	3	0	0	0	0	0	Karen Pope	16	20.63		9:49		20	No		
+08/18/97	1997	f	2	12	2	0	14	2	0	0	0	0	0	0	0	0	NA	7	11.82		7:40		27	No		
+08/18/97	1997	f	4	8	14	0	22	14	0	0	0	0	0	0	0	0	David Court	6	NA		7:35		29	No		
+08/24/97	1997	f	1	42	33	0	75	33	0	0	28	0	0	0	0	0	Karen Pope	14	NA		10:41		104	Yes	also thought possible Bufo tps	
+08/24/97	1997	f	2	58	18	0	76	18	0	0	20	0	0	0	0	0	NA	18	21.31		12:05		25	No	several small dark tadpoles with eyes on top of head	
+08/24/97	1997	f	3	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	15	NA		11:40		10	No		
+08/24/97	1997	f	4	17	39	0	56	39	0	0	0	0	0	0	0	0	David Court	16	15.34		11:10		25	No	lots of small dark tps w/eyes on top of head (KF note: must be Ramu)	
+08/24/97	1997	f	5	3	41	0	44	41	0	0	35	0	0	0	0	0	NA	16	NA		10:50		15	No		
+08/24/97	1997	f	6	6	22	0	28	22	0	0	0	0	0	0	0	0	David Court	18	NA		14:40	14:50	10	No	0.3m deep	
+08/24/97	1997	f	7	4	3	0	7	3	0	0	17	0	0	0	0	0	NA	18	NA		14:14		10	No		
+08/24/97	1997	f	9	5	3	0	8	3	0	0	0	0	0	0	0	0	David Court	18	NA		14:15		8	No		
+08/24/97	1997	f	11	0	0	0	0	0	0	0	0	0	0	0	0	0	David Court	NA	NA				1	No	lake is dry (this is from Lake 2's map)	
+08/24/97	1997	f	30.1	2	0	0	2	0	0	0	0	0	0	0	0	0	NA	20	NA		11:55		8	No		
+08/24/97	1997	f	33	4	2	0	6	2	0	0	0	0	0	0	0	0	NA	18	NA		14:23		7	No		
+09/05/97	1997	f	1	38	51	0	89	51	0	0	58	0	0	0	10	0	Karen Pope	15	NA		11:13		85	Yes	33 bufo tps(maybe Ramu babies)	
+09/05/97	1997	f	3	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	16	NA		12:23		7	No		
+09/05/97	1997	f	5	6	58	0	64	58	0	0	500	0	0	0	0	0	NA	15	NA		11:30		15	No	3 Ramu tps with legs	
+09/05/97	1997	f	7	3	3	0	6	3	0	0	5	0	0	0	0	0	NA	16	NA		12:00		15	No	5 Ramu tps with legs	
+09/05/97	1997	f	9	0	2	0	2	2	0	0	0	0	0	0	400	0	Kathleen Matthews	15	NA		11:50		2	No	>400 Hyla tadpoles.  Lake 8 has water now but no amphibs	
+09/05/97	1997	f	10	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	16	NA		12:05		3	No		
+09/05/97	1997	f	31	3	1	0	4	1	0	0	0	0	0	0	0	0	NA	15	NA		12:10		9	No		
+09/05/97	1997	f	33	5	3	0	8	3	0	0	0	0	0	0	0	0	NA	15	NA		11:50		5	No		
+09/06/97	1997	f	2	12	5	0	17	5	0	0	0	0	0	100	0	0	NA	12	19.03		10:08		22	No	hundreds of Hyla froglets	
+09/06/97	1997	f	4	22	26	0	48	26	0	0	8	0	0	0	0	0	Karen Pope	17	10.05		10:55		21	No		
+09/06/97	1997	f	6	7	6	0	13	6	0	0	0	0	0	0	100	0	Karen Pope	16	NA		10:41	10:49	8	No	Most Hyla tads with legs and possibly 50 Bufo tads.  0.2m deep	
+09/06/97	1997	f	11	0	0	0	0	0	0	0	0	0	0	0	50	0	Karen Pope	NA	NA		10:34	10:38	4	No	pond filled up a bit since last survey. No Ramu seen	
+09/10/97	1997	f	31	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	8	NA		11:02		5	No		
+09/20/97	1997	o	1	8	16	0	24	16	0	0	33	0	0	0	0	0	Joe Fontaine	8	NA		10:28		115	Yes		
+09/20/97	1997	o	2	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	6	11.94		10:30		15	No	"no frogs seen, but very cold (6C) , with little ice left on surface- possibly wasn't counting tads"	
+09/20/97	1997	o	3	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	8	NA		11:17		11	No		
+09/20/97	1997	o	4	2	12	0	14	12	0	0	0	0	0	0	0	0	David Court	6	8		11:00		20	No		
+09/20/97	1997	o	5	0	4	0	4	4	0	0	20	0	0	0	0	0	NA	8	NA		11:40		10	No		
+09/20/97	1997	o	6	0		0	0	0	0	0	0	0	0	0	100	0	David Court	NA	NA		11:25	11:35	10	No	Didn't give the # of Hyla tads - 100 is just a place holder	
+09/20/97	1997	o	7	0	2	0	2	2	0	0	25	0	0	0	0	0	NA	8	NA		12:35		10	No		
+09/20/97	1997	o	9	3	0	0	3	0	0	0	0	0	0	0	0	0	David Court	7	NA		12:20		10	No	"partly frozen, 0.1m max d"	
+09/20/97	1997	o	10	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	8	NA		12:48		6	No		
+09/20/97	1997	o	11	0	0	0	0	0	0	0	0	0	0	0	0	0	Karen Pope	6	NA	"Clear,Windy"	10:55	10:56	1	No	"Completely frozen over 6"" of water underneath.  No frogs found (from lk2 map)"	
+10/01/97	1997	o	1	5	12	0	17	12	0	0	37	0	0	0	0	0	Joe Fontaine	8	NA		11:24		81	Yes	35 1st yr tps. 2 2nd/3rd yr tps	
+10/01/97	1997	o	2	1	0	0	1	0	0	0	0	0	0	20	1000	0	David Court	8	12.92		11:20		25	No	"lots of Hyla subs found on shore and in holes, still thousands of Hyla tadpoles (some were prob Rana tps)"	
+10/01/97	1997	o	3	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	7	NA		11:54		8	No		
+10/01/97	1997	o	4	0	3	0	3	3	0	0	15	0	0	0	0	0	David Court	10	5.55		12:20		15	No	"10-15 larvae, eyes on top of head, large bodies"	
+10/01/97	1997	o	5	11	20	0	31	20	0	0	125	0	0	0	0	0	David Court	10	NA		11:50		15	No	"Lots of Ramu larvae in shallow area near trail - positively ramu larvae, I don't remember seeing so many  in previous surveys"	
+10/01/97	1997	o	6	0		0	0	0	0	0	0	0	0	10	50	0	David Court	10	NA	"Clear,Windy"	12:10	12:18	8	No	"Numbers for Hyla are made up. Comments say several Hyla tps and were developing legs, several Hyla SA along shore"	
+10/01/97	1997	o	7	0	0	0	0	0	0	0	2	0	0	0	0	0	NA	10	NA		13:00		10	No		
+10/01/97	1997	o	8	0		0	0	0	0	0	0	0	0	0	0	0	David Court	NA	NA		12:57	12:58	1	No	Lake is dry	
+10/01/97	1997	o	9	1	0	0	1	0	0	0	0	0	0	0	20	0	David Court	10	NA	"Clear, Windy"	12:50		6	No	lake 8 completely dry again.  Max d 0.2m.  Several Hyla tps along shoreline (I just put in 20 as a place holder)	
+10/01/97	1997	o	31	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	7	NA		11:46		5	No		
+10/17/97	1997	o	2	0		0	0	0	0	0	125	0	0	0	0	0	Fontaine	12	NA	"Clear, Occas/Light Wind"	10:47	11:00	13	No	"1/3 of surface is still frozen, saw >125 1st yr Ramu larvae"	
+10/17/97	1997	o	3	0	0	0	0	0	0	0	0	0	0	0	0	0	Fontaine	12	18.86	"Clear, Occas/Light Wind"	11:37		6	No		
+10/17/97	1997	o	4	1	3	0	4	3	0	0	20	0	0	0	0	0	Fontaine	12	NA	"Clear, Occas/Light Wind"	11:22		8	No	5% of pond frozen at W-SW end all larvae wree seen at E-NE end of pond	
+10/17/97	1997	o	5	3	10	0	13	10	0	0	205	0	0	0	0	0	Fontaine	12	NA	"Clear, Occas/Light Wind"	11:07		10	No	"205 1st yr Ramu lavae, 1/4 of lake frozen (SW portion)"	
+10/17/97	1997	o	7	0	0	0	0	0	0	0	99	0	0	0	0	0	Fontaine	12	NA	"Clear, Occas/Light Wind"	12:18		8	No	"97 1st yr Ramu tps, 2 2nd yr tps, no frogs seen in st 33"	
+10/17/97	1997	o	9	0	0	0	0	0	0	0	0	0	0	0	0	0	Fontaine	12	NA	"Clear, Occas/Light Wind"	12:28		5	No	1/4 pond frozen	
+10/17/97	1997	o	30.1	0	0	0	0	0	0	0	0	0	0	0	0	0	Fontaine	12	NA	"Clear, Occas/Light Wind"	11:54		13	No		
+10/17/97	1997	o	30.2	0	0	0	0	0	0	0	0	0	0	0	0	0	Fontaine	12	NA	"Clear, Occas/Light Wind"	11:54		13	No		
+10/17/97	1997	o	31	0	0	0	0	0	0	0	0	0	0	0	0	0	Fontaine	12	NA	"Clear, Occas/Light Wind"	11:45		6	No		
+10/18/97	1997	o	1	4	2	0	6	2	0	0	58	0	0	0	0	0	Fontaine	12	NA		13:27		86	Yes	"nice sunny day, 11C at start 13C air at end of survey, 58 1st yr Ramu tads"	
+07/18/98	1998	b	20	78	4	3	82	7	0	3	5	0	0	0	0	0	Leah Culp	22	NA	"Clear, Occas/Light Wind"	13:50	16:36	166	No	"Caught and measured 37ads+saw 16 in amplex, + 4 Subads(6-8g &36-43mm) + 3 mets(2-5g,29-33mm). Also saw atleast 25 ads(6 in amplex) in inlet stream to 20 but didn't catch.  In lk20 saw several Ramu tps, at least one large (60mm) and 2 from last yr (35mm)"	
+07/21/98	1998	b	1	23	0	0	23	0	0	0	0	0	0	0	0	0	NA	15.6	NA		11:17		113	Yes		
+07/22/98	1998	b	2	2	0	0	2	0	0	0	0	0	0	0	0	0	NA	15.6	NA		11:20		15	No	this lake has barely begun to thaw	
+07/22/98	1998	b	3	2	0	0	2	0	0	0	0	0	0	0	0	0	NA	15.6	NA		12:40		20	No		
+07/22/98	1998	b	4	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	15.6	NA		13:04		5	No	lots of open water but no exposed rock or bank	
+07/22/98	1998	b	5	13	7	0	20	7	0	0	0	0	0	0	0	0	NA	15.6	NA		11:39		23	No		
+07/22/98	1998	b	6	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	15.6	NA		12:39		17	No	"can see the lake, but it's covered with ice and snow"	
+07/22/98	1998	b	7	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	15.6	NA		13:50		3	No		
+07/22/98	1998	b	8	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	15.6	NA		13:48		1	No		
+07/22/98	1998	b	9	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	15.6	NA		13:48		1	No		
+07/22/98	1998	b	30.1	0	0	0	0	0	0	0	0	0	0	0	0	0	Leah Culp	15.6	NA		12:39	12:56	17	No	was a combined listing for 30.1 and 30.2 called 30	
+07/22/98	1998	b	30.2	1	0	0	1	0	0	0	0	0	0	0	0	0	Leah Culp	15.6	NA		12:39		17	No		
+07/22/98	1998	b	31	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	15.6	NA		12:10		5	No		
+07/28/98	1998	b	1	40	4	0	44	4	0	0	0	0	0	0	0	0	NA	20.6	NA		12:07		113	Yes		
+07/28/98	1998	b	2	51	3	0	54	3	0	0	6	1	0	0	0	2	NA	15.5	4.7		11:47		28	No		
+07/28/98	1998	b	3	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	18.3	7.8		13:59		9	No		
+07/28/98	1998	b	5	66	67	0	133	67	0	0	15	0	0	0	0	0	NA	18	12.5		12:30		11	No		
+07/28/98	1998	b	6	1	0	0	1	0	0	0	0	0	0	0	0	0	NA	19.4	11.5		13:19		4	No		
+07/28/98	1998	b	7	0	1	0	1	1	0	0	0	0	0	0	0	0	NA	20.6	6.4		11:39		15	No		
+07/28/98	1998	b	8	1	0	0	1	0	0	0	0	0	0	0	0	0	NA	20.6	12.5		12:08		2	No		
+07/28/98	1998	b	9	6	0	0	6	0	0	0	0	0	0	0	0	0	NA	20.6	7.4		11:59		3	No		
+07/28/98	1998	b	10	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	20.6	12.2		11:57		1	No		
+07/28/98	1998	b	11	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	20.6	NA		13:37		1	No		
+07/28/98	1998	b	20	0	0	0	0	0	0	0	0	50	0	0	0	0	NA	NA	NA				60	No	"This was just an egg mass survey, no data on adults or tadpoles were recorded, GPSed 17 egg masses but there were about 50 in lk and inlet stream"	
+07/28/98	1998	b	30	2	0	0	2	0	0	0	0	0	0	0	0	0	NA	20.6	6.8		13:03		8	No		
+07/28/98	1998	b	31	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	18.3	7.8		13:49		7	No		
+07/28/98	1998	b	32	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	16	4.8		12:15		2	No		
+07/28/98	1998	b	33	1	0	0	1	0	0	0	0	0	0	0	0	0	NA	20.6	7.8		11:30		8	No		
+07/29/98	1998	b	4	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	16.7	NA		11:24		2	No		
+08/04/98	1998	b	1	55	15	0	70	15	0	0	13	0	0	0	0	0	NA	18.9	12.1		12:53		152	Yes		
+08/04/98	1998	b	2	77	1	0	78	1	0	0	35	73	0	0	0	2	NA	17.9	19.5		12:50		65	No		
+08/04/98	1998	b	3	2	0	0	2	0	0	0	0	0	0	0	0	0	NA	20.6	16.1		14:54		11	No		
+08/04/98	1998	b	4	4	4	0	8	4	0	0	47	0	0	0	0	0	NA	21.3	13.3		16:22		12	No		
+08/04/98	1998	b	5	66	81	0	147	81	0	0	100	20	0	0	0	0	NA	17.5	18.8		14:31		34	No	"Survey estimated the adult count at 136, but this number far exceeds anything ever recorded there, and far exceeds the # seen a week before and a week after this survey"	
+08/04/98	1998	b	6	7	3	0	10	3	0	0	0	0	0	0	0	0	NA	19.5	17.1		15:56		15	No		
+08/04/98	1998	b	7	1	1	0	2	1	0	0	19	4	0	0	0	0	NA	21.7	13.5		13:33		18	No		
+08/04/98	1998	b	8	3	0	0	3	0	0	0	0	0	0	0	0	0	NA	18.9	17.2		13:07		5	No		
+08/04/98	1998	b	9	3	2	0	5	2	0	0	0	6	0	0	0	3	NA	18.9	11.5		12:53		7	No		
+08/04/98	1998	b	10	3	0	0	3	0	0	0	0	0	0	0	0	2	NA	21.7	18.2		13:52		3	No		
+08/04/98	1998	b	11	2	0	0	2	0	0	0	6	0	0	0	0	0	NA	17.9	NA		14:12		6	No		
+08/04/98	1998	b	30.1	5	5	0	10	5	0	0	0	0	0	0	0	0	NA	17.5	NA		15:36		13	No		
+08/04/98	1998	b	30.2	1	0	0	1	0	0	0	0	0	0	0	0	0	NA	23.1	11.7		16:04		7	No		
+08/04/98	1998	b	31	3	0	0	3	0	0	0	0	0	0	0	0	0	NA	20.6	14.6		15:14		12	No		
+08/04/98	1998	b	32	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	17.9	NA		14:07		4	No		
+08/04/98	1998	b	33	7	0	0	7	0	0	0	0	0	0	0	0	0	NA	18.9	13.4		13:13		10	No		
+08/11/98	1998	b	1	60	27	0	87	27	0	0	62	1	0	0	0	0	NA	17.2	15.1		12:53		151	Yes		
+08/11/98	1998	b	2	107	10	0	117	10	0	0	205	91	0	0	0	0	NA	16.3	19		11:02		52	No		
+08/11/98	1998	b	3	1	1	0	2	1	0	0	0	0	0	0	0	0	NA	17.3	17.3		13:19		10	No		
+08/11/98	1998	b	4	34	16	0	50	16	0	0	85	0	0	0	0	0	NA	16.4	NA		13:51		26	No		
+08/11/98	1998	b	5	46	34	0	80	34	0	0	100	48	0	0	0	0	NA	16.4	22.2		15:12		30	No		
+08/11/98	1998	b	6	17	10	0	27	10	0	0	0	1	0	0	0	0	NA	16.4	NA		14:45		10	No		
+08/11/98	1998	b	7	9	3	0	12	3	0	0	79	5	0	0	0	0	NA	17.8	11.5		11:31		12	No		
+08/11/98	1998	b	8	2	0	0	2	0	0	0	0	0	0	0	0	0	NA	17.8	14.4		11:00		5	No		
+08/11/98	1998	b	9	6	1	0	7	1	0	0	0	7	0	0	0	0	NA	17.8	14		11:09		7	No		
+08/11/98	1998	b	10	5	5	0	10	5	0	0	0	0	0	0	0	0	NA	17.8	15.9		11:49		5	No		
+08/11/98	1998	b	11	7	0	0	7	0	0	0	47	0	0	0	0	0	NA	17.2	22.1		12:41		9	No		
+08/11/98	1998	b	30.1	3	0	0	3	0	0	0	0	0	0	0	0	0	NA	17.2	NA		15:00		7	No		
+08/11/98	1998	b	30.2	7	0	0	7	0	0	0	0	0	0	0	0	0	NA	17.2	NA		14:32		6	No		
+08/11/98	1998	b	31	5	0	0	5	0	0	0	0	0	0	0	0	0	NA	17.3	16.9		13:08		8	No		
+08/11/98	1998	b	32	1	0	0	1	0	0	0	0	0	0	0	0	0	NA	16.3	19		11:02		2	No		
+08/11/98	1998	b	33	4	1	0	5	1	0	0	0	0	0	0	0	0	NA	17.8	10.9		11:19		7	No		
+08/18/98	1998	f	1	52	18	0	70	18	0	0	197	0	0	0	0	0	NA	10.6	15		11:03		121	Yes		
+08/18/98	1998	f	2	83	7	0	90	7	0	0	203	0	0	0	0	0	NA	10.8	17.3		12:01		26	No		
+08/18/98	1998	f	3	3	1	0	4	1	0	0	0	0	0	0	0	0	NA	12	NA		14:11		11	No		
+08/18/98	1998	f	4	53	13	0	66	13	0	0	58	1	0	0	0	0	NA	12	NA		14:25		24	No		
+08/18/98	1998	f	5	13	15	0	28	15	0	0	355	0	0	0	0	0	NA	15.6	23.1		14:15		17	No		
+08/18/98	1998	f	6	34	6	0	40	6	0	0	7	0	0	0	0	0	NA	10.8	14.4		11:12		11	No		
+08/18/98	1998	f	7	14	1	0	15	1	0	0	87	0	0	0	0	0	NA	17.8	NA		11:37		15	No		
+08/18/98	1998	f	8	3	0	0	3	0	0	0	0	0	0	0	0	0	NA	17.8	NA		11:09		4	No		
+08/18/98	1998	f	9	5	1	0	6	1	0	0	0	0	0	0	0	0	NA	17.8	NA		11:16		4	No		
+08/18/98	1998	f	10	7	1	0	8	1	0	0	0	0	0	0	0	0	NA	17.8	NA		12:00		5	No		
+08/18/98	1998	f	11	10	1	0	11	1	0	0	27	0	0	0	0	0	NA	15.4	25		14:43		4	No		
+08/18/98	1998	f	30.1	2	0	0	2	0	0	0	0	0	0	0	0	0	NA	11.7	11.2		11:46		8	No		
+08/18/98	1998	f	30.2	2	0	0	2	0	0	0	0	0	0	0	0	0	NA	10.8	10.6		11:31		9	No		
+08/18/98	1998	f	31	6	0	0	6	0	0	0	0	0	0	0	0	0	NA	17.8	NA		12:16		9	No		
+08/18/98	1998	f	32	2	0	0	2	0	0	0	0	0	0	0	0	0	NA	14.9	21.9		14:51		2	No		
+08/18/98	1998	f	33	3	0	0	3	0	0	0	1	0	0	0	0	0	NA	17.8	NA		11:25		7	No		
+08/25/98	1998	f	1	46	29	0	75	29	0	0	260	0	0	0	0	0	NA	14.8	NA		11:25		115	Yes		
+08/25/98	1998	f	2	86	6	0	92	6	0	0	207	0	0	0	0	0	NA	14.8	17.9		12:16		30	No		
+08/25/98	1998	f	3	1	1	0	2	1	0	0	0	0	0	0	0	0	NA	15.3	18.7		14:21		9	No		
+08/25/98	1998	f	4	67	27	0	94	27	0	0	52	0	0	0	0	0	NA	15.6	19.2		13:37		14	No		
+08/25/98	1998	f	5	29	28	0	57	28	0	0	237	0	0	0	0	0	NA	13.4	16.8		10:51		20	No		
+08/25/98	1998	f	6	24	8	0	32	8	0	0	44	0	0	0	0	0	NA	13.8	16.9		11:38		11	No		
+08/25/98	1998	f	7	11	2	0	13	2	0	0	238	0	0	0	0	0	NA	13.4	NA		11:00		13	No		
+08/25/98	1998	f	8	1	0	0	1	0	0	0	0	0	0	0	0	0	NA	13.4	NA		10:49		2	No		
+08/25/98	1998	f	9	7	2	0	9	2	0	0	20	0	0	0	0	0	NA	13.4	NA		10:51		3	No		
+08/25/98	1998	f	10	1	2	0	3	2	0	0	0	0	0	0	395	0	Karen Pope	13.4	NA		11:14		8	No	"Karen says 395 Hyla tads, but says it's possibly that some (not seen) are Ramu"	
+08/25/98	1998	f	11	9	0	0	9	0	0	0	25	0	0	0	0	0	NA	13.1	17.4		12:03		4	No		
+08/25/98	1998	f	30.1	4	0	0	4	0	0	0	0	0	0	0	0	0	NA	13.3	11.9		11:20		11	No		
+08/25/98	1998	f	30.2	1	0	0	1	0	0	0	0	0	0	0	0	0	NA	13.3	11.9		11:53		7	No		
+08/25/98	1998	f	31	5	1	0	6	1	0	0	0	0	0	0	0	0	NA	14.9	18.3		14:10		9	No		
+08/25/98	1998	f	32	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	15.1	16.8		12:11		1	No		
+08/25/98	1998	f	33	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	13.4	NA		10:54		6	No		
+09/01/98	1998	f	1	44	9	0	53	9	0	0	139	0	0	0	0	0	NA	15.6	14.4		10:40		116	Yes		
+09/01/98	1998	f	2	33	4	0	37	4	0	0	140	0	0	0	0	0	NA	11.4	11.2		11:07		33	No		
+09/01/98	1998	f	3	1	1	0	2	1	0	0	0	0	0	0	0	0	NA	13.3	10.7		12:01		8	No		
+09/01/98	1998	f	4	25	9	0	34	9	0	0	38	0	0	0	0	0	NA	13.3	11.7		11:28		13	No		
+09/01/98	1998	f	5	6	15	0	21	15	0	0	133	0	0	0	0	0	NA	12	12.2		11:52		13	No		
+09/01/98	1998	f	6	13	5	0	18	5	0	0	5	0	0	0	0	0	NA	13.3	9.3		11:09		9	No		
+09/01/98	1998	f	7	8	0	0	8	0	0	0	111	0	0	0	0	0	NA	13.3	16.6		15:32		7	No		
+09/01/98	1998	f	8	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	13.3	NA		15:12		2	No	no water	
+09/01/98	1998	f	9	4	0	0	4	0	0	0	0	0	0	0	0	0	NA	13.3	21.1		15:18		4	No		
+09/01/98	1998	f	10	4	0	0	4	0	0	0	0	0	0	0	200	0	Jacob Martin	13.3	19.1		15:42		3	No	he's not sure of the species	
+09/01/98	1998	f	11	0	0	0	0	0	0	0	6	0	0	0	0	0	NA	11.4	10.3		11:47		2	No		
+09/01/98	1998	f	30.1	7	0	0	7	0	0	0	0	0	0	0	0	0	NA	10.7	8.9		12:10		5	No		
+09/01/98	1998	f	30.2	4	2	0	6	2	0	0	0	0	0	0	0	0	NA	10.7	8.9		12:20		5	No		
+09/01/98	1998	f	31	2	0	0	2	0	0	0	0	0	0	0	0	0	NA	13.3	10.4		11:51		5	No		
+09/01/98	1998	f	32	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	11.4	NA		11:45		1	No	no water	
+09/01/98	1998	f	33	2	1	0	3	1	0	0	1	0	0	0	0	0	NA	13.3	15.8		15:25		5	No		
+09/09/98	1998	f	1	3	0	0	3	0	0	0	2	0	0	0	0	0	NA	7.8	9.1	"Overcast, Windy"	11:16		96	Yes	"on and off hail today, very cold and windy"	
+09/09/98	1998	f	2	4	0	0	4	0	0	0	64	0	0	0	0	0	NA	12.8	8.8	"Overcast, Windy"	11:19		15	No	"on and off hail today, very cold and windy"	
+09/09/98	1998	f	3	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	5.7	9.7	"Overcast, Windy"	14:25		8	No	"on and off hail today, very cold and windy"	
+09/09/98	1998	f	4	0	0	0	0	0	0	0	11	0	0	0	0	0	NA	4.3	8.8	"Overcast, Windy"	12:33		8	No	"on and off hail today, very cold and windy"	
+09/09/98	1998	f	5	2	3	0	5	3	0	0	74	0	0	0	0	0	NA	4.9	7.9	"Overcast, Windy"	12:20		8	No	"on and off hail today, very cold and windy"	
+09/09/98	1998	f	6	1	3	0	4	3	0	0	15	0	0	0	0	0	NA	5.1	7.4	"Overcast, Windy"	11:54		6	No	"on and off hail today, very cold and windy"	
+09/09/98	1998	f	7	0	1	0	1	1	0	0	53	0	0	0	0	0	NA	7.8	NA	"Overcast, Windy"	11:48		6	No	"on and off hail today, very cold and windy"	
+09/09/98	1998	f	8	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	7.8	NA	"Overcast, Windy"	11:26		3	No	"on and off hail today, very cold and windy"	
+09/09/98	1998	f	9	3	0	0	3	0	0	0	0	0	0	0	0	0	NA	7.8	NA	"Overcast, Windy"	11:30		4	No	"on and off hail today, very cold and windy"	
+09/09/98	1998	f	10	0	0	0	0	0	0	0	0	0	0	0	448	0	Leah Culp	7.8	NA	"Overcast, Windy"	11:54		5	No	"448 YoY tads, not sure of species.  On and off hail today, very cold and windy"	
+09/09/98	1998	f	11	0	0	0	0	0	0	0	4	0	0	0	0	0	NA	5.7	7.8	"Overcast, Windy"	11:42		3	No	"on and off hail today, very cold and windy"	
+09/09/98	1998	f	30.1	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	5.4	6.1	"Overcast, Windy"	12:02		3	No	"on and off hail today, very cold and windy"	
+09/09/98	1998	f	30.2	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	6.1	5.8	"Overcast, Windy"	11:48		5	No	"on and off hail today, very cold and windy"	
+09/09/98	1998	f	31	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	5.1	8.9	"Overcast, Windy"	14:16		7	No	"on and off hail today, very cold and windy"	
+09/09/98	1998	f	32	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	5.5	8.8	"Overcast, Windy"	11:40		1	No	"on and off hail today, very cold and windy"	
+09/09/98	1998	f	33	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	7.8	NA	"Overcast, Windy"	11:35		2	No	"on and off hail today, very cold and windy"	
+09/15/98	1998	f	1	50	19	0	69	19	0	0	127	0	0	0	0	0	NA	15	12.7		11:33		102	Yes		
+09/15/98	1998	f	2	74	23	0	97	23	0	0	1155	0	0	0	0	0	NA	12.8	14.4		10:36		46	No	"Rana tps ~1000 <25mm, and 155>25mm"	
+09/15/98	1998	f	3	0	2	0	2	2	0	0	0	0	0	0	0	0	NA	14.4	17.8		15:06		7	No		
+09/15/98	1998	f	4	40	21	0	61	21	0	0	99	0	0	0	0	0	NA	16.7	17.8		14:36		22	No		
+09/15/98	1998	f	5	27	35	0	62	35	0	0	562	0	0	0	0	0	NA	12.8	14.4		11:37		32	No		
+09/15/98	1998	f	6	14	11	0	25	11	0	0	21	0	0	0	0	0	NA	16.7	18.9		15:30		12	No		
+09/15/98	1998	f	7	10	4	0	14	4	0	0	85	0	0	0	0	0	NA	13.3	11.7		11:01		10	No		
+09/15/98	1998	f	8	1	0	0	1	0	0	0	0	0	0	0	0	0	NA	13.3	13		10:37		3	No		
+09/15/98	1998	f	9	7	0	0	7	0	0	0	240	0	0	0	0	0	NA	13.3	11.9		10:43		6	No		
+09/15/98	1998	f	10	4	0	0	4	0	0	0	0	0	0	0	426	0	Jacob Martin	14.4	15.6		11:21		7	No	426 tads poss mix of sp	
+09/15/98	1998	f	11	2	0	0	2	0	0	0	35	0	0	0	0	0	NA	12.8	15.6		11:24		6	No		
+09/15/98	1998	f	30.1	5	1	0	6	1	0	0	0	0	0	0	0	0	NA	11.1	10		12:05		6	No		
+09/15/98	1998	f	30.2	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	11.1	10		12:16		3	No		
+09/15/98	1998	f	31	4	0	0	4	0	0	0	0	0	0	0	0	0	NA	14.4	15		15:20		6	No		
+09/15/98	1998	f	32	4	0	0	4	0	0	0	6	0	0	0	0	0	NA	12.8	14.4		11:13		1	No		
+09/15/98	1998	f	33	10	0	0	10	0	0	0	0	0	0	0	0	0	NA	13.3	10.8		10:52		5	No		
+09/22/98	1998	f	1	42	18	0	60	18	0	0	176	0	0	0	0	0	NA	13.3	NA		11:10		110	Yes		
+09/22/98	1998	f	2	51	20	0	71	20	0	0	1857	0	0	0	0	0	NA	13.3	14.1		10:51		45	No	"Rana tps: 1734 YoY, and 123 >1yr old"	
+09/22/98	1998	f	3	0	1	0	1	1	0	0	0	0	0	0	0	0	NA	7.9	12.7		12:07		7	No		
+09/22/98	1998	f	4	28	9	0	37	9	0	0	144	0	0	0	0	0	NA	10	13.3		12:15		14	No		
+09/22/98	1998	f	5	32	18	0	50	18	0	0	388	0	0	0	0	0	NA	11.1	16.2		14:59		13	No		
+09/22/98	1998	f	6	7	9	0	16	9	0	0	37	0	0	0	0	0	NA	8.3	13.6		11:44		8	No		
+09/22/98	1998	f	7	5	4	0	9	4	0	0	85	0	0	0	0	0	NA	8.8	10.8		11:01		10	No		
+09/22/98	1998	f	8	0	1	0	1	1	0	0	0	0	0	0	0	0	NA	7.9	14.7		10:43		2	No		
+09/22/98	1998	f	9	3	1	0	4	1	0	0	155	0	0	0	0	0	NA	6.6	2.9		10:46		5	No		
+09/22/98	1998	f	10	2	1	0	3	1	0	0	0	0	0	0	200	0	Rick Ziegler	8.2	11.9		11:11		4	No	"thought tads were Ramu, but he's not sure during the next survey"	
+09/22/98	1998	f	11	3	0	0	3	0	0	0	16	0	0	0	0	0	NA	10	16.2		11:59		4	No		
+09/22/98	1998	f	30.1	6	6	0	12	6	0	0	0	0	0	0	0	0	NA	8	8.5		11:30		10	No		
+09/22/98	1998	f	30.2	1	0	0	1	0	0	0	0	0	0	0	0	0	NA	8.5	8.5		11:53		5	No		
+09/22/98	1998	f	31	3	0	0	3	0	0	0	0	0	0	0	0	0	NA	7.8	13		12:00		7	No		
+09/22/98	1998	f	33	1	0	0	1	0	0	0	0	0	0	0	0	0	NA	7.6	8.5		10:55		5	No		
+09/30/98	1998	f	1	3	2	0	5	2	0	0	13	0	0	0	0	0	NA	5.3	7.6		11:14		72	Yes		
+09/30/98	1998	f	2	9	2	0	11	2	0	0	1741	0	0	0	0	0	NA	4.1	10.2		14:31		46	No		
+09/30/98	1998	f	3	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	3.7	6.2		11:43		7	No		
+09/30/98	1998	f	4	4	0	0	4	0	0	0	1	0	0	0	0	0	NA	2.3	6.4		11:26		11	No		
+09/30/98	1998	f	5	0	2	0	2	2	0	0	95	0	0	0	0	0	NA	2	7		10:48		13	No		
+09/30/98	1998	f	6	0	0	0	0	0	0	0	5	0	0	0	0	0	NA	1.7	5.5		11:14		5	No		
+09/30/98	1998	f	7	0	0	0	0	0	0	0	20	0	0	0	0	0	NA	5.3	3.8		10:59		6	No		
+09/30/98	1998	f	8	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	5.3	0.2		10:45		1	No		
+09/30/98	1998	f	9	0	0	0	0	0	0	0	2	0	0	0	0	0	NA	5.3	3.8		10:47		3	No		
+09/30/98	1998	f	10	0	0	0	0	0	0	0	0	0	0	0	35	0	Rick Ziegler	5.3	4.4		11:07		2	No	He was not sure of species. Lake completely iced over	
+09/30/98	1998	f	11	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	2.4	5.5		12:12		2	No		
+09/30/98	1998	f	30.1	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	2.1	2.7		11:07		5	No		
+09/30/98	1998	f	30.2	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	4	4.4		12:02		5	No		
+09/30/98	1998	f	31	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	3.7	6		11:52		7	No		
+09/30/98	1998	f	32	1	0	0	1	0	0	0	7	0	0	0	0	0	NA	2.4	5.5		12:15		2	No		
+09/30/98	1998	f	33	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	5.5	2.9		10:55		2	No		
+07/14/98	1998	o	1	11	1	0	12	1	0	0	0	0	0	0	0	0	NA	19.4	NA		11:00	13:00	100	Yes	lake mostly frozen to shoreline (95%)	
+07/14/98	1998	o	2	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	19.4	NA		12:15		1	No	"covered in snow, no shoreline or open water"	
+07/14/98	1998	o	3	1	0	0	1	0	0	0	0	0	0	0	0	0	NA	19.4	NA		11:56		19	No	"lake clear of ice in middle, but very few patches of bank clear"	
+07/14/98	1998	o	4	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	19.4	NA		15:05		5	No	"pond iced and snowed over w open center approx 8x20m, no bank exposed, no amphib present"	
+07/14/98	1998	o	5	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	19.4	NA		14:50		10	No	"pond iced and snowed over, w slush puddle in middle 5mx3m, no amphib"	
+07/14/98	1998	o	6	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	19.4	NA		12:19		1	No	"covered in snow, no shoreline or open water"	
+07/14/98	1998	o	7	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	19.4	NA		14:20		5	No	"snow covering E 1/2 of lk, snow still on edges, no amphib, water flowing betw 10 and 7"	
+07/14/98	1998	o	8	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	19.4	NA		13:20		1	No	"covered in snow, no water"	
+07/14/98	1998	o	9	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	19.4	NA		13:20		1	No	"covered in snow, no water"	
+07/14/98	1998	o	10	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	19.4	NA		14:20		5	No	still covered in snow	
+07/14/98	1998	o	11	0	0	0	0	0	0	0	0	0	0	0	0	0	Karen Pope	19.4	NA		12:16	12:17	1	No	"covered in snow, no shoreline or open water"	
+07/14/98	1998	o	30.1	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	19.4	NA		14:25		5	No	iced and snowed over	
+07/14/98	1998	o	30.2	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	19.4	NA		14:25		5	No	iced and snowed over	
+07/14/98	1998	o	31	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	19.4	NA		11:52		3	No	iced and snowed over	
+07/14/98	1998	o	32	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	19.4	NA		12:17		1	No	"covered in snow, no shoreline or open water (same for lk11)"	
+07/14/98	1998	o	33	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	19.4	NA		14:10		10	No	"covered in snow, but water flowing to lk 1"	
+10/09/98	1998	o	1	10	3	0	13	3	0	0	14	0	0	0	0	0	NA	NA	NA		11:31		64	Yes		
+10/09/98	1998	o	2	9	0	0	9	0	0	0	891	0	0	0	0	0	NA	NA	NA		11:35		22	No		
+10/09/98	1998	o	3	1	0	0	1	0	0	0	0	0	0	0	0	0	NA	NA	NA		12:17		5	No		
+10/09/98	1998	o	4	2	10	0	12	10	0	0	0	0	0	0	0	0	NA	NA	NA		11:59		9	No		
+10/09/98	1998	o	5	39	13	0	52	13	0	0	255	0	0	0	0	0	NA	NA	NA		11:45		19	No		
+10/09/98	1998	o	6	0	2	0	2	2	0	0	8	0	0	0	0	0	NA	NA	NA		11:41		6	No		
+10/09/98	1998	o	7	1	1	0	2	1	0	0	17	0	0	0	0	0	NA	NA	NA		12:12		7	No		
+10/09/98	1998	o	8	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	NA	NA		12:28		2	No		
+10/09/98	1998	o	9	0	0	0	0	0	0	0	150	0	0	0	0	0	NA	NA	NA		12:23		5	No		
+10/09/98	1998	o	10	0	0	0	0	0	0	0	0	0	0	0	283	0	Leah Culp	NA	NA		12:08		3	No	Leah Culp thinks they are just Hyla tads - this seems most likely given that they only saw Hyla egg masses in Lk 10 this year	
+10/09/98	1998	o	11	0	0	0	0	0	0	0	5	0	0	0	0	0	NA	NA	NA		12:26		3	No		
+10/09/98	1998	o	30.1	2	0	0	2	0	0	0	0	0	0	0	0	0	NA	NA	NA		11:33		6	No		
+10/09/98	1998	o	30.2	1	0	0	1	0	0	0	0	0	0	0	0	0	NA	NA	NA		11:51		4	No		
+10/09/98	1998	o	31	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	NA	NA		12:12		4	No		
+10/09/98	1998	o	32	2	0	0	2	0	0	0	0	0	0	0	0	0	NA	NA	NA		12:31		1	No		
+10/09/98	1998	o	33	3	0	0	3	0	0	0	0	0	0	0	0	0	NA	NA	NA		12:20		2	No		
+10/14/98	1998	o	1	14	1	0	15	1	0	0	34	0	0	0	0	0	Leah Culp	NA	NA		11:04	12:41	23	Yes	"32 >1yr old Ramu tps, 2 YoY Ramu tp.  Greatest conc of frogs btw Grid A and D, and at T &P. Most of Lk is frogless, lake mostly clear of ice"	
+10/14/98	1998	o	2	0	0	0	0	0	0	0	208	0	0	0	115	0	Rick Ziegler	NA	NA		11:00	11:17	17	No	"Rana tps: 3-2nd yr or older, 205-1st year (YoY) tps"	
+10/14/98	1998	o	3	1	0	0	1	0	0	0	0	0	0	0	0	0	Leah Culp	NA	NA		12:10	12:16	6	No		
+10/14/98	1998	o	4	5	10	0	15	10	0	0	1	0	0	0	0	0	Rick Ziegler	NA	NA		11:52	12:01	9	No		
+10/14/98	1998	o	5	27	5	0	32	5	0	0	90	0	0	0	12	0	Rick Ziegler	NA	NA		11:25	11:34	9	No	"25-2nd yr or older tps, 65-1st yr tps"	
+10/14/98	1998	o	6	0	0	0	0	0	0	0	22	0	0	0	74	0	Rick Ziegler	NA	NA		11:46	11:50	4	No	lake level is very low and parts are dry	
+10/14/98	1998	o	7	0	1	0	1	1	0	0	3	0	0	0	0	0	Leah Culp	NA	NA		11:20	11:26	6	No	Lake w thin ice layer over most of it. All tps over 1 year old	
+10/14/98	1998	o	8	0		0	0	0	0	0	0	0	0	0	0	0	Leah Culp	NA	NA		11:13	11:15	2	No	No amphibs seen lake is very shallow and small (5 cm). What water is here has layer of ice on top	
+10/14/98	1998	o	9	0	0	0	0	0	0	0	114	0	0	0	0	0	Leah Culp	NA	NA		11:10	11:13	3	No		
+10/14/98	1998	o	10	0	0	0	0	0	0	0	0	0	0	0	102	0	Leah Culp	NA	NA		11:27	11:29	2	No	At time of survey Lk iced over entirely. No Ramu.  PSRE tads seen.  Still not very developed. Lake thawing later in day but still no Ramu seen	
+10/14/98	1998	o	11	0	0	0	0	0	0	0	1	0	0	0	0	0	Rick Ziegler	NA	NA		11:20	11:22	2	No	thin layer of ice over entire lake	
+10/14/98	1998	o	30.1	0	1	0	1	1	0	0	0	0	0	0	0	0	Rick Ziegler	NA	NA		11:36	11:45	9	No		
+10/14/98	1998	o	30.2	0	0	0	0	0	0	0	0	0	0	0	0	0	Rick Ziegler	NA	NA	"Clear, Calm"	12:18	12:22	4	No	no frogs	
+10/14/98	1998	o	31	0	0	0	0	0	0	0	0	0	0	0	0	0	Rick Ziegler	NA	NA		12:04	12:09	5	No	stream is very low	
+10/14/98	1998	o	32	0	0	0	0	0	0	0	0	0	0	0	0	0	Rick Ziegler	NA	NA		11:19	11:20	1	No	iced over or dry through entire stream	
+10/14/98	1998	o	33	0	0	0	0	0	0	0	0	0	0	0	0	0	Leah Culp	NA	NA		11:16	11:18	2	No	no amphibs seen.  St has thin ice layer over much of it. St is down very low (about 1 ft lower than usually)	
+07/01/99	1999	b	3	0	0	0	0	0	0	0	0	0	0	0	0	0	Karen Pope	NA	NA	"Clear, Occas/Light Wind"	16:45		20	Yes	"no frogs, 1 dead trout, still sunny and warm"	
+07/01/99	1999	b	31	2	0	0	2	0	0	0	0	0	0	0	0	0	Karen Pope	NA	NA	"Clear, Occas/Light Wind"			10	Yes		
+07/02/99	1999	b	2	65	0	0	65	0	0	0	300	17	0	0	0	0	Karen Pope	15.7	13.6	"Clear, Occas/Light Wind"	9:30	10:05	35	No	saw several hundred Ramu tads (I estimated this as about 300) in two size classes 1998 tps 31-2mm and older tps 67-77mm. Ads 52 with pits and 13 without	
+07/02/99	1999	b	5	49	0	0	49	0	0	0	500	10	0	0	0	0	Karen Pope	17.2	13.6	"Clear, Occas/Light Wind"	10:35	12:00	85	No	"Ramu tads were large w/ some likely to met this yr (2 size cats 3rd yr 66-79mm some w leg buds, & 1998 tps 29-32mm), also saw numerous tiny new tads not sure of species.  For ads 36 had tags, 13 no tags, also saw 5 dead frogs - 1 with pit 023298046"	
+07/02/99	1999	b	6	7	0	0	7	0	0	0	3	0	0	0	0	6	Karen Pope	NA	NA	"Clear, Occas/Light Wind"	16:00	16:30	30	No	"said several Hyla eggmasses looking ready to hatch, but 0 Ramu eggmasses"	
+07/02/99	1999	b	11	7	0	0	7	0	0	0	1	0	0	0	0	0	Karen Pope	NA	NA	"Clear, Occas/Light Wind"	15:45	16:00	15	No		
+07/02/99	1999	b	32	3	0	0	3	0	0	0	0	0	0	0	0	0	Karen Pope	NA	NA	"Clear, Occas/Light Wind"	15:20	15:45	25	No	all had tags	
+07/03/99	1999	b	4	24	0	0	24	0	0	0	200	2	0	0	0	6	Karen Pope	12.2	16.1	"Clear, Occas/Light Wind"	10:30	11:20	50	No	"no # was given for the # of Ramu tps, but the 7 that were caught were betw 72-77mm and thought to be 3rd yrs.  Later surveys that yr gave for the # of older than 1 yr old Ramu tps 165tps, 300tps+65premets, and 135tps.  Also, just said lots of Hyla egmas"	
+07/03/99	1999	b	7	6	0	0	6	0	0	0	9	4	0	0	0	6	Karen Pope	13.7	16	"Clear, Occas/Light Wind"	14:00	14:25	25	Yes	"3 trout in Lk 7, could have been more tps, they caught 9- they were 60-71mm long and listed as 2nd or 3 yr old tps. Said several Hyla eggmasses"	
+07/03/99	1999	b	8	0	1	0	1	1	0	0	0	0	0	0	0	0	Karen Pope	13.4	22.9	"Clear, Occas/Light Wind"	13:30	13:37	7	No	"1 juvenile w/o tag, and no egg masses"	
+07/03/99	1999	b	9	4	3	0	7	3	0	0	0	0	0	0	0	0	Karen Pope	12.6	15.1	"Clear, Occas/Light Wind"	13:37	13:45	8	No		
+07/03/99	1999	b	10	3	0	0	3	0	0	0	0	0	0	0	0	0	Karen Pope	NA	NA	"Clear, Occas/Light Wind"	14:45		10	No		
+07/03/99	1999	b	33	2	0	1	2	1	0	1	0	1	0	0	0	0	Karen Pope	12.6	15.1	"Clear, Occas/Light Wind"	13:45	14:00	15	No	"may have been 3 ads, but at least 2 with tags.  Not 100% sure that egma is Ramu, b/c notes don't say, but 95% sure."	
+07/04/99	1999	b	1	22	0	0	22	0	0	0	0	1	0	0	0	0	Karen Pope	11.9	15.8	"Clear,Windy"	13:25		120	Yes	"not a complete survey, just ads and egg masses.  I dead frog in grid c"	
+08/12/99	1999	f	1	39	6	0	45	6	0	0	90	0	0	0	20	0	NA	17.6	19.8		13:00		180	Yes		
+08/12/99	1999	f	2	62	88	0	150	88	23	23	390	0	0	0	735	0	NA	19.7	20.5		13:15		30	No		
+08/12/99	1999	f	3	1	0	0	1	0	0	0	0	0	0	0	90	0	NA	15.7	20.9		13:10		10	No		
+08/12/99	1999	f	5	21	80	0	101	80	43	43	325	0	0	0	248	0	NA	18.1	15.1		12:40		20	No		
+08/12/99	1999	f	6	7	2	0	9	2	0	0	0	0	0	0	970	0	NA	18.2	20		12:30		5	No		
+08/12/99	1999	f	11	0	3	0	3	3	2	2	12	0	0	0	1	0	NA	19.7	14.5		13:05		2	No		
+08/12/99	1999	f	20	100	16	0	116	16	1	1	1085	0	0	0	0	0	NA	19.6	20.3		15:40		35	No		
+08/12/99	1999	f	30.1	7	4	0	11	4	0	0	0	0	0	0	0	0	NA	18.4	16.5		13:50		10	No		
+08/12/99	1999	f	30.2	8	2	0	10	2	0	0	0	0	0	0	0	0	NA	20.3	17		13:00		5	No		
+08/12/99	1999	f	31	2	0	0	2	0	0	0	0	0	0	0	0	0	NA	17.2	19		13:00		5	No		
+08/12/99	1999	f	32	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	21.7	21.1		13:09		1	No		
+08/12/99	1999	f	36	9	1	0	10	1	0	0	0	0	0	0	0	0	NA	18	15.5		15:00		35	No		
+08/12/99	1999	f	41	13	1	0	14	1	0	0	0	0	0	0	120	0	NA	18.3	17.6		14:00		40	No		
+08/13/99	1999	f	4	18	1	0	19	1	0	0	165	0	0	0	30	0	NA	15.2	14.1		11:05		15	No		
+08/13/99	1999	f	7	16	6	0	22	6	0	0	18	0	0	0	18	0	NA	17.9	16.2		11:35		15	No		
+08/13/99	1999	f	8	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	17.5	15.6		10:30		2	No		
+08/13/99	1999	f	9	7	4	0	11	4	0	0	0	0	0	0	457	0	NA	16.8	21.3		10:30		15	No		
+08/13/99	1999	f	10	2	0	0	2	0	0	0	0	0	0	0	70	0	NA	14.9	15.7		12:00		5	No		
+08/13/99	1999	f	33	7	1	0	8	1	0	0	1	0	0	0	0	0	NA	17.8	10.7		10:45		15	No		
+08/20/99	1999	f	1	44	11	13	55	24	5	18	141	0	0	0	81	0	NA	17.3	16.8		13:36		100	Yes		
+08/20/99	1999	f	2	56	70	160	126	230	60	220	645	0	0	0	3760	0	NA	21.9	23.5		14:30		45	No		
+08/20/99	1999	f	3	1	0	0	1	0	0	0	0	0	0	0	90	0	NA	17.9	16.4		14:45		0	No		
+08/20/99	1999	f	4	25	2	0	27	2	65	65	364	0	0	0	60	0	NA	21	26		13:15		25	No		
+08/20/99	1999	f	5	32	70	45	102	115	190	235	275	0	0	0	485	0	NA	NA	20.9		13:45		25	No		
+08/20/99	1999	f	6	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	NA	NA				0	No		
+08/20/99	1999	f	7	17	2	11	19	13	5	16	60	0	0	0	30	0	Karen Pope	20.3	17.6		13:10		12	No	"Ramu tads: 33 3rd yr, 23 2nd yr and 4 (YoY) 1st yr tps, and 30 Hyla tps"	
+08/20/99	1999	f	9	4	2	0	6	2	0	0	0	0	0	0	300	0	NA	17.1	26.3		13:28		6	No		
+08/20/99	1999	f	10	3	0	0	3	0	0	0	0	0	0	0	40	0	NA	19.4	18.7		13:00		3	No		
+08/20/99	1999	f	30	7	2	0	9	2	0	0	0	0	0	0	0	0	NA	21.5	17.2		14:15		10	No		
+08/20/99	1999	f	31	6	0	0	6	0	0	0	0	0	0	0	0	0	NA	18.1	16.9		14:36		8	No		
+08/20/99	1999	f	33	6	1	0	7	1	0	0	2	0	0	0	0	0	NA	16	14.7		13:22		5	No		
+08/29/99	1999	f	1	29	15	0	44	15	1	1	115	0	0	0	0	0	NA	21.6	21		11:00		150	Yes		
+08/29/99	1999	f	2	71	230	0	301	230	1	1	326	0	0	141	330	0	NA	16.9	16.5		11:29		32	No		
+08/29/99	1999	f	3	1	0	0	1	0	0	0	0	0	0	0	65	0	NA	24.9	23		11:50		10	No		
+08/29/99	1999	f	4	23	5	0	28	5	0	0	137	0	0	0	35	0	NA	20.1	17		13:02		9	No		
+08/29/99	1999	f	5	33	116	0	149	116	0	0	260	0	0	0	81	0	NA	17.5	16.1		12:42		12	No		
+08/29/99	1999	f	6	6	2	0	8	2	0	0	0	0	0	0	2	0	NA	16.8	20.5		12:24		4	No		
+08/29/99	1999	f	7	11	14	0	25	14	1	1	54	0	0	0	6	0	NA	18.4	15.7		11:03		9	No		
+08/29/99	1999	f	8	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	16	28.5		13:28		1	No		
+08/29/99	1999	f	9	6	1	0	7	1	0	0	0	0	0	19	75	0	NA	16	26.5		13:31		3	No		
+08/29/99	1999	f	11	1	1	0	2	1	0	0	6	0	0	0	0	0	NA	18.2	10.8		12:12		2	No		
+08/29/99	1999	f	30.1	2	0	0	2	0	0	0	0	0	0	0	0	0	NA	16.8	14.1		12:17		3	No		
+08/29/99	1999	f	30.2	9	16	0	25	16	0	0	0	0	0	0	0	0	NA	16.8	14.1		12:31		7	No		
+08/29/99	1999	f	31	2	0	0	2	0	0	0	0	0	0	0	0	0	NA	22.2	20.1		11:45		5	No		
+08/29/99	1999	f	32	1	0	0	1	0	0	0	0	0	0	0	0	0	NA	18.8	16		12:08		1	No		
+08/29/99	1999	f	33	7	2	0	9	2	0	0	1	0	0	4	0	0	NA	19.4	13		11:16		4	No		
+07/06/00	2000	b	1	0	0	0	0	0	0	0	0	1	0	0	0	0	NA	NA	NA				120	Yes		
+07/06/00	2000	b	2	0	0	0	0	0	0	0	0	48	0	0	0	0	NA	NA	NA				60	No	This was just an egg mass survey	
+07/06/00	2000	b	5	0	0	0	0	0	0	0	0	10	0	0	0	0	NA	NA	NA				20	No	This was just an egg mass survey	
+07/06/00	2000	b	7	0	0	0	0	0	0	0	0	2	0	0	0	0	NA	NA	NA				20	No	This was just an egg mass survey	
+07/06/00	2000	b	9	0	0	0	0	0	0	0	0	1	0	0	0	0	NA	NA	NA				5	No	This was just an egg mass survey	
+07/06/00	2000	b	10	0	0	0	0	0	0	0	0	1	0	0	0	0	NA	NA	NA				5	No	This was just an egg mass survey	
+07/30/00	2000	f	1	51	30	0	81	30	1	1	164	0	0	0	0	0	NA	19.5	13	"Clear, Calm"	9:38		116	Yes	This was just an egg mass survey	
+07/30/00	2000	f	2	35	2	0	37	2	0	0	2750	0	0	0	2750	0	Karen Pope	19.3	14.9	"Clear, Calm"	9:38		56	No		
+07/30/00	2000	f	3	0	0	0	0	0	0	0	0	0	0	0	0	0	Rebecca Doubledee	20	14	"Clear, Windy"	10:05		7	No		
+07/30/00	2000	f	4	14	4	0	18	4	0	0	535	0	0	0	235	0	Karen Pope	20.2	19.1	"Part. Cloudy, Windy"	12:23		32	No	"No amphibians, fairy shrimp in small subpond"	
+07/30/00	2000	f	5	1	4	3	5	7	0	3	630	0	0	0	538	0	Rebecca Doubledee	21.6	17.1	"Clear, Calm"	11:00		26	No	complete cloud cover by end of survey	
+07/30/00	2000	f	6	4	0	0	4	0	0	0	0	0	0	0	421	0	Rebecca Doubledee	21.4	20.5	"Part. Cloudy, Calm"	12:03		11	No		
+07/30/00	2000	f	7	2	4	0	6	4	0	0	65	0	0	0	5	0	Rebecca Doubledee	23	NA		10:10		15	No		
+07/30/00	2000	f	8	0	0	0	0	0	0	0	0	0	0	0	0	0	Kathleen Matthews	23	NA		9:50		0	No		
+07/30/00	2000	f	9	2	1	0	3	1	0	0	3	0	0	0	250	0	Kathleen Matthews	22	16		9:50		10	No	pond dry	
+07/30/00	2000	f	10	3	1	0	4	1	0	0	0	0	0	0	120	0	Kathleen Matthews	23	16		10:15		15	No	lots of fairy shrimp	
+07/30/00	2000	f	11	0	0	0	0	0	0	0	0	0	0	0	0	0	Kathleen Matthews	21.3	NA		10:45		0	No		
+07/30/00	2000	f	30	8	3	0	11	3	0	0	0	0	0	0	1	0	Rebecca Doubledee	21.2	14.7	"Part. Cloudy, Windy"	11:42		13	No	no water	
+07/30/00	2000	f	31	5	0	0	5	0	0	0	0	0	0	0	0	0	Rebecca Doubledee	19.5	13	"Clear, Calm"	9:56		5	No		
+07/30/00	2000	f	32	0	0	0	0	0	0	0	0	0	0	0	0	0	Karen Pope	21.3	NA		10:45		0	No		
+07/30/00	2000	f	33	6	1	0	7	1	0	0	0	0	0	0	0	0	Rebecca Doubledee	20	14		10:00		10	No	no water	
+09/14/00	2000	f	1	21	21	0	42	21	0	0	218	0	0	1	0	0	Kathleen Matthews	13.1	13	"Clear, Windy"	9:40		150	Yes		
+09/14/00	2000	f	2	0	0	0	0	0	0	0	0	0	0	0	0	0	Rebecca Doubledee	NA	NA				0	No	Dead RAMU. Maj  tadpoles found in sects T & O	
+09/14/00	2000	f	3	0	0	0	0	0	0	0	0	0	0	0	0	0	Karen Pope	NA	NA		10:35		15	No	"no water, dry"	
+09/14/00	2000	f	4	2	7	0	9	7	0	0	100	0	0	2	1	0	Rebecca Doubledee	14	11.5		10:39		14	No	fairy shrimp present in small side pool	
+09/14/00	2000	f	5	2	24	0	26	24	0	0	387	0	2	0	0	0	Karen Pope	14	11.4	"Clear, Windy"	9:55		12	No		
+09/14/00	2000	f	6	0	0	0	0	0	0	0	0	0	0	4	0	0	Karen Pope	16.2	12		10:25		4	No		
+09/14/00	2000	f	7	8	8	0	16	8	0	0	219	0	0	0	0	0	Karen Pope	17	11.7		11:22		18	No	most of pond dried max depth~10 cm	
+09/14/00	2000	f	8	0	0	0	0	0	0	0	0	0	0	0	0	0	Karen Pope	NA	NA				0	No		
+09/14/00	2000	f	9	0	0	0	0	0	0	0	6	0	0	1	0	0	Karen Pope	15.3	20.3		11:09		5	No	"no water, dry"	
+09/14/00	2000	f	10	0	0	0	0	0	0	0	0	0	0	0	0	0	Karen Pope	NA	NA				0	No	"pond drying, max depth 6 cm"	
+09/14/00	2000	f	11	0	0	0	0	0	0	0	0	0	0	0	0	0	Karen Pope	NA	NA				0	No	"no water, dry"	
+09/14/00	2000	f	30	4	4	0	8	4	0	0	0	0	0	0	0	0	Karen Pope	16	7.9		10:12		13	Yes	"no water, dry"	
+09/14/00	2000	f	31	0	0	0	0	0	0	0	0	0	0	0	0	0	Karen Pope	NA	NA	"Clear, Windy"	10:30		5	No	trout (fingrlngs &1 adult) seen in lwr por of stm	
+09/14/00	2000	f	33	6	1	0	7	1	0	0	1	0	0	0	0	0	Rebecca Doubledee	17	11.9		11:15		6	No		
+10/03/00	2000	o	1	4	0	2	4	2	0	2	2	0	0	0	0	0	Karen Pope	10.2	10.4	"Clear, Windy"	9:53		100	Yes		
+10/03/00	2000	o	2	0	0	0	0	0	0	0	0	0	0	0	0	0	Karen Pope	12.5	NA		9:56		2	No	1 dead water vole. Both sub-adults were metamorphs	
+10/03/00	2000	o	3	0	0	0	0	0	0	0	0	0	0	0	0	0	Rebecca Doubledee	10	8	"Clear, Windy"	10:36		9	Yes	pond dry	
+10/03/00	2000	o	4	0	0	0	0	0	0	0	14	0	0	1	0	0	Rebecca Doubledee	12.2	8.4	"Clear, Windy"	10:55		6	No	only fish	
+10/03/00	2000	o	5	0	5	0	5	5	0	0	93	0	0	1	0	0	Rebecca Doubledee	12.4	9.1	"Clear, Windy"	10:05		10	No		
+10/03/00	2000	o	6	0	0	0	0	0	0	0	0	0	0	0	0	0	Rebecca Doubledee	15	NA		10:30		1	No		
+10/03/00	2000	o	7	1	0	0	1	0	0	0	500	0	0	0	0	0	Rebecca Doubledee	10	NA	"Clear, Calm"	10:10		5	No	pond dry	
+10/03/00	2000	o	8	0	0	0	0	0	0	0	0	0	0	0	0	0	Kathleen Matthews	10	NA		10:00		3	No	"1st survey at 10:15 said frosty along edges and no tps or amphibs, surveyed again at 14:30-said 1ad Ramu, and 1000 tadpoles mostly 1st year- this tp # is seems too high - it's was probably more like 300-500 tp. (saw 300 dead tps the begin of next season"	
+10/03/00	2000	o	9	0	0	0	0	0	0	0	0	0	0	0	0	0	Kathleen Matthews	10	NA		10:03		3	No	pond is almost dry + frosted over at 1000	
+10/03/00	2000	o	10	0	0	0	0	0	0	0	0	0	0	0	0	0	Kathleen Matthews	NA	NA		10:15		5	No	pond almost dry + frosted over at 1000	
+10/03/00	2000	o	30	0	0	0	0	0	0	0	0	0	0	0	0	0	Kathleen Matthews	15	3.6	"Clear, Windy"	10:20		9	No	totally dried up	
+10/03/00	2000	o	31	0	0	0	0	0	0	0	0	0	0	0	0	0	Rebecca Doubledee	NA	NA	"Clear, Windy"	10:33		2	No		
+10/03/00	2000	o	32	0	0	0	0	0	0	0	0	0	0	0	0	0	Rebecca Doubledee	12.5	NA		9:56		2	No	stream dry	
+10/03/00	2000	o	33	0	0	0	0	0	0	0	0	0	0	0	0	0	Rebecca Doubledee	NA	NA		10:05		5	No	stream dry	
+06/19/01	2001	b	1	24	13	10	37	23	0	10	38	2	0	0	0	29	Kathleen Matthews	18	14.5	"Clear, Windy"	11:11		201	Yes	"creek frosted over, low water, ice on surface"	
+06/19/01	2001	b	2	23	18	13	41	31	0	13	22	39	0	0	0	12	Steve Hasslinger	17	16	"Clear, Windy"	11:17		58	No		
+06/19/01	2001	b	3	0	0	0	0	0	0	0	0	0	0	0	0	0	Ed Stauber	19	19	"Clear, Windy"	12:29		18	No		
+06/19/01	2001	b	4	4	0	0	4	0	0	0	224	0	0	0	0	8	Ambrose Tuscano	18	19	"Clear, Windy"	12:00		18	No	may have heard Hyla call from western shore	
+06/19/01	2001	b	5	4	3	6	7	9	0	6	460	0	0	0	0	0	Ambrose Tuscano	18	19	"Clear, Windy"	13:05		35	No		
+06/19/01	2001	b	6	6	0	0	6	0	0	0	0	0	0	0	0	0	Ed Stauber	19	18	"Clear, Windy"	11:40		12	No		
+06/19/01	2001	b	7	1	0	0	1	0	0	0	0	15	0	0	0	3	Ambrose Tuscano	18	12	"Clear, Windy"	11:12		13	No		
+06/19/01	2001	b	8	1	1	0	2	1	0	0	0	0	0	0	0	0	Karen Pope	18	18	"Clear, Windy"	11:28		3	No	1 dead sub-ad & ~300 dead 2nd&3rd yr Ramu larvae	
+06/19/01	2001	b	9	2	0	0	2	0	0	0	0	0	0	0	0	0	Robert Grasso	18	16	"Clear, Windy"	11:24		3	No		
+06/19/01	2001	b	10	2	0	0	2	0	0	0	0	0	0	0	0	0	Robert Grasso	18	18	"Clear, Windy"	10:59		8	No		
+06/19/01	2001	b	11	1	0	0	1	0	0	0	0	0	1	0	0	0	Robert Grasso	18	19	"Clear, Windy"	11:30		5	No		
+06/19/01	2001	b	20	0	0	0	0	0	0	0	0	23	0	0	0	0	Ambrose Tuscano	NA	NA				60	No		
+06/19/01	2001	b	30	3	1	1	4	2	0	1	0	0	0	1	0	0	NA	17	13	"Clear, Windy"	12:40		19	Yes	"This was just an egg mass survey, there is no count data on Adults or Tadpoles"	
+06/19/01	2001	b	31	1	0	0	1	0	0	0	0	0	0	0	0	0	Ed Stauber	19	18	"Clear, Windy"	12:52		11	No	"fish present below pond 6, single frog hiding in willow along shore"	
+06/19/01	2001	b	32	1	3	0	4	3	0	0	50	0	0	0	0	0	Ambrose Tuscano	17	18	"Clear, Windy"	12:22		13	No		
+06/19/01	2001	b	33	0	1	0	1	1	0	0	0	0	0	0	0	0	Ed Stauber	18	12	"Clear, Windy"	11:13		10	Yes	larvae at mouth of stream	
+06/19/01	2001	b	40	0	0	0	0	0	0	0	0	1	0	0	0	0	Robert Grasso	NA	NA				30	No	1 trout seen	
+06/30/01	2001	b	1	36	15	8	51	23	0	8	161	0	0	0	0	0	NA	22	17	"Clear, Windy"	11:30		150	Yes	"This was just an egg mass survey, there is no data on Adults or tadpoles"	
+06/30/01	2001	b	2	46	13	3	59	16	0	3	690	0	0	0	0	0	Steve Hasslinger	18	16	"Clear, Windy"	11:40		40	No	egg mass observed on south shore attached to granite	
+06/30/01	2001	b	3	0	0	0	0	0	0	0	0	0	0	0	0	0	Ambrose Tuscano	19	19	"Clear, Windy"	11:15		37	No	690 1st year larvae (not included above) not differentiated between Hyla and Rana	
+06/30/01	2001	b	4	8	0	0	8	0	0	0	112	0	0	0	0	0	Ed Stauber	18	18	"Clear, Windy"	12:18		38	No		
+06/30/01	2001	b	5	1	0	5	1	5	0	5	687	0	0	0	0	0	Ed Stauber	17	21	"Clear, Windy"	13:07		53	No		
+06/30/01	2001	b	6	4	1	1	5	2	0	1	180	0	0	0	0	0	Ed Stauber	15	22	"Clear, Windy"	13:03		17	No		
+06/30/01	2001	b	7	3	2	1	5	3	0	1	2	0	0	0	0	0	Ambrose Tuscano	23	16	"Clear, Windy"	12:07		34	No	180 larvae (not included above) not differentiated between Hyla and Rana	
+06/30/01	2001	b	8	0	0	0	0	0	0	0	0	0	0	0	0	0	Robert Grasso	18	20	"Clear, Windy"	13:06		4	No	2 - 3rd yr Ramu	
+06/30/01	2001	b	9	6	5	0	11	5	0	0	0	0	0	0	105	0	Alex Figueroa	19	24	"Clear, Windy"	13:12		11	No	drying up	
+06/30/01	2001	b	10	4	0	0	4	0	0	0	0	0	0	0	115	0	Alex Figueroa	19	19	"Clear, Windy"	11:37		25	No		
+06/30/01	2001	b	11	0	0	0	0	0	0	0	0	0	0	0	0	0	Robert Grasso	16	12	"Clear, Windy"	12:39		3	No	training A Figueroa	
+06/30/01	2001	b	30	3	0	0	3	0	0	0	0	0	0	0	0	0	Ambrose Tuscano	18	14	"Clear, Windy"	12:51		11	No	99% of pond surface area dried up	
+06/30/01	2001	b	31	2	2	0	4	2	0	0	0	0	0	0	0	0	Ambrose Tuscano	18	12	"Clear, Windy"	11:52		23	No		
+06/30/01	2001	b	32	1	0	0	1	0	0	0	0	0	0	0	0	0	Ed Stauber	16	16	"Clear, Windy"	12:33		2	No		
+06/30/01	2001	b	33	7	4	0	11	4	0	0	0	0	0	0	0	0	Ambrose Tuscano	18	17	"Clear, Windy"	12:43		29	No	95% dry	
+07/01/01	2001	b	20	14	6	6	20	12	0	6	371	0	0	0	0	0	Alex Figueroa	18	17	"Clear, Calm"	13:00		32	No	"1 Ramu ad near confluence w Lk1 preying on ants, flies and other"	
+07/07/01	2001	f	4	5	0	0	5	0	0	0	548	0	0	0	0	0	Ambrose Tuscano	12	13	"Overcast, Calm"	13:22		34	No		
+07/07/01	2001	f	5	0	0	1	0	1	0	1	453	0	0	0	0	0	Ed Stauber	9	12	"Overcast, Calm"	11:52		36	No		
+07/07/01	2001	f	30	1	0	1	1	1	0	1	0	0	0	0	0	0	Ed Stauber	10	9	"Overcast, Calm"	12:30		24	No		
+07/07/01	2001	f	31	1	0	1	1	1	0	1	0	0	0	0	0	0	Ed Stauber	7	11	"Overcast, Calm"	12:20		5	No		
+07/07/01	2001	f	32	2	0	1	2	1	0	1	0	0	0	0	0	0	Steve Hasslinger	7	11	"Overcast, Calm"	12:25		3	No		
+07/08/01	2001	f	1	21	9	2	30	11	0	2	56	0	0	0	0	0	Steve Hasslinger	9	12	"Part. Cloudy, Windy"	9:50		80	Yes		
+07/08/01	2001	f	2	8	0	0	8	0	0	0	1005	0	0	0	0	0	Steve Hasslinger	7	11	"Overcast, Windy"	12:00		25	No		
+07/08/01	2001	f	3	0	0	0	0	0	0	0	0	0	0	0	0	0	Steve Hasslinger	10	11	"Overcast, Windy"	13:00		13	No		
+07/08/01	2001	f	6	4	1	1	5	2	0	1	125	0	0	0	600	0	Steve Hasslinger	10	12	"Overcast, Calm"	12:56		24	No		
+07/08/01	2001	f	7	4	3	2	7	5	0	2	5	0	0	0	0	0	Ed Stauber	10	9	"Overcast, Windy"	11:40		15	No	"Ed listed 725 tads, but it is very likely that most of those were Hyla - see next survey"	
+07/08/01	2001	f	8	0	1	0	1	1	0	0	0	0	0	0	0	0	Steve Hasslinger	11	16	"Overcast, Windy"	12:10		5	No	5 tads just emerging	
+07/08/01	2001	f	9	3	1	1	4	2	0	1	150	0	0	0	150	0	Steve Hasslinger	11	13	"Overcast, Calm"	12:00		8	No	39 tads just emerging-not sure of species	
+07/08/01	2001	f	10	0	0	0	0	0	0	0	0	0	0	0	275	0	Steve Hasslinger	10	12	"Overcast, Windy"	11:25		5	No	"said 310 - 1st yr tads (he didn't actually write down the species, but it's implied Ramu (same row as ads and SA), however some are probably Hyla, so we guesstimated 150 Ramu and 150 Hyla tads"	
+07/08/01	2001	f	33	5	0	0	5	0	0	0	0	0	0	0	0	0	Steve Hasslinger	10	9	"Overcast, Windy"	11:55		5	No	"said 275 Ramu tads, but Rob said they were Hyla earlier.  I don't trust Ed or Steve's ability to distinguish Rana from Hyla tads"	
+07/09/01	2001	f	11	1	0	0	1	0	0	0	0	0	0	0	0	0	Steve Hasslinger	13	13	"Clear, Calm"	10:36		5	No		
+07/14/01	2001	f	1	36	12	7	48	19	0	7	96	0	0	0	0	0	Ambrose Tuscano	17	17	"Clear, Calm"	14:19		168	Yes		
+07/14/01	2001	f	2	28	3	2	31	5	0	2	265	0	0	0	1270	0	Ed Stauber	17	20	"Clear, Calm"	12:20		34	No		
+07/14/01	2001	f	3	0	0	0	0	0	0	0	0	0	0	0	0	0	Ed Stauber	15	17	"Clear, Calm"	9:40		18	No		
+07/14/01	2001	f	4	12	1	0	13	1	0	0	435	0	0	0	100	0	Ed Stauber	14	18	"Clear, Calm"	10:15		24	No		
+07/14/01	2001	f	5	1	0	1	1	1	0	1	710	0	0	0	0	0	Ed Stauber	15	19	"Clear, Calm"	10:47		30	No		
+07/14/01	2001	f	6	0	0	0	0	0	0	0	45	0	0	0	430	0	Ed Stauber	16	20	"Clear, Calm"	11:50		22	No	"Kathleen visited on 9/30/01 and said lake was very low, lower than in 2000 and estimated about 200 Rana tads in 2 age classes"	
+07/14/01	2001	f	30	6	0	2	6	2	0	2	2	0	0	0	0	0	Ed Stauber	16	16	"Clear, Calm"	11:23		18	No	"Ed initially listed 445 1st yr Rana and 30 2nd yr Rana, then someone came along and changed that to 45 1st yr Rana and 430 Hyla tads"	
+07/14/01	2001	f	31	3	1	0	4	1	0	0	0	0	0	0	0	0	Ed Stauber	16	17	"Clear, Calm"	10:01		8	No		
+07/14/01	2001	f	32	2	0	0	2	0	0	0	35	0	0	0	0	0	Ed Stauber	17	20	"Clear, Calm"	12:57		4	No		
+07/15/01	2001	f	7	3	2	2	5	4	0	2	86	0	0	0	0	0	Ed Stauber	14	23	"Clear, Calm"	14:57		21	No		
+07/15/01	2001	f	8	0	1	0	1	1	0	0	0	0	0	0	0	0	Ed Stauber	14	29	"Clear, Calm"	14:18		8	No	"KM surveyed the lake on 9/30/01 and said water was almost gone, and that there were ~100 Ramu tads"	
+07/15/01	2001	f	9	2	0	2	2	2	0	2	150	0	0	0	150	0	Ed Stauber	13	28	"Clear, Calm"	14:29		15	No	"90 tads - he said were Ramu, but he never recorded seeing Hyla (Hyla noted on his surveys that someone else corrected (7/14 survey at lk 4,6,21,and23?(poss 22))"	
+07/15/01	2001	f	10	0	0	0	0	0	0	0	0	0	0	0	175	0	Ed Stauber	14	25	"Clear, Calm"	15:24		1	No	Didn't mention any Hyla tads (but he never did) - so we split the 312 tads to 150 Ramu and 150 Hyla- these are just guesstimates	
+07/15/01	2001	f	11	0	0	0	0	0	0	0	0	0	0	0	0	0	Ed Stauber	14	24	"Clear, Calm"	14:20		1	No	"said 175 1st yr Rana, but Rob said they were Hyla earlier.  I don't trust Ed or Steve's ability to distinguish Rana from Hyla tads"	
+07/15/01	2001	f	33	4	0	0	4	0	0	0	0	0	0	0	0	0	Ed Stauber	14	18	"Clear, Calm"	15:41		11	No		
+07/16/01	2001	f	20	11	6	7	17	13	0	7	1020	0	0	0	0	0	Ed Stauber	13	18	"Clear, Calm"	12:05		38	No		
+07/16/01	2001	f	21	0	0	0	0	0	0	0	0	0	0	0	87	0	Ed Stauber	16	20	"Clear, Calm"	11:31		16	No		
+07/16/01	2001	f	22	3	1	0	4	1	0	0	50	0	0	0	930	0	Ed Stauber	17	20	"Clear, Calm"	13:38		21	No		
+07/16/01	2001	f	36	1	0	0	1	0	0	0	0	0	0	0	0	0	Ed Stauber	16	15	"Clear, Calm"	10:58		25	No	"The data initially said 980 Ramu tads, then was switched to all Hyla tads.  It's very likely that some of the tads were also Ramu as there were 50 2nd year in 2002 and then 64 mets in 2002"	
+07/16/01	2001	f	41	3	0	0	3	0	0	0	0	0	0	0	0	0	Ed Stauber	16	13	"Clear, Calm"	10:23		22	No		
+09/29/01	2001	o	2	0	0	0	0	0	0	0	0	0	0	0	0	0	Ed Stauber	14	14				2	No		
+09/29/01	2001	o	9	0	0	0	0	0	0	0	0	0	0	0	0	0	Kathleen Matthews	NA	NA				1	No	lake totally dry - no frogs	
+09/29/01	2001	o	10	0	0	0	0	0	0	0	0	0	0	0	0	0	Kathleen Matthews	NA	NA				1	No	dry	
+09/29/01	2001	o	11	0	0	0	0	0	0	0	0	0	0	0	0	0	Kathleen Matthews	NA	NA				1	No	lake is dry	
+09/29/01	2001	o	33	1	0	0	1	0	0	0	0	0	0	0	0	0	Kathleen Matthews	14	14				5	No	lake is dry	
+09/30/01	2001	o	4	0	0	0	0	0	0	0	60	0	0	0	0	0	Kathleen Matthews	NA	NA				10	No		
+09/30/01	2001	o	5	0	0	0	0	0	0	0	200	0	0	0	0	0	Kathleen Matthews	NA	NA				15	No	about 50-60 tads Ages 1-2. Lakes 4 and 5 have no connection w ledges where overwint may occur	
+09/30/01	2001	o	7	0	0	0	0	0	0	0	100	0	0	0	0	0	Kathleen Matthews	NA	NA				10	No	"Lake very low (shallower than in 2000), <1m deep, 2 year clusters of tadpoles - several hundred ~200. Lakes 4 and 5 have no connection w ledges where overwint may occur"	
+09/30/01	2001	o	20	8	5	6	13	11	0	6	1000	0	0	0	0	0	Kathleen Matthews	23	13		11:30		120	No	"Water almost gone, ~ 100 doomed tadpoles in a few small pools"	
+06/26/02	2002	b	7	3	0	0	3	0	0	0	1	3	1	0	0	0	Kathleen Matthews	19	16	"Part. Cloudy, Calm"	17:26	17:36	10	No	"Survey not complete, also saw tps, but don't know how many. Given the surveys before and following year there were probably betw 500-1000 tps. Tetracyclined adults (>50 mm).  Here Subads are 40-9mm, and mets are 29-32mm"	
+06/26/02	2002	b	8	3	2	1	5	3	0	1	0	0	0	0	0	0	Jill Andersen	13	21	"Part. Cloudy, Calm"	17:26	17:31	5	No		
+06/26/02	2002	b	9	3	0	0	3	0	0	0	0	2	0	0	0	0	Blake Meneken	13	20	"Part. Cloudy, Calm"	17:34	17:41	7	No		
+06/26/02	2002	b	10	1	0	0	1	0	0	0	0	0	0	0	0	0	Blake Meneken	15	21	"Part. Cloudy, Calm"	17:20	17:25	5	No		
+06/26/02	2002	b	33	0	1	0	1	1	0	0	0	0	0	0	0	0	Jill Andersen	13	13	"Part. Cloudy, Calm"	17:42	17:52	10	No		
+06/27/02	2002	b	1	56	17	8	73	25	0	8	330	3	2	0	4	2	Blake Meneken	17	15	"Clear, Calm"	9:16	11:30	135	Yes		
+06/27/02	2002	b	2	46	2	0	48	2	0	0	1080	11	6	0	880	2	Jill Andersen	14	15	"Clear, Calm"	9:45	11:40	115	No	"thought I heard rattlesnake on the rocks, lots of pollen on the rocks"	
+06/27/02	2002	b	3	1	0	0	1	0	0	0	0	0	0	0	0	0	Igor Lacan	17	16	"Clear, Calm"	12:50	13:20	30	No		
+06/27/02	2002	b	4	4	2	7	6	9	0	7	222	0	1	0	0	0	Igor Lacan	22	18	"Clear, Calm"	13:00	13:45	45	No		
+06/27/02	2002	b	5	27	11	12	38	23	0	12	700	9	0	0	0	0	Blake Meneken	18	17	"Clear, Calm"	11:04	12:07	63	No		
+06/27/02	2002	b	6	5	0	2	5	2	0	2	0	0	0	0	0	0	Blake Meneken	22	21	"Clear, Calm"	12:30	12:50	20	No	"The # of tps was 2170, but this number far exceeds anything ever recorded there, and far exceeds the # seen before and after this survey"	
+06/27/02	2002	b	11	0	1	0	1	1	0	0	0	0	0	0	0	0	Blake Meneken	15	17	"Clear, Calm"	11:45	12:00	15	No	all frogs at north east side of lake	
+06/27/02	2002	b	20	26	26	15	52	41	0	15	950	33	0	1	0	0	Igor Lacan	12	15	"Clear, Breeze"	12:05	13:15	70	No	"low water level, very few organisms present in the lake"	
+06/27/02	2002	b	30.1	2	1	0	3	1	0	0	0	0	1	0	0	0	Robert Grasso	19	9	"Clear, Calm"	10:17	10:58	41	No		
+06/27/02	2002	b	30.2	0	0	0	0	0	0	0	0	0	0	0	0	0	Blake Meneken	19	9	"Clear, Windy"	9:56	10:16	20	Yes	2 frogs basking one in shallow pool	
+06/27/02	2002	b	31	3	0	0	3	0	0	0	0	0	0	0	0	0	Blake Meneken	17	15	"Clear, Calm"	12:30	12:50	20	No	saw evidence of spawning at lower end of stream	
+06/27/02	2002	b	32	0	0	0	0	0	0	0	0	0	0	0	0	0	Igor Lacan	15	17	"Clear, Calm"	12:05	12:15	10	No		
+06/27/02	2002	b	36	2	0	2	2	2	0	2	0	0	0	2	0	0	Igor Lacan	12	12	"Clear, Breeze"	10:51	11:40	49	Yes	"this stream is almost dry, only 2 shallow pools remain, no amphibians are present"	
+06/27/02	2002	b	40	0	0	0	0	0	0	0	0	0	0	0	0	0	Robert Grasso	13.5	11.5	"Clear, Calm"	10:32	10:50	18	Yes		
+06/27/02	2002	b	41	2	0	0	2	0	0	0	0	0	1	0	0	0	Robert Grasso	12.5	8.5	"Clear, Calm"	10:00	10:25	25	No		
+06/30/02	2002	b	36	6	0	0	6	0	0	0	0	0	0	0	0	0	Robert Grasso	19	16	"Clear, Calm"	14:49	15:30	41	No		
+07/11/02	2002	f	7	5	2	1	7	3	0	1	0	0	1	0	52	0	Eva Patton	21	21	"Overcast, Windy"	14:53	15:14	21	No	"One adult RAMU found in stream channel itself, other 5 found in adjacent puddles."	
+07/11/02	2002	f	8	0	0	0	0	0	0	0	0	0	0	0	450	0	Blake Meneken	18	23	"Overcast, Windy"	15:15	15:21	6	No	saw a clump of first-year Ramu tads during PIT survey 7/10/02	
+07/11/02	2002	f	9	4	0	0	4	0	0	0	190	0	0	0	210	0	Robert Grasso	20	23	"Overcast, Calm"	15:17	15:26	9	No	"tads large, but no legs present"	
+07/11/02	2002	f	10	3	0	0	3	0	0	0	0	0	0	0	300	0	Blake Meneken	20	24	"Overcast, Windy"	14:50	14:58	8	No		
+07/11/02	2002	f	33	4	1	0	5	1	0	0	2	0	0	0	0	0	Robert Grasso	17	20	"Overcast, Windy"	15:00	15:13	13	No	"HYRE tads large, no rear legs present"	
+07/12/02	2002	f	2	27	2	0	29	2	0	0	909	0	1	0	226	0	Robert Grasso	16	20	"Overcast, Windy"	14:00	15:00	60	No		
+07/12/02	2002	f	3	0	0	0	0	0	0	0	0	0	0	0	0	0	Jill Andersen	16	19	"Overcast, Windy"			35	Yes	see original datasheet for all comments	
+07/12/02	2002	f	4	3	0	13	3	13	0	13	175	0	0	0	0	0	Jill Andersen	18	20	"Overcast, Windy"	13:55	14:55	60	No	see orig datasheet	
+07/12/02	2002	f	5	1	0	230	1	230	0	230	440	0	0	0	0	0	Jill Andersen	20	22	"Overcast, Windy"	14:21	15:12	57	No	fairy shrimp present	
+07/12/02	2002	f	6	2	0	0	2	0	0	0	332	0	1	0	16	0	Ed Stauber	16	22	"Overcast, Windy"	15:05	15:50	45	No	dytissids found feeding on fairy shrimp	
+07/12/02	2002	f	11	0	0	0	0	0	0	0	0	0	0	0	0	0	Jill Andersen	16	16				5	No	"tads congregated in deeper area of lake, lake drying up, fairy shrimp"	
+07/12/02	2002	f	12	6	0	0	6	0	0	0	0	0	0	0	0	0	Jill Andersen	NA	NA	"Part. Cloudy, Windy"	10:36	11:00	24	No	fairy shrimp present	
+07/12/02	2002	f	30.1	1	2	29	3	31	0	29	0	0	0	0	0	0	Jill Andersen	16	17	"Overcast, Windy"	15:21	15:40	19	No		
+07/12/02	2002	f	30.2	1	1	3	2	4	0	3	1	0	1	0	0	0	Ed Stauber	17	17	"Overcast, Windy"	15:42	15:55	13	No		
+07/12/02	2002	f	31	0	0	0	0	0	0	0	0	0	0	0	0	0	Ed Stauber	NA	NA	"Part. Cloudy, Windy"			20	No	watched 1st year Ramu tad be washed downstream into lake 1 unable to swim upstream against current	
+07/12/02	2002	f	40	0	0	0	0	0	0	0	0	0	1	0	0	0	Jill Andersen	14	14	"Overcast, Windy"	16:32	16:43	9	No	no life	
+07/12/02	2002	f	41	2	0	2	2	2	0	2	10	0	0	0	0	0	Ed Stauber	17	16		16:30		21	No		
+07/13/02	2002	f	1	43	6	16	49	22	0	16	360	0	0	0	0	0	Jill Andersen	15	15	"Part. Cloudy, Calm"	9:36	14:45	285	Yes		
+07/13/02	2002	f	20	29	16	73	45	89	0	73	2150	0	0	0	150	0	Jill Andersen	18	18	"Clear, Windy"	11:50	13:10	80	No	break taken between 1036-1100	
+07/13/02	2002	f	21	7	3	0	10	3	0	0	50	0	0	0	1290	0	Ed Stauber	20	24	"Part. Cloudy, Windy"	15:10	15:38	28	No	includes lake next to 20 and below before muddy lake	
+07/13/02	2002	f	22	7	3	28	10	31	0	28	50	0	0	0	610	0	Ed Stauber	19	22	"Clear, Windy"	13:52	14:44	52	No	"adults were large, dytissids present"	
+07/13/02	2002	f	36	7	2	0	9	2	0	0	40	0	0	0	0	0	Ed Stauber	17	13	"Clear, Windy"	10:35	11:42	67	Yes		
+07/26/02	2002	f	2	29	3	3	32	6	0	3	410	0	0	0	1870	0	Ed Stauber	18	16	"Clear, Windy"	10:35	11:55	80	No		
+07/26/02	2002	f	4	6	3	236	9	239	0	236	116	0	0	0	5	0	Jill Andersen	22	19	"Clear, Windy"	15:20	15:55	35	No		
+07/26/02	2002	f	5	1	4	205	5	209	0	205	657	0	0	0	10	0	Jill Andersen	24	20	"Clear, Windy"	13:45	14:30	45	No	adult Ramu in this lake are huge	
+07/26/02	2002	f	6	3	1	1	4	2	0	1	43	0	0	0	775	0	Jill Andersen	22	24	"Clear, Calm"	14:35	15:15	40	No		
+07/26/02	2002	f	7	6	3	3	9	6	0	3	250	0	0	0	115	0	Jill Andersen	20	11	"Clear, Calm"	9:34	10:00	26	No	Ramu tads hard to identify	
+07/26/02	2002	f	8	0	0	0	0	0	0	0	0	0	0	0	0	0	Jill Andersen	NA	NA				0	No	most HYRE have back legs	
+07/26/02	2002	f	9	4	0	0	4	0	0	0	91	0	0	0	222	0	Jill Andersen	20	16	"Clear, Calm"	10:11	10:30	19	No	lake dry	
+07/26/02	2002	f	10	0	2	0	2	2	0	0	0	0	0	0	50	0	Jill Andersen	25	10	"Clear, Calm"	9:15	9:32	17	No	fairy shrimp	
+07/26/02	2002	f	11	0	0	0	0	0	0	0	0	0	0	0	0	0	Jill Andersen	20	11	"Clear, Windy"	12:17	12:30	13	No	"lake almost dry, bird and animal prints in mud"	
+07/26/02	2002	f	30.1	8	8	38	16	46	0	38	0	0	0	0	0	0	Jill Andersen	18	16	"Clear, Windy"	13:00	13:30	30	No	lake is a mere puddle by the large central boulder. Lots of mammals and birds cruising around	
+07/26/02	2002	f	30.2	0	0	1	0	1	0	1	3	0	0	0	0	0	Jill Andersen	18	16	"Clear, Windy"	13:30	13:45	15	No		
+07/26/02	2002	f	31	4	0	0	4	0	0	0	0	0	0	0	0	0	Jill Andersen	20	19	"Clear, Calm"	16:00	16:30	30	No	saw sparrow eating a tad	
+07/26/02	2002	f	32	1	1	0	2	1	0	0	0	0	0	0	0	0	Jill Andersen	18	16	"Clear, Windy"	12:00	12:15	15	No	Ramu mostly out on rocks in sun	
+07/26/02	2002	f	33	3	2	1	5	3	0	1	9	0	1	0	2	0	Jill Andersen	20	10	"Clear, Calm"	10:00	10:10	10	No	stream isn't flowing	
+07/27/02	2002	f	3	1	0	0	1	0	0	0	2	0	0	0	0	0	Jill Andersen	21	17		12:00	12:20	20	No	stream dry until last 3 meters west of lake 7 near lake 1	
+07/27/02	2002	f	20	68	59	220	127	279	0	220	194	0	0	0	0	0	Jill Andersen	26	16	"Clear, Windy"	9:20	10:40	80	No	fish parts present in lake as well as aroma	
+07/27/02	2002	f	21	6	3	1	9	4	0	1	45	0	0	0	175	0	Jill Andersen	21	13	"Clear, Windy"	10:50	11:10	20	No	lake west of 20 dry	
+07/27/02	2002	f	36	5	1	0	6	1	0	0	0	0	0	0	0	0	Jill Andersen	23	10		11:15	11:45	30	No	fairy shrimp	
+07/27/02	2002	f	40	0	2	0	2	2	0	0	0	0	0	0	0	0	Jill Andersen	21	19	"Clear, Calm"	13:15	13:50	35	No	flow is very weak	
+07/27/02	2002	f	41	6	2	0	8	2	0	0	0	0	0	0	80	0	Jill Andersen	21	11	"Clear, Windy"	12:30	13:00	30	No	reduced to a series of shallow pools	
+07/28/02	2002	f	1	53	24	61	77	85	0	61	380	0	0	0	4	0	Jill Andersen	21	15	"Clear, Windy"	9:00	12:00	155	Yes	"very low flow, HYRE in tads with reae legs in near-dry puddles"	
+07/28/02	2002	f	12	6	2	0	8	2	0	0	0	0	0	0	0	0	Jill Andersen	18	12	"Clear, Windy"	9:45	10:05	20	No	paused for lake 12 (minutes) 9:40-10:05	
+08/08/02	2002	f	1	46	30	100	76	130	0	100	205	0	1	0	240	0	Jill Andersen	18	16	"Clear, Windy"	14:38	16:55	137	Yes		
+08/08/02	2002	f	2	17	4	1	21	5	0	1	36	0	73	0	894	0	Jill Andersen	19	25	"Clear, Windy"	16:10	17:00	50	No		
+08/08/02	2002	f	3	0	0	0	0	0	0	0	0	0	0	0	0	0	Jill Andersen	16	19	"Clear, Windy"	17:15	17:35	20	Yes	lake 2 is low!	
+08/08/02	2002	f	7	19	5	1	24	6	0	1	493	0	9	0	536	0	Jill Andersen	21	20	"Clear, Windy"	14:35	15:25	50	No	fish fry present	
+08/08/02	2002	f	8	0	0	0	0	0	0	0	0	0	0	0	0	0	Jill Andersen	NA	NA				10	No		
+08/08/02	2002	f	9	0	0	1	0	1	0	1	24	0	50	0	158	0	Jill Andersen	15	28	"Clear, Windy"	15:40	16:10	30	No	lake is dry	
+08/08/02	2002	f	10	0	0	0	0	0	0	0	0	0	0	0	0	0	Jill Andersen	NA	NA				0	No	lake has split into two pools with animal prints along shore	
+08/08/02	2002	f	11	0	0	0	0	0	0	0	0	0	1	0	0	0	Jill Andersen	21	NA				0	No	lake is dry	
+08/08/02	2002	f	31	1	0	0	1	0	0	0	0	0	0	0	0	0	Jill Andersen	31	21	"Clear, Windy"	17:00	17:15	15	Yes	lake is completely dry	
+08/08/02	2002	f	32	0	0	0	0	0	0	0	0	0	0	0	0	0	Jill Andersen	NA	NA	"Clear, Windy"			10	No	fry seen	
+08/08/02	2002	f	33	2	2	4	4	6	0	4	0	0	0	0	0	0	Jill Andersen	19	11	"Clear, Windy"	15:33	15:40	7	No	lake dry	
+08/08/02	2002	f	36	34	3	0	37	3	0	0	0	0	0	0	0	0	Jill Andersen	18	NA	"Clear, Windy"	14:25	15:40	75	Yes	stream dry except for pool near lake 1	
+08/08/02	2002	f	40	7	0	0	7	0	0	0	0	0	0	0	0	0	Robert Grasso	18	NA	"Clear, Windy"	16:00	16:40	40	No	"saw 3 PIT adults below normal survey area, extremely light flow"	
+08/08/02	2002	f	41	5	3	0	8	3	0	0	0	0	0	0	0	0	Robert Grasso	17	NA	"Clear, Windy"	16:50	17:15	25	No	"some areas of pooling water, mostly dry."	
+08/09/02	2002	f	4	6	12	260	18	272	0	260	150	0	2	0	230	0	Robert Grasso	18	13	"Clear, Windy"	12:15	12:45	30	No	started at trickle far up 41	
+08/09/02	2002	f	5	0	4	320	4	324	0	320	357	0	0	0	113	0	Jill Andersen	18	16	"Clear, Windy"	12:45	13:05	20	No		
+08/09/02	2002	f	6	0	0	0	0	0	0	0	0	0	12	0	0	0	Jill Andersen	20	NA				10	No		
+08/09/02	2002	f	12	3	0	0	3	0	0	0	0	0	0	0	0	0	Jill Andersen	20	17	"Clear, Windy"	12:40	12:52	12	No	lake is completely dry	
+08/09/02	2002	f	20	92	88	350	180	438	0	350	315	0	0	0	6	0	Robert Grasso	24	16	"Clear, Windy"	10:40	11:50	70	No		
+08/09/02	2002	f	21	12	2	0	14	2	0	0	0	0	0	0	220	0	Jill Andersen	25	18	"Clear, Windy"	11:53	12:10	17	No	water level dropping	
+08/09/02	2002	f	22	10	16	64	26	80	0	64	13	0	7	0	35	0	Jill Andersen	16	15	"Clear, Windy"	9:40	10:35	55	No	most HYRE have legs	
+08/09/02	2002	f	30.1	10	83	0	93	83	0	0	2	0	2	0	32	0	Jill Andersen	17	13	"Clear, Calm"	10:25	11:45	80	No		
+08/09/02	2002	f	30.2	5	4	0	9	4	0	0	0	0	0	0	8	0	Robert Grasso	14	10	"Clear, Calm"	10:00	10:20	20	No		
+08/30/02	2002	f	1	64	99	97	163	196	0	97	19	0	0	0	0	0	Robert Grasso	13	16	"Clear, Windy"	10:16	13:34	153	Yes	"smokey haze from fire, stream moderate flow"	
+08/30/02	2002	f	20	35	40	350	75	390	0	350	420	0	0	0	0	0	Robert Grasso	19	15		11:00	12:00	60	No	delayed 45min talking about project to hikers	
+08/30/02	2002	f	21	3	0	0	3	0	0	0	15	0	0	0	0	0	Igor Lacan	17	17		13:30	14:00	30	No		
+08/30/02	2002	f	22	17	21	39	38	60	0	39	0	0	0	0	0	0	Igor Lacan	18	19		12:30	13:10	40	No	lake is very close to drying up	
+08/31/02	2002	f	4	2	127	220	129	347	0	220	134	0	0	0	0	0	Igor Lacan	15	22	"Clear, Windy"	16:20	17:30	70	No		
+08/31/02	2002	f	5	9	88	265	97	353	0	265	298	0	0	0	0	0	Jill Andersen	17	17	"Clear, Windy"	15:35	16:20	45	No	fairy shrimp	
+08/31/02	2002	f	7	10	0	0	10	0	0	0	382	0	2	0	0	0	Jill Andersen	17	20		13:50	14:20	30	No	fairy shrimp	
+08/31/02	2002	f	8	0	0	0	0	0	0	0	0	0	0	0	0	0	Igor Lacan	NA	NA		16:40	16:45	5	No		
+08/31/02	2002	f	9	0	0	0	0	0	0	0	0	0	4	0	0	0	Igor Lacan	NA	NA		16:30	16:40	10	No	lake is dry no amphibians	
+08/31/02	2002	f	10	0	0	0	0	0	0	0	0	0	0	0	0	0	Igor Lacan	NA	NA		16:55	17:00	5	No	lake is dry but with a muddy bottom	
+08/31/02	2002	f	12	0	0	0	0	0	0	0	0	0	0	0	0	0	Igor Lacan	15	16		15:35	16:00	25	No	lake is dry no amphibians found	
+08/31/02	2002	f	33	1	0	0	1	0	0	0	0	0	0	0	0	0	Igor Lacan	18	19		16:45	16:55	10	No	no amphibians found	
+09/01/02	2002	f	2	0	0	0	0	0	0	0	0	0	0	0	0	0	Igor Lacan	NA	NA		13:40	13:50	10	No	"stream is almost dry, 1 adult Ramu found near stream outlet to lake1"	
+09/01/02	2002	f	6	0	0	0	0	0	0	0	0	0	0	0	0	0	Igor Lacan	NA	NA		13:50	14:00	10	No	"lake is dry, no amphibians"	
+09/01/02	2002	f	11	0	0	0	0	0	0	0	0	0	0	0	0	0	Igor Lacan	NA	NA		10:00	10:05	5	No	"lake is dry, no amphibians"	
+09/01/02	2002	f	30	14	30	20	44	50	0	20	5	0	3	0	7	0	Igor Lacan	16	12	"Clear, Windy"	10:37	12:25	100	No	"lake is dry, no amphibians found"	
+09/01/02	2002	f	30.1	5	12	7	17	19	0	7	0	0	8	0	0	0	Jill Andersen	19	15		10:05	10:35	30	No		
+09/01/02	2002	f	30.2	1	1	0	2	1	0	0	0	0	1	0	0	0	Jill Andersen	18	11	"Clear, Windy"	9:45	10:03	18	Yes	lower reach completely dry	
+09/01/02	2002	f	31	0	0	0	0	0	0	0	0	0	0	0	0	0	Jill Andersen	NA	NA		13:25	13:35	10	No		
+09/01/02	2002	f	32	0	0	0	0	0	0	0	0	0	0	0	0	0	Igor Lacan	17	NA		10:10	10:15	5	No	"stream is dry, no amphibians present"	
+09/01/02	2002	f	36	9	1	0	10	1	0	0	0	0	0	0	0	0	Igor Lacan	21	20		12:20	12:50	30	Yes	"stream is dry, no amphibians found"	
+09/01/02	2002	f	40	1	0	0	1	0	0	0	0	0	0	0	0	0	Igor Lacan	19	12		11:25	12:10	45	No		
+09/01/02	2002	f	41	4	2	0	6	2	0	0	0	0	0	0	0	0	Igor Lacan	18	10		10:30	11:25	55	No		
+09/14/02	2002	o	1	35	48	53	83	101	0	53	37	0	0	0	0	0	Igor Lacan	16	15		10:00	15:55	300	Yes	air and water taken near trail	
+09/14/02	2002	o	7	0	0	0	0	0	0	0	300	0	0	0	0	0	Igor Lacan	17	18		16:50	17:10	20	No		
+09/14/02	2002	o	12	0	0	0	0	0	0	0	0	0	0	0	0	0	Igor Lacan	18	12		11:35	11:55	20	No		
+09/15/02	2002	o	3	0	0	0	0	0	0	0	0	0	0	0	0	0	Igor Lacan	15	14	"Clear, Windy"	13:35	13:55	20	Yes	no amphibians found	
+09/15/02	2002	o	4	2	13	11	15	24	0	11	13	0	0	0	0	0	Igor Lacan	12	17	"Clear, Windy"	15:30	15:55	25	No	no amphibians found	
+09/15/02	2002	o	5	7	125	0	132	125	0	0	218	0	0	0	0	0	Igor Lacan	19	12	"Clear, Windy"	12:45	13:15	30	No	very windy	
+09/15/02	2002	o	8	0	0	0	0	0	0	0	0	0	0	0	0	0	Kathleen Matthews	13	NA	"Clear, Windy"	11:00	11:10	10	No		
+09/15/02	2002	o	9	0	0	0	0	0	0	0	0	0	0	0	0	0	Kathleen Matthews	13	NA	"Clear, Windy"	11:10	11:20	10	No	"lake is dry, no amphibians found"	
+09/15/02	2002	o	10	0	0	0	0	0	0	0	0	0	0	0	0	0	Kathleen Matthews	15	NA	"Clear, Windy"	11:30	11:35	5	No	"lake is dry, no amphibians found"	
+09/15/02	2002	o	30.1	0	11	0	11	11	0	0	0	0	0	0	0	0	Kathleen Matthews	19	14		13:20	13:30	10	No	"lake is dry, no amphibians found"	
+09/15/02	2002	o	30.2	0	0	0	0	0	0	0	0	0	0	0	0	0	Kathleen Matthews	NA	NA	"Overcast, Windy"	13:30	13:40	10	No	upper portion of stream is dry	
+09/15/02	2002	o	33	4	3	0	7	3	0	0	20	0	0	0	0	0	Kathleen Matthews	13	9		11:20	11:30	10	No	whole stream dry	
+09/15/02	2002	o	36	3	0	0	3	0	0	0	0	0	0	0	0	0	Kathleen Matthews	15	16		13:00	13:25	25	No	"all Ramu in pool next to lake 1, windy"	
+09/15/02	2002	o	40	1	0	0	1	0	0	0	0	0	0	0	0	0	Igor Lacan	15	12		12:10	12:55	45	No		
+09/15/02	2002	o	41	3	2	0	5	2	0	0	0	0	0	2	0	0	Igor Lacan	15	10		11:00	12:05	65	No		
+09/16/02	2002	o	6	0	0	0	0	0	0	0	0	0	0	0	0	0	Igor Lacan	NA	NA		14:00	14:05	5	No		
+09/16/02	2002	o	11	0	0	0	0	0	0	0	0	0	0	0	0	0	Kathleen Matthews	NA	NA		13:00	13:05	5	No	"lake is dry, no amphibians found"	
+09/16/02	2002	o	20	79	66	206	145	272	0	206	28	0	0	0	0	0	Igor Lacan	16	13		10:35	11:05	30	No	"lake is dry, no amphibians found"	
+09/16/02	2002	o	21	0	0	0	0	0	0	0	0	0	0	0	0	0	Igor Lacan	NA	NA		12:20	12:25	5	No		
+09/16/02	2002	o	22	23	42	53	65	95	0	53	0	0	0	0	0	0	Igor Lacan	20	14		11:45	12:05	20	No	"lake is dry, no amphibians"	
+09/16/02	2002	o	31	0	0	0	0	0	0	0	0	0	0	0	0	0	Igor Lacan	NA	NA		13:20	13:30	10	No		
+09/16/02	2002	o	32	0	0	0	0	0	0	0	0	0	0	0	0	0	Igor Lacan	NA	NA		12:55	13:00	5	No	"no amphibians, stream is dry"	
+09/17/02	2002	o	2	0	0	0	0	0	0	0	0	0	0	0	0	0	Igor Lacan	12	5.44		10:47		13	No	"no amphibians found, stream is dry"	
+09/29/02	2002	o	1	1	0	0	1	0	0	0	9	0	0	0	0	0	NA	6	11	"Part. Cloudy, Windy"	16:30	18:00	90	Yes		
+09/29/02	2002	o	7	0	0	0	0	0	0	0	450	0	0	0	0	0	Robert Grasso	9	15	"Part. Cloudy, Windy"	15:37	15:49	12	No		
+09/29/02	2002	o	8	0	0	0	0	0	0	0	0	0	0	0	0	0	Robert Grasso	7	NA	"Overcast, Calm"	16:01	16:02	1	No		
+09/29/02	2002	o	9	0	0	0	0	0	0	0	0	0	0	0	0	0	Robert Grasso	7	NA	"Overcast, Calm"	15:59	16:01	2	No	"lake is dry, no amphibians found"	
+09/29/02	2002	o	10	0	0	0	0	0	0	0	0	0	0	0	0	0	Robert Grasso	9	NA	"Overcast, Calm"	15:30	15:34	4	No	"lake is dry, no amphibians found"	
+09/29/02	2002	o	12	0	0	0	0	0	0	0	0	0	0	0	0	0	Robert Grasso	7	10	"Overcast, Calm"	16:14	16:21	7	No	"lake is dry, no amphibians found"	
+09/29/02	2002	o	20	1	0	16	1	16	0	16	252	0	0	0	0	0	Robert Grasso	5	10	"Part. Cloudy, Calm"	15:41	16:04	23	No	no amphibians found	
+09/29/02	2002	o	22	2	5	2	7	7	0	2	0	0	0	0	0	0	Blake Meneken	5	11	"Part. Cloudy, Calm"	16:21	16:33	12	No	"heard RAMU calling, water is murky, difficult to see bottom"	
+09/29/02	2002	o	33	0	1	0	1	1	0	0	30	0	0	0	0	0	Blake Meneken	7	11	"Overcast, Calm"	15:51	15:55	4	No		
+09/29/02	2002	o	36	1	1	0	2	1	0	0	0	0	0	0	0	0	Robert Grasso	7	7	"Part. Cloudy, Windy"	16:48	17:13	25	Yes	"only water near confluence with lake 1, 1st year tads 22/30 had visible green VIE tag"	
+09/29/02	2002	o	40	0	0	0	0	0	0	0	0	0	0	0	0	0	Blake Meneken	5	7	"Part. Cloudy, Windy"	17:21	17:31	10	No	"dry at low end, flowing a trickle at upper end"	
+09/29/02	2002	o	41	0	1	0	1	1	0	0	0	0	0	0	0	0	Blake Meneken	5	7	"Part. Cloudy, Windy"	17:36	17:50	14	No		
+09/30/02	2002	o	2	0	0	0	0	0	0	0	0	0	1	0	0	0	Blake Meneken	5	NA	"Overcast, Windy"	10:45	10:57	12	No		
+09/30/02	2002	o	3	0	0	0	0	0	0	0	0	0	0	0	0	0	Blake Meneken	5	8	"Overcast, Windy"	10:43	10:50	7	Yes	lake is dry	
+09/30/02	2002	o	4	4	11	0	15	11	0	0	110	0	0	0	0	0	Robert Grasso	5	8	"Overcast, Calm"	10:25	10:36	11	No	no amphibians found	
+09/30/02	2002	o	5	1	2	28	3	30	0	28	431	0	0	0	0	0	Robert Grasso	5	5	"Part. Cloudy, Calm"	10:08	10:19	11	No		
+09/30/02	2002	o	6	0	0	0	0	0	0	0	0	0	0	0	0	0	Robert Grasso	6	NA	"Overcast, Calm"	10:16	10:20	4	No	ice around edge of lake	
+09/30/02	2002	o	30.1	0	0	0	0	0	0	0	0	0	0	0	0	0	Robert Grasso	NA	NA		10:20		0	No	"lake is dry, no amphibians found"	
+09/30/02	2002	o	30.2	0	0	0	0	0	0	0	0	0	0	0	0	0	Robert Grasso	NA	NA		10:20		0	No	"stream is dry, no amphibians found"	
+09/30/02	2002	o	31	0	0	0	0	0	0	0	0	0	0	0	0	0	Robert Grasso	5	NA	"Overcast, Windy"	10:39	10:42	3	No	"stream is dry, no amphibians found"	
+06/30/03	2003	b	1	36	32	0	68	32	0	0	34	0	2	0	0	0	Igor Lacan	15	17	"Clear, Calm"	13:00	15:25	145	Yes	"stream is dry, no amphibians found"	
+06/30/03	2003	b	2	43	6		49	6	0	0	1	26	3	0	0	12	Linda Vance	14	10	"Clear, Calm"	9:00	10:00	60	No	2 dead frogs	
+06/30/03	2003	b	3	1	1	0	2	1	0	0	0	0	0	0	0	0	Linda Vance	19	18	"Clear, Calm"	12:59	13:20	21	Yes		
+06/30/03	2003	b	4	1	8	1	9	9	0	1	5	0	0	0	0	1	Vincent King	13	15	"Clear, Calm"	11:20	11:35	15	No		
+06/30/03	2003	b	5	11	14	7	25	21	0	7	167	2	1	0	0	1	Igor Lacan	14	10	"Clear, Calm"	11:10	11:25	15	No		
+06/30/03	2003	b	6	2	1	0	3	1	0	0	0	0	0	0	0	0	Igor Lacan	12	16	"Clear, Calm"	11:35	11:50	15	No	1 dead RAMU adult and 4 dead RAMU larvae	
+06/30/03	2003	b	7	5	0	0	5	0	0	0	0	2	1	0	0	2	Vincent King	16	16	"Clear, Calm"	14:30	14:46	16	No		
+06/30/03	2003	b	8	4	0	0	4	0	0	0	0	0	0	0	0	0	Vincent King	14	26	"Clear, Calm"	15:10	15:15	5	No	Large quantities dead RAMU tabpoles	
+06/30/03	2003	b	9	1	3	0	4	3	0	0	0	4	2	0	0	2	Vincent King	14	24	"Clear, Calm"	15:15	15:20	5	No		
+06/30/03	2003	b	10	3	0	0	3	0	0	0	0	0	0	0	0	0	Vincent King	15	22	"Clear, Calm"	14:20	14:25	5	No		
+06/30/03	2003	b	11	0	2	0	2	2	0	0	0	0	0	0	0	0	Igor Lacan	18	16	"Clear, Calm"	12:00	12:10	10	No		
+06/30/03	2003	b	20	76	92	117	168	209	0	117	2079	51	0	0	0	0	Linda Vance	14	14	"Clear, Calm"	14:05	14:10	5	No		
+06/30/03	2003	b	21	2	0	0	2	0	0	0	0	3	0	0	0	0	Eva Patton	16	19	"Clear, Calm"	11:00	12:15	150	No		
+06/30/03	2003	b	22	37	11	80	48	91	0	80	18	0	0	0	0	0	Eva Patton	19	19	"Clear, Calm"	14:28	14:37	9	No	"3 Adult, 9 Subadult and 51 egg masses were found in the stream running into lake 20."	
+06/30/03	2003	b	31	0	0	0	0	0	0	0	0	0	0	0	0	0	Linda Vance	17	20	"Clear, Calm"	12:50	13:18	28	No	Egg masss were spent with dark nucleus present	
+06/30/03	2003	b	32	2	0	0	2	0	0	0	0	0	0	0	0	0	Igor Lacan	18	17	"Clear, Calm"	13:29	13:40	11	Yes	The total count includes the little lake below Muddy connected by very short stream	
+06/30/03	2003	b	33	4	0	0	4	0	0	0	0	0	0	0	0	0	Vincent King	16	18	"Clear, Calm"	15:30	15:35	5	No	Numerous brook trout present near lake 1 outlet (S)  Rainbow at lake 1 outlet (N).	
+06/30/03	2003	b	40	1	1	0	2	1	0	0	0	0	0	0	0	0	Vincent King	16	15	"Clear, Calm"	14:50	15:00	10	Yes		
+06/30/03	2003	b	41	3	3	0	6	3	0	0	0	0	2	0	0	0	Vincent King	16	14	"Clear, Calm"	13:03	13:18	15	No	2 RAMU adults found in puddle adjacent to stream 33.  One fish found upstream of lk. 7	
+07/01/03	2003	b	30.1	0	1	0	1	1	0	0	0	0	0	0	0	0	Vincent King	16	15	"Clear, Calm"	12:00	12:30	30	No		
+07/01/03	2003	b	30.2	0	0	0	0	0	0	0	0	0	0	0	0	0	Vincent King	10	5	"Clear, Windy"	9:35	9:47	12	No	2 RAMU adults and 1 subadult found in pond off stream 41.	
+07/30/03	2003	f	12	4	1	0	5	1	0	0	0	0	0	0	0	0	Kathleen Matthews	10	5	"Clear, Windy"	9:52	9:58	6	Yes	Top meadow still frozen	
+07/30/03	2003	f	20	23	47	135	70	182	0	135	195	0	0	0	0	0	Kathleen Matthews	16	0	"Part. Cloudy, Windy"	14:00	14:20	20	No	"No frogs found, a lot of fish below cascade."	
+07/30/03	2003	f	21	3	0	0	3	0	0	0	0	0	0	0	830	0	Kathleen Matthews	16	0	"Part. Cloudy, Windy"	10:00	10:20	20	No	very windy	
+07/30/03	2003	f	22	8	20	0	28	20	0	0	0	0	0	0	470	0	Kathleen Matthews	16	0	"Overcast, Windy"	11:00	11:20	20	No		
+07/31/03	2003	f	7	3	10	0	13	10	0	0	45	0	0	0	0	0	Eva Patton	18	0	"Overcast, Windy"	10:20	10:40	20	No	very windy	
+07/31/03	2003	f	8	0	0	0	0	0	0	0	5	0	0	0	0	0	Eva Patton	13	10	"Part. Cloudy, Calm"	16:33	16:44	11	No		
+07/31/03	2003	f	9	1	2	0	3	2	0	0	145	0	0	0	0	0	Eva Patton	13	10	"Part. Cloudy, Calm"	16:52	16:55	3	No	Very small tadpoles	
+07/31/03	2003	f	10	3	2	0	5	2	0	0	0	0	0	0	110	0	Eva Patton	13	10	"Part. Cloudy, Calm"	16:56	17:00	4	No	This lake had dried out the previous week (then refilled)	
+07/31/03	2003	f	33	6	1	0	7	1	0	0	0	0	0	0	0	0	Eva Patton	13	10	"Part. Cloudy, Calm"	16:27	16:31	4	No	Lots of fairy shrimp	
+07/31/03	2003	f	36	6	6	0	12	6	0	0	67	0	0	0	0	0	Igor Lacan	13	10	"Part. Cloudy, Calm"	16:46	16:51	5	No	110 Tadpoles too small to confirm species (RAMU or PSRE)	
+08/01/03	2003	f	1	23	23	0	46	23	0	0	40	0	0	0	0	0	Eva Patton	14	11	"Overcast, Calm"	11:15	11:45	60	Yes		
+08/01/03	2003	f	2	24	1	0	25	1	0	0	640	0	0	0	130	0	Igor Lacan	11	15	"Overcast, Calm"	9:00	11:15	135	Yes	2 people surveyed: Igor Lacan and Eva Patton; tadpoles in associated pools	
+08/01/03	2003	f	4	8	2	1	10	3	0	1	150	0	0	0	0	100	Igor Lacan	14	12	"Overcast, Calm"	8:50	9:35	45	No	Overcast and cool; huge fish in shallow rocky end	
+08/01/03	2003	f	5	6	5	45	11	50	0	45	210	0	0	0	20	0	Igor Lacan	12	14	"Overcast, Calm"	10:40	11:00	20	No	Overcast and cold	
+08/01/03	2003	f	6	2	0	0	2	0	0	0	500	0	0	0	100	0	Igor Lacan	12	12	"Overcast, Calm"	9:50	10:10	20	No	Overcast with intermittent rain	
+08/01/03	2003	f	11	1	1	0	2	1	0	0	0	0	0	0	0	0	Igor Lacan	12	14	"Overcast, Calm"	10:15	10:30	15	No	Light rain	
+08/01/03	2003	f	32	0	0	0	0	0	0	0	0	0	0	0	0	0	Igor Lacan	11	12	"Overcast, Calm"	11:10	11:15	5	No		
+09/16/03	2003	f	20	63	207	165	270	372	0	165	760	0	0	0	133	0	Vincent King	12	15	"Clear, Calm"	15:45	16:25	80	No		
+09/16/03	2003	o	21	5	0	0	5	0	0	0	0	0	0	0	0	0	Eva Patton	10	15	"Clear, Calm"	16:45	16:47	4	No		
+09/16/03	2003	o	22	25	38	2	63	40	0	2	44	0	0	0	0	0	Vincent King	12	18	"Clear, Calm"	15:25	15:38	26	No		
+09/18/03	2003	o	1	31	49	1	80	50	0	1	71	0	0	0	15	0	Eva Patton	12	11	"Clear, Calm"	10:10	11:30	160	Yes		
+09/18/03	2003	o	3	1	2	0	3	2	0	0	0	0	2	0	0	0	Linda Vance	16	18	"Clear, Calm"	15:40	15:55	30	No	2 observers 80 minutes each	
+09/18/03	2003	o	4	2	1	0	3	1	0	0	200	0	0	1	0	0	Linda Vance	17	16	"Clear, Calm"	13:50	14:15	50	No	2 independent observers 15 minutes each	
+09/18/03	2003	o	5	7	79	116	86	195	0	116	280	0	0	0	24	0	Linda Vance	15	16	"Clear, Calm"	14:40	15:10	60	No		
+09/18/03	2003	o	7	5	6	0	11	6	0	0	110	0	4	0	9	0	Eva Patton	14	17	"Clear, Calm"	17:20	17:30	10	No	2 observers 30 minutes each	
+09/18/03	2003	o	9	0	2	0	2	2	0	0	77	0	0	0	3	0	Eva Patton	12	18	"Clear, Calm"	17:30	17:40	20	No		
+09/18/03	2003	o	33	4	4	0	8	4	0	0	0	0	0	0	0	0	Eva Patton	12	11	"Clear, Calm"	17:15	17:25	20	No		
+09/19/03	2003	o	2	7	2	7	9	9	0	7	569	0	2	1	4	0	Linda Vance	15	14	"Clear, Calm"	16:00	16:30	60	No	2 independent observers 10 minutes each	
+09/19/03	2003	o	12	0	1	0	1	1	0	0	0	0	0	0	0	0	Eva Patton	15	15	"Clear, Windy"	15:50	16:08	18	No	two observers working independently for 30 minutes each; one dead adult RAMU	
+09/20/03	2003	o	30.1	2	1	0	3	1	0	0	0	0	2	0	0	0	Eva Patton	17	16	"Clear, Calm"	13:49	14:05	16	No		
+09/20/03	2003	o	30.2	0	0	0	0	0	0	0	0	0	0	0	0	0	Eva Patton	17	15	"Clear, Calm"	13:40	13:49	9	Yes		
+09/20/03	2003	o	31	0	0	0	0	0	0	0	0	0	0	0	0	0	Eva Patton	18	18	"Clear, Calm"	15:55	16:05	10	Yes	Frog seen in Lake at mouth of stream	
+09/20/03	2003	o	32	0	0	0	0	0	0	0	0	0	0	0	0	0	Eva Patton	18	18	"Clear, Calm"	13:00	13:01	1	No	Water about 4 inches deep in stream; stream nearly dry	
+09/20/03	2003	o	36	3	0	0	3	0	0	0	0	0	0	0	0	0	Eva Patton	18	16	"Clear, Calm"	16:09	17:20	71	Yes		
+09/20/03	2003	o	40	2	1	0	3	1	0	0	0	0	2	0	0	0	Eva Patton	16	15	"Clear, Calm"	14:48	15:05	17	No	Large trout in stream	
+09/20/03	2003	o	41	8	3	0	11	3	0	0	0	0	3	0	48	0	Eva Patton	17	11	"Clear, Calm"	14:08	14:48	40	Yes		
+08/07/05	2005	f	4	14	10	2	24	12	263	265	0	0	0	0	0	0	Kathleen Matthews	NA	NA				1	No	Lake was dry	
+08/07/05	2005	f	5	11	24	3	35	27	505	508	485	0	0	0	0	0	Kathleen Matthews	29	16	"Clear, Calm"	11:10	11:30	20	No	"not surveyed, but lake had water"	
+08/07/05	2005	f	7	3	0	0	3	0	1	1	80	0	0	0	0	0	Kathleen Matthews	20	18	"Clear, Calm"	10:20	10:50	30	No		
+08/07/05	2005	f	8	0	0	0	0	0	0	0	0	0	0	0	0	0	Kathleen Matthews	14	16	"Overcast, Windy"	14:10	14:30	20	No	no egg masses	
+08/07/05	2005	f	9	7	1	0	8	1	0	0	0	0	0	0	440	0	Kathleen Matthews	20	24	"Overcast, Calm"	13:25	13:30	5	No		
+08/07/05	2005	f	10	2	1	0	3	1	0	0	0	0	0	0	825	0	Kathleen Matthews	20	22	"Overcast, Calm"	13:30	13:42	12	No		
+08/07/05	2005	f	33	3	0	0	3	0	0	0	0	0	0	0	0	0	Kathleen Matthews	13	21	"Overcast, Windy"	14:00	14:10	10	No		
+08/08/05	2005	f	20	39	22	10	61	32	395	405	415	0	0	0	0	0	Kathleen Matthews	15	16	"Overcast, Windy"	13:45	13:55	10	Yes	lots of hyla	
+08/08/05	2005	f	21	7	0	0	7	0	0	0	0	0	0	0	26	0	Kathleen Matthews	16	17	"Part. Cloudy, Calm"	10:30	11:00	30	No		
+08/08/05	2005	f	22	14	2	0	16	2	10	10	20	0	0	0	435	0	Kathleen Matthews	18	15	"Clear, Calm"	10:10	10:20	10	No		
+08/18/05	2005	f	2	25	0	0	25	0	0	0	3000	0	0	0	3000	0	Kathleen Matthews	18	17	"Clear, Calm"	11:10	11:25	15	No		
+08/18/05	2005	f	3	3	0	0	3	0	0	0	0	0	0	0	0	0	Krishna Feldman	17	20	"Clear, Windy"	14:11	14:48	38	No		
+08/18/05	2005	f	6	16	0	8	16	8	0	8	0	0	0	0	215	0	Nick Earley	16	16	"Clear, Calm"	13:15	13:30	15	No	tadpoles feeding on dead tadpoles	
+08/18/05	2005	f	11	1	0	0	1	0	0	0	0	0	0	0	0	0	Nick Earley	17	23	"Clear, Calm"	14:00	14:25	25	No	"trout present in abundance, lots of fairy shrimp in small side pond"	
+08/18/05	2005	f	30.1	5	0	1	5	1	0	1	0	0	0	0	0	0	Krishna Feldman	16	22	"Clear, Calm"	13:51	13:56	5	No	lots of small froggies	
+08/18/05	2005	f	30.2	3	0	0	3	0	0	0	0	0	0	0	0	0	Nick Earley	19	18	"Clear, Calm"	14:40	15:00	20	No	"lake not present on 8/8, now appears at high water mark, shallows are 4"", deeps 16"""	
+08/18/05	2005	f	32	0	0	0	0	0	0	0	0	0	0	0	0	0	Nick Earley	17	18	"Clear, Calm"	14:25	14:30	5	No		
+08/19/05	2005	f	1	56	0	9	56	9	0	9	90	0	0	0	0	0	Krishna Feldman	17	21	"Clear, Calm"	14:03	14:04	1	No		
+08/19/05	2005	f	12	6	0	0	6	0	0	0	0	0	0	0	0	0	Nick Earley	13	16	"Clear, Windy"	10:40	13:30	170	Yes	"stream is not flowing and is half dried up, saw one adult here earlier today"	
+08/19/05	2005	f	31	2	0	0	2	0	0	0	0	0	0	0	0	0	Nick Earley	13	14	"Clear, Windy"	10:05	10:20	15	No	fairy shrimp in sector A	
+08/19/05	2005	f	36	35	0	0	35	0	0	0	0	0	0	0	300	0	Nick Earley	15	14	"Clear, Calm"	10:30	10:35	5	No		
+08/19/05	2005	f	40	4	0	0	4	0	0	0	0	0	0	0	0	0	Krishna Feldman	17	13	"Clear, Windy"	11:11	12:30	79	Yes		
+08/19/05	2005	f	41	27	0	0	27	0	0	0	0	0	0	0	50	0	Krishna Feldman	16	21	"Clear, Calm"	13:20	14:00	40	No	"psre tadpoles in pond east of stream, most adults in small separate side ponds of sream"	
+08/22/05	2005	f	7	6	0	0	6	0	23	23	0	0	0	0	100	0	Krishna Feldman	16	19	"Clear, Calm"	14:30	15:12	42	No		
+08/22/05	2005	f	8	2	0	2	2	2	0	2	0	0	0	0	0	0	Jeff Schlueter	14	19		15:55	16:00	5	No	psre tadpoles in ephemeral ponds to side of stream	
+08/22/05	2005	f	9	6	1	0	7	1	0	0	0	0	0	0	150	0	Nick Earley	14	26	"Part. Cloudy, Windy"	15:30	15:32	2	No		
+08/22/05	2005	f	10	6	0	1	6	1	0	1	0	0	0	0	337	0	Jeff Schlueter	13	17	"Part. Cloudy, Calm"	15:44	15:53	9	No		
+08/22/05	2005	f	20	45	0	190	45	190	20	210	1000	0	0	0	0	0	Nick Earley	15	23	"Part. Cloudy, Windy"	15:58	16:05	7	No		
+08/22/05	2005	f	21	9	0	5	9	5	0	5	0	0	0	0	200	0	Krishna Feldman	16	17	"Clear, Calm"	12:00	12:33	33	No		
+08/22/05	2005	f	22	11	0	3	11	3	2	5	100	0	0	0	800	0	Krishna Feldman	18	18	"Part. Cloudy, Windy"	14:14	14:22	8	No	1 BIG snake present	
+08/22/05	2005	f	33	4	0	0	4	0	0	0	0	0	0	0	0	0	Krishna Feldman	19	19	"Clear, Calm"	13:21	13:34	13	No		
+08/31/05	2005	f	1	37	0	18	37	18	12	30	95	0	0	0	0	0	Nick Earley	12	19	"Part. Cloudy, Calm"	15:45	15:55	10	No		
+08/31/05	2005	f	2	19	0	2	19	2	0	2	3530	0	0	1	4250	0	Krishna Feldman	13	16	"Clear, Calm"	9:58	13:40	220	Yes		
+08/31/05	2005	f	5	6	0	45	6	45	100	145	350	0	0	0	0	0	Krishna Feldman	17	20	"Clear, Calm"	14:30	15:24	54	No		
+09/01/05	2005	f	3	1	0	0	1	0	0	0	0	0	0	0	0	0	Krishna Feldman	18	20	"Clear, Calm"	15:51	16:09	18	No	"psre transforming, lake level a few inches shallower, RAMU mets may be subadults"	
+09/01/05	2005	f	4	6	0	105	6	105	0	105	29	0	0	0	21	0	Nick Earley	18	18	"Clear, Calm"	12:07	12:16	9	Yes	"lake level down 2"" shallow temp gauge still in at least 7""of water"	
+09/01/05	2005	f	6	11	0	8	11	8	0	8	0	0	0	0	418	0	Nick Earley	16	17	"Clear, Calm"	11:45	12:01	15	No	Still lots of fairy shrimp in side pond	
+09/01/05	2005	f	11	0	0	0	0	0	0	0	0	0	0	0	0	0	Nick Earley	18	18	"Clear, Calm"	11:20	11:35	15	No		
+09/01/05	2005	f	12	3	0	0	3	0	0	0	0	0	0	0	0	0	Nick Earley	18	NA	"Clear, Calm"	11:41	11:42	1	No	lake level is droping quickly	
+09/01/05	2005	f	30.1	5	0	0	5	0	0	0	0	0	0	0	0	0	Nick Earley	18	13	"Clear, Calm"	10:09	10:21	12	No	the lake is dry!	
+09/01/05	2005	f	30.2	2	0	0	2	0	0	0	0	0	0	0	0	0	Nick Earley	16	16	"Clear, Windy"	13:15	13:22	7	No		
+09/01/05	2005	f	31	5	0	0	5	0	0	0	0	0	0	0	0	0	Nick Earley	16	16	"Clear, Windy"	13:05	13:09	4	No		
+09/01/05	2005	f	32	0	0	0	0	0	0	0	0	0	0	0	0	0	Nick Earley	17	18	"Clear, Calm"	12:19	12:26	7	Yes		
+09/01/05	2005	f	36	29	0	0	29	0	0	0	0	0	0	0	0	0	Krishna Feldman	NA	NA				2	No		
+09/01/05	2005	f	40	15	0	0	15	0	0	0	0	0	0	0	0	0	Krishna Feldman	16	17	"Clear, Calm"	11:39	12:48	69	Yes		
+09/01/05	2005	f	41	26	0	0	26	0	0	0	0	0	0	0	60	0	Krishna Feldman	16	14	"Clear, Calm"	10:50	11:38	48	No	pond previously containing psre tadpoles has since dried up	
+09/02/05	2005	f	7	7	0	14	7	14	5	19	45	0	0	0	60	0	Krishna Feldman	15	9	"Clear, Windy"	10:00	10:48	48	No		
+09/02/05	2005	f	8	0	0	0	0	0	0	0	0	0	0	0	10	0	Krishna Feldman	14	18	"Clear, Calm"	15:04	15:22	18	No	mules trampled a large area	
+09/02/05	2005	f	9	4	0	3	4	3	0	3	50	0	0	0	200	0	Krishna Feldman	15	NA	"Clear, Windy"	14:47	14:48	1	No		
+09/02/05	2005	f	10	5	0	0	5	0	0	0	0	0	0	0	230	0	Krishna Feldman	15	22	"Clear, Windy"	14:40	14:46	6	No	lake is dry	
+09/02/05	2005	f	20	80	0	283	80	283	35	318	430	0	0	0	0	0	Krishna Feldman	14	18	"Clear, Windy"	15:24	15:30	6	No	lots of big fairy shrimp	
+09/02/05	2005	f	21	17	0	0	17	0	0	0	0	0	0	1	40	0	Krishna Feldman	16	16	"Clear, Calm"	10:57	11:35	38	No	"little water left, moved temp probe"	
+09/02/05	2005	f	22	39	0	2	39	2	2	4	9	0	0	11	200	0	Krishna Feldman	16	16	"Clear, Windy"	13:45	13:57	12	No	Adult Ramu must have moved down from dried up pond next to 36	
+09/02/05	2005	f	33	3	0	1	3	1	0	1	2	0	0	0	0	0	Krishna Feldman	16	17	"Clear, Calm"	12:47	13:24	37	No	lake level went down a lot	
+09/03/05	2005	f	1	47	0	33	47	33	34	67	32	0	0	0	0	0	Krishna Feldman	15	17	"Clear, Windy"	14:54	15:03	9	No		
+09/03/05	2005	f	2	19	0	0	19	0	0	0	1950	0	0	60	3400	0	Krishna Feldman	11.5	15	"Clear, Windy"	10:00	14:20	230	Yes	saw fish in lake1 near mouth of stream	
+09/03/05	2005	f	5	4	0	65	4	65	37	102	620	0	0	0	100	0	Krishna Feldman	12	18	"Clear, Windy"	15:23	16:17	54	No	did 12 in the middle	
+09/03/05	2005	f	12	5	0	0	5	0	0	0	0	0	0	0	0	0	Krishna Feldman	12	16	"Clear, Windy"	16:28	16:51	23	No		
+09/04/05	2005	f	3	1	0	0	1	0	0	0	0	0	0	0	0	0	Krishna Feldman	12	15	"Clear, Windy"	13:30	13:40	10	No	"1st and 2nd year tadpoles, only 1 big frog"	
+09/04/05	2005	f	6	3	0	6	3	6	0	6	0	0	0	1	1000	0	Krishna Feldman	14	16	"Clear, Calm"	15:53	16:05	12	Yes		
+09/04/05	2005	f	11	0	0	0	0	0	0	0	0	0	0	0	0	0	Krishna Feldman	11.5	12	"Clear, Windy"	11:15	11:25	10	No	"lake level only down a tiny bit exposing some shallows, fairy shrimp in little pond next to lake"	
+09/04/05	2005	f	30.1	2	0	4	2	4	0	4	0	0	0	0	0	0	Krishna Feldman	12	NA	"Clear, Windy"	11:39	11:40	1	No	"lake mostly gone, consists of some extreme shallows with grass and a few deeper places around rocks."	
+09/04/05	2005	f	30.2	0	0	0	0	0	0	0	0	0	0	0	0	0	Krishna Feldman	11.5	7	"Clear, Windy"	10:17	11:14	57	No	dry	
+09/04/05	2005	f	31	3	0	0	3	0	0	0	0	0	0	0	0	0	Krishna Feldman	12	9	"Clear, Windy"	11:29	11:36	7	No	followed stream until it flattened into 2 large pools saw 9 frogs and 1 rec met up there	
+09/04/05	2005	f	32	0	0	0	0	0	0	0	0	0	0	0	0	0	Krishna Feldman	14	17	"Clear, Windy"	16:17	16:26	9	Yes	"no fish, but possible where it connects to lake 1"	
+09/04/05	2005	f	36	14	11	4	25	15	0	4	0	0	0	0	0	0	Krishna Feldman	12		"Clear, Windy"	11:37	11:38	1	No	"fish are fry, 2 cm long"	
+09/04/05	2005	f	40	16	4	2	20	6	0	2	0	0	0	0	0	0	Krishna Feldman	14	12	"Clear, Windy"	14:06	15:04	58	Yes	"just a tiny bit of water, no frogs"	
+09/04/05	2005	f	41	22	0	4	22	4	0	4	0	0	0	0	35	0	Krishna Feldman	12	15	"Clear, Windy"	12:25	13:27	62	No		
+09/05/05	2005	f	4	4	2	117	6	119	0	117	28	0	0	0	0	0	Krishna Feldman	12	12	"Clear, Windy"	11:51	12:23	32	No	calling subadults if about 3.5-4 cm long	
+09/17/05	2005	o	1	24	9	17	33	26	22	39	31	0	0	0	0	0	Krishna Feldman	11	11	"Clear, Windy"	10:03	10:29	26	No		
+09/17/05	2005	o	2	2	0	0	2	0	0	0	1490	0	0	155	650	0	Krishna Feldman	11	13	"Clear, Windy"	10:12	14:14	200	Yes		
+09/17/05	2005	o	3	2	0	0	2	0	0	0	0	0	0	0	0	0	Krishna Feldman	11.5	17	"Clear, Windy"	14:24	15:30	66	No		
+09/17/05	2005	o	4	4	0	132	4	132	0	132	10	0	0	0	0	0	Nick Earley	9	12	"Clear, Windy"	12:05	12:16	11	Yes	"drying up, lots of exposed muddy shore"	
+09/17/05	2005	o	5	9	0	131	9	131	0	131	462	0	0	0	0	0	Nick Earley	11	12	"Clear, Calm"	11:34	11:45	11	No		
+09/17/05	2005	o	6	0	0	0	0	0	0	0	0	0	0	0	32	0	Nick Earley	11	9	"Clear, Calm"	11:08	11:22	14	No		
+09/17/05	2005	o	7	3	0	13	3	13	0	13	1	0	0	0	10	0	Nick Earley	8	9	"Clear, Calm"	11:02	11:05	3	No		
+09/17/05	2005	o	8	0	0	0	0	0	0	0	0	0	0	0	0	0	Nick Earley	9	6	"Clear, Windy"	10:30	10:42	12	No	"water bugs feeding on dead hyla tadpole, lake almost completely dry"	
+09/17/05	2005	o	9	0	0	0	0	0	0	0	45	0	0	0	75	0	Nick Earley	NA	NA				1	No		
+09/17/05	2005	o	10	0	0	0	0	0	0	0	0	0	0	0	25	0	Nick Earley	8	8	"Clear, Windy"	10:15	10:21	6	No		
+09/17/05	2005	o	11	0	0	0	0	0	0	0	0	0	0	0	0	0	Nick Earley	11	6	"Clear, Windy"	10:44	10:48	4	No	fairy shrimp present	
+09/17/05	2005	o	12	2	0	0	2	0	0	0	0	0	0	0	0	0	Krishna Feldman	NA	NA				2	No	"lake extremely low, is one small puddle, temp probe pulled"	
+09/17/05	2005	o	30.1	1	0	0	1	0	0	0	0	0	0	0	0	0	Krishna Feldman	11	11	"Clear, Windy"	13:15	13:26	11	No		
+09/17/05	2005	o	30.2	1	0	1	1	1	0	1	0	0	0	0	0	0	Nick Earley	11	15	"Clear, Calm"	14:28	14:34	6	No		
+09/17/05	2005	o	31	1	0	0	1	0	0	0	0	0	0	0	0	0	Nick Earley	11	15	"Clear, Calm"	14:37	14:58	21	No		
+09/17/05	2005	o	32	0	0	0	0	0	0	0	0	0	0	0	0	0	Nick Earley	12	15	"Clear, Windy"	11:59	12:04	5	Yes		
+09/17/05	2005	o	33	4	0	0	4	0	0	0	0	0	0	0	0	0	Krishna Feldman	NA	NA				2	No		
+09/17/05	2005	o	40	16	0	4	16	4	0	4	0	0	0	0	0	0	Nick Earley	8	5	"Clear, Windy"	10:23	10:29	6	No		
+09/17/05	2005	o	41	13	0	10	13	10	0	10	0	0	0	0	0	0	Nick Earley	10	10	"Clear, Calm"	12:45	13:10	25	No		
+09/18/05	2005	o	20	74	0	181	74	181	0	181	295	0	0	0	0	0	Nick Earley	12	10	"Clear, Windy"	13:33	13:56	23	No		
+09/18/05	2005	o	21	2	0	3	2	3	0	3	0	0	0	0	28	0	Nick Earley	13	12	"Clear, Calm"	11:30	11:56	26	No		
+09/18/05	2005	o	22	12	0	3	12	3	0	3	66	0	0	2	9	0	Nick Earley	11	11	"Clear, Calm"	10:58	11:04	6	No		
+09/18/05	2005	o	36	13	0	6	13	6	0	6	0	0	0	0	0	0	Nick Earley	13	14	"Part. Cloudy, Calm"	12:10	12:20	10	No		
+09/30/05	2005	o	12	0	0	0	0	0	0	0	0	0	0	0	0	0	Nick Earley	11	10	"Clear, Calm"	10:38	11:25	38	Yes		
+10/01/05	2005	o	1	16	3	9	19	12	18	27	19	0	0	1	0	0	Krishna Feldman	15	12	"Clear, Calm"	14:00	14:10	10	No		
+10/01/05	2005	o	3	1	0	0	1	0	0	0	0	0	0	0	0	0	Krishna Feldman	11	9	"Clear, Windy"	9:50	12:50	180	Yes		
+10/01/05	2005	o	4	1	0	33	1	33	0	33	52	0	0	0	0	0	Nick Earley	11	14	"Clear, Windy"	15:26	15:33	7	Yes		
+10/01/05	2005	o	5	6	0	99	6	99	0	99	426	0	0	0	0	0	Nick Earley	11	13	"Clear, Windy"	15:01	15:14	13	No		
+10/01/05	2005	o	7	2	0	2	2	2	0	2	3	0	0	0	0	0	Nick Earley	11	14	"Clear, Windy"	14:40	14:57	17	No		
+10/01/05	2005	o	8	0	0	0	0	0	0	0	0	0	0	0	0	0	Nick Earley	12	11	"Clear, Windy"	13:25	13:34	9	No		
+10/01/05	2005	o	9	2	0	1	2	1	0	1	62	0	0	0	15	0	Nick Earley	11	20	"Clear, Windy"	13:58	14:00	2	No		
+10/01/05	2005	o	10	0	0	0	0	0	0	0	0	0	0	0	170	0	Nick Earley	11	20	"Clear, Windy"	13:49	13:56	7	No		
+10/01/05	2005	o	11	0	0	0	0	0	0	0	0	0	0	0	0	0	Nick Earley	11	16	"Clear, Windy"	13:35	13:41	6	No		
+10/01/05	2005	o	30.1	0	0	0	0	0	0	0	0	0	0	0	0	0	Nick Earley	11	14	"Clear, Windy"	14:10	14:12	2	No		
+10/01/05	2005	o	30.2	0	0	0	0	0	0	0	0	0	0	0	0	0	Nick Earley	11	11	"Clear, Windy"	14:21	14:33	12	No		
+10/01/05	2005	o	31	1	0	0	1	0	0	0	0	0	0	0	0	0	Nick Earley	11	11	"Clear, Windy"	14:15	14:20	5	Yes		
+10/01/05	2005	o	33	1	0	0	1	0	0	0	0	0	0	0	0	0	Nick Earley	11	13	"Clear, Windy"	15:18	15:23	5	Yes		
+10/02/05	2005	o	2	0	0	0	0	0	0	0	259	0	0	6	3	0	Nick Earley	11	12	"Clear, Windy"	13:42	13:48	6	No		
+10/02/05	2005	o	6	0	0	0	0	0	0	0	0	0	0	0	0	0	Nick Earley	5	6	"Clear, Windy"	10:00	10:35	35	No		
+10/02/05	2005	o	20	19	0	73	19	73	3	76	189	0	0	0	0	0	Nick Earley	6	9	"Clear, Windy"	10:45	10:53	8	No		
+10/02/05	2005	o	21	0	0	0	0	0	0	0	0	0	0	0	0	0	Nick Earley	10	13	"Clear, Windy"	12:19	12:46	27	No	"lake level increased from almost completely dry, no tapoles survived however"	
+10/02/05	2005	o	22	37	0	9	37	9	1	10	73	0	0	0	0	0	Nick Earley	9	8	"Part. Cloudy, Windy"	11:47	11:52	5	No		
+10/02/05	2005	o	32	0	0	0	0	0	0	0	0	0	0	0	0	0	Nick Earley	10	11	"Clear, Windy"	12:56	13:10	14	No		
+10/02/05	2005	o	36	0	0	0	0	0	0	0	0	0	0	0	0	0	Krishna Feldman	NA	NA				2	No		
+10/02/05	2005	o	40	6	0	1	6	1	0	1	0	0	0	0	0	0	Nick Earley	10	13	"Part. Cloudy, Windy"	13:37	14:07	30	Yes		
+10/02/05	2005	o	41	15	0	5	15	5	0	5	0	0	0	0	0	0	Nick Earley	10	7	"Clear, Windy"	11:21	11:44	23	No	extremely windy	
+07/15/06	2006	b	2	24	8	0	32	8	0	0	430	26	6	0	0	100	Nick Earley	8	8	"Clear, Windy"	10:58	11:20	22	No		
+07/15/06	2006	b	7	3	2	2	5	4	6	8	2	22	1	0	0	0	Krishna Feldman	17	16	"Clear, Occas/Light Wind"	11:00	12:00	60	No	frogs grouped together around deeper holes or places with rock crevices	
+07/15/06	2006	b	8	1	1	0	2	1	0	0	0	0	0	0	0	0	Krishna Feldman	16	13	"Clear, Occas/Light Wind"	16:15	16:55	40	Yes	All Rana tps are 2nd yrs (hatched last year). 3 RAMU in anplexas.  Heard hyla calling	
+07/15/06	2006	b	9	2	1	0	3	1	0	0	10	4	1	0	0	6	Krishna Feldman	16	21	"Clear, Calm"	15:40	15:45	5	No	"Fish in stream that flows into 7 and by 10, also saw a fish in 7 on 7/20. Hyla calling.  1 ad RAMU and mets were in in pond between 7 and 10."	
+07/15/06	2006	b	10	0	0	0	0	0	0	0	0	0	2	0	0	95	Krishna Feldman	16	18	"Clear, Occas/Light Wind"	15:45	15:50	5	No	Probably larger that bathymetery boundaries; very full with 33 into pond to N	
+07/15/06	2006	b	33	3	2	0	5	2	0	0	0	0	0	0	0	0	Jacquelyn Kracke	16	16	"Clear, Occas/Light Wind"	16:45	17:15	30	No	Very full - probably larger than bathymetry boundaries.	
+07/16/06	2006	b	20	23	5	40	28	45	410	450	565	37	0	0	0	0	Krishna Feldman	17	13	"Clear, Calm"	16:00	16:15	15	Yes	"Hyla eggs small, embryos partially dev.  Very full, overflowing, water everywhere between 10 and 7."	
+07/16/06	2006	b	21	2	1	0	3	1	0	0	0	0	0	0	0	0	Krishna Feldman	19	15	"Clear, Calm"	10:15	11:45	90	No	Big fish in creek between 7 + 10 that connects to 33.  Creek overflowing; many channels and ponds.	
+07/16/06	2006	b	22	15	5	5	20	10	45	50	282	2	0	0	0	0	Krishna Feldman	22	13	"Clear, Calm"	15:10	15:30	20	No	3 yrs of tads.  Water flowing out.  Almost all eggs in stream into 20; individ egg masses hard to distinguish from one another (they're all clumped together).	
+07/16/06	2006	b	36	13	12	3	25	15	0	3	0	0	0	0	0	0	Elizabeth Gruenstein	19	18	"Clear, Calm"	12:50	13:50	60	No	N bank covered in snow.  This is max depth with water spilling out.	
+07/16/06	2006	b	40	1	1	0	2	1	0	0	0	0	0	0	0	0	Krishna Feldman	21	15	"Clear, Calm"	13:50	15:45	115	Yes		
+07/16/06	2006	b	41	3	3	2	6	5	0	2	0	0	0	0	0	0	Krishna Feldman	22		"Clear, Calm"	15:50	16:45	55	No		
+07/17/06	2006	b	3	1	2	0	3	2	0	0	0	0	0	0	0	0	Krishna Feldman	22		"Clear, Calm"	16:50	17:30	40	No	Temp not measured but very cold snowmelt.  Strong current.  Couldn't follow all the way up b/c snow.	
+07/17/06	2006	b	4	10	8	7	18	15	17	24	10	4	0	0	0	0	Krishna Feldman	22	15	"Clear, Occas/Light Wind"	13:23	13:32	9	Yes	Temp not measured but very cold snowmelt.  Snow in water; 41 bursting its banks between trail and 40	
+07/17/06	2006	b	5	40	5	95	45	100	95	190	200	29	2	0	0	0	Krishna Feldman	24	11	"Part.Cloud,Occas/Light Wind"	13:40	14:30	50	No	Water flowing in and out at a good clip.	
+07/17/06	2006	b	6	2	11	2	13	13	0	2	0	0	6	0	0	3	Krishna Feldman	17	4	"Clear, Occas/Light Wind"	10:45	11:55	70	No		
+07/17/06	2006	b	30.2	1	1	0	2	1	0	0	0	0	0	0	0	0	Krishna Feldman	18	10	"Clear, Calm"	12:43	12:55	12	No	"2 pairs breeding RAMU, 1 pair hyla.  S half of lake snow.  Eggs in N shallows.  Different TP stages."	
+07/17/06	2006	b	31	3	0	0	3	0	0	0	0	0	0	0	0	0	Krishna Feldman	18	11	"Clear, Occas/Light Wind"	13:00	13:10	10	Yes	2 hyla mating.  Some snow.  No PITS.  30.2 connected to 6; fish near 1. Mets from elsewhere; 6 dried	
+07/18/06	2006	b	11	0	0	0	0	0	0	0	56	0	0	0	0	0	Krishna Feldman	18	15	"Clear, Occas/Light Wind"	13:12	13:23	11	Yes		
+07/18/06	2006	b	30.1	0	2	6	2	8	0	6	0	0	0	0	0	0	Jacquelyn Kracke	15	7	"Overcast,Occas/Light Wind"	11:25	11:30	5	No		
+07/19/06	2006	b	1	34	17	4	51	21	0	4	14	8	0	0	0	0	Jacquelyn Kracke	14	6	"Part.Cloud,Occas/Light Wind"	10:30	11:00	30	No	1/3 covered with snow.  Connected to 2 by a stream.	
+07/19/06	2006	b	12	1	0	0	1	0	0	0	0	0	0	0	0	0	Elizabeth Gruenstein	16	14	"Part.Cloud,Occas/Light Wind"			435	Yes		
+07/19/06	2006	b	32	3	0	0	3	0	0	0	0	0	0	0	0	0	Elizabeth Gruenstein	16		"Part.Cloud,Occas/Light Wind"	10:45	11:00	15	No	"Done from 7-17 to 7-19 due to weather.  1 dead RAMU, whole and fresh, had PIT so see PIT data."	
+07/27/06	2006	f	2	17	16	13	33	29	0	13	1035	12	0	0	0	0	Adam Calo	16	13	"Part.Cloud,Occas/Light Wind"	12:05	12:15	10	No	Lake was very cold w/snow but temp was unmeasured.  Frog found at mouth of stream leading from 12.	
+07/27/06	2006	f	3	0	3	0	3	3	0	0	0	0	0	0	0	0	Krishna Feldman	22	23	"Part.Cloud,Occas/Light Wind"	13:12	14:25	73	No	Lake 2 flowing into 32.	
+07/27/06	2006	f	4	14	13	10	27	23	29	39	80	2	0	0	0	0	Adam Calo	20	NA	"Part.Cloud,Occas/Light Wind"	11:25	11:44	19	Yes	"32 new hatched RAMU; 1/2 eggs mostly hatched.  Mets can't be from 2 - no premets, but tads are big."	
+07/27/06	2006	f	5	15	0	7	15	7	13	20	381	3	0	0	2	3	Adam Calo	20	22	"Clear, Occas/Light Wind"	12:50	13:15	25	No	Last of ice melting into 3.  Temp cold but not recorded.	
+07/27/06	2006	f	6	7	2	8	9	10	0	8	0	0	0	0	0	5	Adam Calo	20	29	"Part.Cloud,Occas/Light Wind"	11:59	12:14	15	No	Temps are observations; therm is wonky.  All ice melted.  2 previous masses found and not hatched.	
+07/27/06	2006	f	7	10	1	6	11	7	19	25	6	7	0	0	0	0	Adam Calo	20	24	"Clear, Occas/Light Wind"	12:33	12:42	9	No	Snow gone; water flowing S nearly dry.  10 mm tads present.	
+07/27/06	2006	f	8	0	1	1	1	2	0	1	0	0	0	0	0	0	Krishna Feldman	18	13	"Part.Cloud,Occas/Light Wind"	11:19	11:46	27	No	Snow gone.  Hyla masses well developed.  Mets not from 6; it dried up in 2006.	
+07/27/06	2006	f	9	3	0	0	3	0	0	0	65	3	0	0	0	2	Krishna Feldman	18	18	"Clear, Occas/Light Wind"	10:15	10:26	11	No	Fish not seen this time.  Thermo not right; probably colder.  Tads new hatched.  1 ad between 7 + 10	
+07/27/06	2006	f	10	5	0	2	5	2	0	2	0	0	0	0	200	10	Krishna Feldman	18	19	"Clear, Occas/Light Wind"	10:27	10:50	23	No		
+07/27/06	2006	f	20	17	11	7	28	18	95	102	322	5	0	0	0	0	Krishna Feldman	22	20	"Part.Cloud,Occas/Light Wind"	11:53	12:03	10	No	"5 new  tads; 1 RAMU mass hatched or eaten, 3 ems left, 1 intact em, 1 em 1/2 hatched, ~5 1cm tads."	
+07/27/06	2006	f	21	18	0	5	18	5	0	5	0	0	0	0	0	0	Jacquelyn Kracke	22	17	"Part. Cloudy, Calm"	10:30	11:55	85	No	Mets not from 10 as it dried last year.  Hyla tatds were new hatched.  More than 10 hyla masses.	
+07/27/06	2006	f	22	8	1	9	9	10	3	12	151	0	0	0	0	0	Elizabeth Gruenstein	17	19	"Part.Cloud., Windy"	15:00	15:20	20	No	One stream into lake is dry; other is flowing and lined with masses.  New RAMU tads on creek bottom.	
+07/27/06	2006	f	33	4	0	0	4	0	0	0	0	0	0	0	0	0	Adam Calo	20	NA	"Clear, Calm"	10:26	10:54	28	No	Egg search done next day due to weather.  PIT found 18 ads; subs from count probably ads (over 4 cm)	
+07/27/06	2006	f	36	23	13	20	36	33	2	22	0	0	0	0	0	0	Krishna Feldman	18	13	"Clear, Occas/Light Wind"	11:00	11:18	18	Yes	10 mm tads present.  2 mets with tail recorded as premets.  Should recount for hyla tads.	
+07/28/06	2006	f	1	32	8	14	40	22	13	27	89	5	0	0	0	0	Elizabeth Gruenstein	21	17	"Part.Cloud,Occas/Light Wind"	13:30	17:08	218	Yes		
+07/28/06	2006	f	11	1	6	0	7	6	0	0	10	0	0	0	0	0	Krishna Feldman	19	17	"Clear, Occas/Light Wind"	10:00	15:30	300	Yes	"Done on 7/27 and 7/28.  12-15 of the mets found in warm, muddy pond near lake 3."	
+07/28/06	2006	f	12	2	0	0	2	0	0	0	0	0	0	0	0	0	Krishna Feldman	20	25	"Clear, Occas/Light Wind"	16:55	17:09	14	No	Many ads + sa in sector N.  Lots of water flowing in and out of 1.	
+07/28/06	2006	f	32	5	0	0	5	0	3	3	20	0	0	0	2	0	Krishna Feldman	20	13	"Clear, Occas/Light Wind"	14:23	14:44	21	No	Max depth 64 cm but most is <20 cm.  Stream from 2 to 11 dry.  Stream from 11 to 1 full but no flow.	
+07/28/06	2006	f	40	0	2	10	2	12	0	10	0	0	0	0	0	0	Krishna Feldman	21	24	"Part.Cloud,Occas/Light Wind"	16:00	16:44	44	No	Temp probe wonky; water prob colder.  Snow still on S side of lake.  Water flowing out into 1.	
+07/28/06	2006	f	41	10	7	20	17	27	0	20	0	0	0	0	42	0	Elizabeth Gruenstein	20	17	"Part.Cloud,Occas/Light Wind"	15:03	16:09	66	No	Slow trickle from 2 into 32 and out of 32 into 1.  Hyla tads were new hatched.	
+07/29/06	2006	f	4	12	3	4	15	7	52	56	32	0	0	0	0	0	Jacquelyn Kracke	20	17	"Part.Cloud,Occas/Light Wind"	15:20	16:45	85	No		
+07/29/06	2006	f	7	13	0	6	13	6	18	24	4	8	0	0	0	0	Jacquelyn Kracke	16	20	"Part. Cloudy, Calm"	16:45	17:40	55	No	Pond w/ tads look like it may dry up.  Thought tads were RAMU but were actually hyla.	
+07/29/06	2006	f	8	3	0	0	3	0	0	0	0	0	0	0	0	0	Krishna Feldman	20	16	"Clear,Windy"	12:10	13:20	70	No	Snow around lake completely melted.	
+07/29/06	2006	f	9	4	0	0	4	0	0	0	65	0	0	0	0	0	Krishna Feldman	18	19	"Part.Cloud,Occas/Light Wind"	10:50	11:10	20	No	3 RAMU tads new hatched.  Abundant caddisfly larvae.	
+07/29/06	2006	f	10	7	1	3	8	4	0	3	0	0	0	1	200	1	Krishna Feldman	18	19	"Part.Cloud,Occas/Light Wind"	11:00	11:30	30	No	33 no longer flowing into 8 or pool E of 8.  All but 1 adult seen were caught.	
+07/29/06	2006	f	30.1	4	0	1	4	1	0	1	0	0	0	0	0	0	Krishna Feldman	20	27	"Clear, Occas/Light Wind"	14:00	14:40	40	No	10 new hatched RAMU.  1 egg mass found all hatched.	
+07/29/06	2006	f	30.2	2	1	0	3	1	0	0	0	0	0	1	0	0	Elizabeth Gruenstein	19	16	"Part.Cloud,Occas/Light Wind"	13:35	14:10	35	Yes		
+07/29/06	2006	f	31	3	0	0	3	0	0	0	0	0	0	0	0	0	Elizabeth Gruenstein	18	16	"Part.Cloud,Occas/Light Wind"	16:00	16:19	19	No		
+07/29/06	2006	f	33	6	0	1	6	1	0	1	0	0	0	0	0	0	Elizabeth Gruenstein	18	17	"Part.Cloud,Occas/Light Wind"	16:21	16:38	17	Yes		
+07/30/06	2006	f	1	36	29	11	65	40	6	17	81	3	0	0	62	0	Krishna Feldman	18	13	"Part.Cloud,Occas/Light Wind"	11:30	12:10	40	No		
+07/30/06	2006	f	12	5	0	0	5	0	0	0	0	0	0	0	0	0	Jacquelyn Kracke	18	16	"Part.Cloud,Occas/Light Wind"	10:30	16:50	380	Yes	All adults seen were caught.	
+07/30/06	2006	f	20	23	6	12	29	18	142	154	890	9	0	0	0	0	Jacquelyn Kracke	20	16	"Part.Cloud,Occas/Light Wind"	15:20	15:34	14	No	"40 tads new hatched, 41 more than 1 year old."	
+07/30/06	2006	f	22	17	3	12	20	15	4	16	131	0	0	0	134	0	Krishna Feldman	23	23	"Clear, Calm"	16:00	17:40	100	No	"Thermometer was off, water felt much colder."	
+07/31/06	2006	f	2	35	11	3	46	14	0	3	1141	0	0	0	229	0	Adam Calo	21	23	"Part.Cloud,Occas/Light Wind"	11:30	13:07	97	No	"Include 25 m of stream into 20.  15 ads upstream  to ~200 m, 2 PITs.  270 new tads 21 m upstream 20."	
+07/31/06	2006	f	3	2	1	2	3	3	0	2	0	0	0	0	0	0	Krishna Feldman	14	22	"Overcast, Windy"	15:04	15:53	49	No	"2 hatched masses, potentially prior to 7/16 survey (felt same).  2 new RAMU tads.  Trickle from 22"	
+07/31/06	2006	f	5	8	5	8	13	13	415	423	132	0	0	0	11	0	Krishna Feldman	15	18	"Overcast,Occas/Light Wind"	14:00	14:20	20	Yes	190 RAMU tads were new hatched.  3 masses partially hatched on 7-29.  Ads and subs from 7-29 PIT.	
+07/31/06	2006	f	6	17	4	10	21	14	0	10	0	0	1	0	0	0	Krishna Feldman	15	23	"Part.Cloud,Occas/Light Wind"	12:42	13:45	63	No		
+07/31/06	2006	f	11	0	3	2	3	5	0	2	14	0	0	0	0	0	Krishna Feldman	15	19	"Part.Cloud,Occas/Light Wind"	10:58	11:56	58	No	2 new hatched RAMU tads.	
+07/31/06	2006	f	21	16	1	0	17	1	0	0	0	0	0	0	35	0	Krishna Feldman	15	24	"Part.Cloud,Occas/Light Wind"	14:38	14:57	19	No	"1 dead frog, decayed, no PIT"	
+07/31/06	2006	f	30.1	7	2	8	9	10	0	8	0	0	0	0	0	0	Jacquelyn Kracke	15	NA	"Part.Cloud., Windy"	10:30	10:50	20	No	Tads must have come from lake 2 when they were connected.	
+07/31/06	2006	f	30.2	1	0	0	1	0	0	0	0	0	0	0	0	0	Krishna Feldman	15	10	"Part.Cloud,Occas/Light Wind"	10:12	10:57	45	No	"Thermometer not reading, but cold.  No snow or water flowing in or out."	
+07/31/06	2006	f	31	2	1	0	3	1	0	0	0	0	0	0	0	0	Krishna Feldman	13	15	"Part.Cloud,Occas/Light Wind"	12:30	12:39	9	No		
+07/31/06	2006	f	32	3	0	0	3	0	4	4	5	0	0	0	5	0	Krishna Feldman	15	18	"Overcast,Occas/Light Wind"	14:20	14:37	17	No		
+07/31/06	2006	f	36	29	21	40	50	61	2	42	0	0	0	0	0	0	Elizabeth Gruenstein	15	22	"Overcast,Occas/Light Wind"	14:38	14:57	19	No		
+07/31/06	2006	f	40	3	3	5	6	8	0	5	0	0	0	0	0	0	Jacquelyn Kracke	20	16	"Part. Cloudy, Calm"	10:30	13:50	200	Yes		
+07/31/06	2006	f	41	9	10	22	19	32	0	22	0	0	0	0	220	0	Adam Calo	18	16	"Overcast,Occas/Light Wind"	14:15	14:55	40	No	Temps are observations; thermometer noted as not working.	
+08/13/06	2006	f	20	23	7	43	30	50	76	119	722	0	3	1	250	0	Jacquelyn Kracke	17	NA	"Part.Cloud., Windy"	14:33	15:40	67	No	Thermometer is faulty.	
+08/13/06	2006	f	22	15	10	9	25	19	0	9	252	0	0	0	145	0	Elizabeth Gruenstein	21.4	18.6	"Clear, Occas/Light Wind"	12:15	13:28	73	No	"Cold, thermometer not working."	
+08/13/06	2006	f	36	13	10	20	23	30	1	21	0	0	0	0	0	0	Jacquelyn Kracke	21.4	20.5	"Clear, Calm"	12:42	15:35	53	No	"364 RAMU tads were new little tads. Going upstream 150m from 20 saw an additional 11 Ads, 6 SA, 6mets, 1 tp, + 4 Hyla tps"	
+08/14/06	2006	f	2	47	15	12	62	27	0	12	1974	0	0	0	895	0	Elizabeth Gruenstein	20.7	19.6	"Clear, Calm"	15:45	18:14	149	No	"7 little RAMU tads.  Perim at max, but level may be a little lower."	
+08/14/06	2006	f	5	13	7	61	20	68	330	391	305	0	0	0	17	0	Elizabeth Gruenstein	18.8	19.4	"Clear,Windy"	12:10	13:30	80	No	"Lower 36: 9 ad, 5 sub, 9 mets.  Upper 36: 4 ad, 1 sub, 11 mets, 1 premet."	
+08/14/06	2006	f	6	15	10	3	25	13	0	3	0	0	0	0	130	0	Krishna Feldman	16	14.8	"Clear, Occas/Light Wind"	11:20	12:25	65	No	"490 little tads.  Shrimp present.  Lake marshy, drawn down some.  5-10 tads w/ little back legs."	
+08/14/06	2006	f	11	0	0	0	0	0	0	0	3	0	0	0	0	0	Krishna Feldman	20	23	"Clear, Occas/Light Wind"	17:00	18:00	60	No	Water very drawn down.  No RAMU tads from this year.  Lots of premets w/ arms +legs and small tails.	
+08/15/06	2006	f	1	30	14	35	44	49	3	38	50	0	0	0	4	0	Krishna Feldman	17.5	13.5	"Clear, Occas/Light Wind"	16:45	16:53	8	No	Max depth 46 cm.	
+08/15/06	2006	f	3	2	0	0	2	0	0	0	0	0	0	0	0	0	Jacquelyn Kracke	13.8	16	"Clear,Windy"	10:25	15:47	278	Yes	Mostly dry except for ~4 buckets of water around big rock.  Max depth is 24 cm in one spot.	
+08/15/06	2006	f	4	10	12	41	22	53	4	45	106	0	0	1	0	0	Jacquelyn Kracke	18.5	17.5	"Clear, Occas/Light Wind"	11:37	11:55	18	Yes	"All RAMU tads were large, 1+ year old.  Fairy shrimp present in puddle near 30.2."	
+08/15/06	2006	f	7	9	1	17	10	18	3	20	82	0	0	0	10	0	Elizabeth Gruenstein	16.4	19.4	"Clear, Occas/Light Wind"	16:24	17:00	36	No		
+08/15/06	2006	f	8	0	0	0	0	0	0	0	0	0	0	0	30	0	Krishna Feldman	21.4	17.8	"Clear, Occas/Light Wind"	12:10	12:44	34	No	38 of the tadpoles were new from this year.	
+08/15/06	2006	f	9	5	1	3	6	4	0	3	78	0	0	0	85	0	Krishna Feldman	19.7	22.7	"Clear, Occas/Light Wind"	16:55	16:58	3	No	68 tads were little new tads.  Max depth 69 cm.	
+08/15/06	2006	f	10	3	2	2	5	4	0	2	0	0	0	0	730	0	Krishna Feldman	23.4	24.2	"Clear, Occas/Light Wind"	16:02	16:25	23	No	Will dry up very soon; max depth is 4cm in a couple of footprint puddles.	
+08/15/06	2006	f	12	3	0	0	3	0	0	0	0	0	0	0	0	0	Krishna Feldman	20	12.3	"Clear, Occas/Light Wind"	10:43	10:53	10	No	Lots of shrimp.  54 tads are little tads.  Hyla and Rana tads approx the same size.  M.D. 19.5 cm.	
+08/15/06	2006	f	31	2	2	0	4	2	0	0	0	0	0	0	0	0	Elizabeth Gruenstein	18.4	19	"Clear, Occas/Light Wind"	14:43	14:54	11	No	Max depth 40cm.	
+08/15/06	2006	f	33	2	2	0	4	2	0	0	0	0	1	0	0	0	Jacquelyn Kracke	18.5	17.2	"Clear, Occas/Light Wind"	11:20	11:35	15	No	"Only caught 2, no PITs.  No water flowing out; still some snow next to lake."	
+08/16/06	2006	f	21	14	3	0	17	3	0	0	0	0	0	0	180	0	Krishna Feldman	27	17.8	"Clear, Occas/Light Wind"	14:30	15:15	45	No		
+08/16/06	2006	f	30.1	4	0	2	4	2	0	2	0	0	0	0	0	0	Elizabeth Gruenstein	17.5	16.7	"Clear,Windy"	11:22	11:43	21	No	Stream too shallow/rocky in places to allow fish up to lake 7.  [Reported air temp seems high (EG)].	
+08/16/06	2006	f	30.2	0	1	0	1	1	0	0	4	0	0	0	0	0	Jacquelyn Kracke	15.4	16.8	"Part.Cloud,Occas/Light Wind"	15:20	15:34	14	No		
+08/16/06	2006	f	32	0	0	0	0	0	0	0	4	0	0	0	0	0	Jacquelyn Kracke	18	16.9	"Part.Cloud,Occas/Light Wind"	15:35	15:43	8	No		
+08/16/06	2006	f	40	7	4	15	11	19	0	15	0	0	0	0	0	0	Elizabeth Gruenstein	17.6	16.6	"Clear, Occas/Light Wind"	16:05	16:07	2	No	4 big tads.	
+08/16/06	2006	f	41	19	22	29	41	51	0	29	0	0	0	0	256	0	Elizabeth Gruenstein	19.9	14.8	"Clear, Occas/Light Wind"	12:10	14:00	110	No	Just one little puddle ~2 buckets of water.  4 big tads.	
+09/30/06	2006	o	2	0	0	3	0	3	5	8	3050	0	0	33	260	0	Jacquelyn Kracke	18.1	18.3	"Clear, Occas/Light Wind"	13:00	15:07	127	No	"Below trail: 4 ad, 2 subs, 10 mets.  Above: 1 ad, 1 sub, 4 mets.  Above bend: 2 ads, 1 sub, 1 met."	
+09/30/06	2006	o	7	0	0	0	0	0	0	0	210	0	0	1	40	0	Krishna Feldman	17.5	17	"Overcast, Windy"	13:01	14:01	60	No	"Above trail: 3 ads, 5 subs, 12 mets."	
+09/30/06	2006	o	8	0	0	0	0	0	0	0	0	0	0	0	0	0	Krishna Feldman	17.1	10.9	"Clear, Occas/Light Wind"	11:18	11:48	30	No	"2nd yr tads (from 05) had legs, a few had 3-4 limbs and a few were morphing.Only 3 puddles w water.Dried up 2 days later, then recharged some with snow 20 tps remained"	
+09/30/06	2006	o	9	0	0	0	0	0	0	0	4	0	0	5	104	0	Krishna Feldman	20	NA	"Clear, Occas/Light Wind"	10:43	10:45	2	No	lake still close to max boundary; trickling into 33.   St into 7 some H20 but not connected to 7.	
+09/30/06	2006	o	10	0	0	0	0	0	0	0	0	0	0	1	80	0	Krishna Feldman	20	8.1	"Clear, Occas/Light Wind"	10:45	11:00	15	No	"Lake is mostly dry, just a little moisture"	
+09/30/06	2006	o	32	0	0	0	0	0	0	0	0	0	0	0	0	0	Elizabeth Gruenstein	15.1	10.3	"Part.Cloud,Occas/Light Wind"	11:45	11:56	11	No		
+09/30/06	2006	o	33	1	0	0	1	0	0	0	0	0	0	0	0	0	Krishna Feldman	NA	NA		14:02	14:03	1	No	Almost dry - just 1 bucket of water around big rock	
+10/01/06	2006	o	5	13	11	15	24	26	42	57	101	0	0	0	46	0	Krishna Feldman	20	7	"Clear, Occas/Light Wind"	10:56	11:18	22	No		
+10/01/06	2006	o	6	0	0	0	0	0	0	0	0	0	0	4	0	0	Elizabeth Gruenstein	8.1	8.8	"Overcast, Windy"	11:55	12:12	17	No	Stream cut off from lake 1; 7 trickling into 33.  Stream is made up of individual puddles	
+10/01/06	2006	o	11	0	0	0	0	0	0	0	0	0	0	4	0	0	Elizabeth Gruenstein	10.5	6.4	"Overcast, Windy"	12:20	12:32	12	No	25 Tad were little ones from this year.	
+10/02/06	2006	o	3	2	1	0	3	1	0	0	0	0	0	0	0	0	Elizabeth Gruenstein	8.3	NA	"Overcast, Windy"	10:40	10:51	11	No	"Bascially dry, only ~2 buckets of water around a rock."	
+10/02/06	2006	o	4	1	1	0	2	1	0	0	218	0	0	0	0	0	Elizabeth Gruenstein	10.1	14.8	"Overcast,Occas/Light Wind"	14:40	15:10	30	Yes		
+10/02/06	2006	o	12	0	0	0	0	0	0	0	0	0	0	0	0	0	Elizabeth Gruenstein	13.4	15.5	"Part.Cloud,Occas/Light Wind"	15:30	15:50	20	No	A bunch of little baby fish.  No PITs	
+10/02/06	2006	o	30.1	0	0	0	0	0	0	0	0	0	0	1	0	0	Krishna Feldman	8.5	8.7	"Clear,Windy"	17:30	17:45	15	No	Air temp was 8.5 when the sun was covered by clouds.	
+10/02/06	2006	o	30.2	0	0	0	0	0	0	0	1	0	0	1	0	0	Elizabeth Gruenstein	8.6	9.3	"Part.Cloud,Occas/Light Wind"	16:05	16:19	14	No	Considerably less water; drawdown looks to be 63-70 cm	
+10/02/06	2006	o	31	0	0	0	0	0	0	0	0	0	0	0	0	0	Elizabeth Gruenstein	8.6	9.2	"Part.Cloud,Occas/Light Wind"	15:50	16:06	16	No		
+10/03/06	2006	o	1	1	3	0	4	3	0	0	12	0	0	0	0	0	Elizabeth Gruenstein	4.6	12.8	"Overcast,Occas/Light Wind"	16:30	16:40	10	No		
+10/03/06	2006	o	20	63	19	29	82	48	18	47	470	0	0	0	0	0	Elizabeth Gruenstein	14.9	9.8	"Clear, Occas/Light Wind"	10:40	12:40	150	Yes		
+10/03/06	2006	o	21	0	0	0	0	0	0	0	0	0	0	0	10	0	Elizabeth Gruenstein	15.4	11.5	"Clear,Windy"	14:14	15:12	58	No	"Started survey the day before at, did from st 31 to camp -- only 1 subadult found"	
+10/03/06	2006	o	22	6	2	6	8	8	0	6	40	0	0	0	0	0	Elizabeth Gruenstein	6.1	11.7	"Clear,Windy"	17:45	17:55	10	No		
+10/04/06	2006	o	36	0	0	0	0	0	0	0	0	0	0	0	0	0	Elizabeth Gruenstein	12.1	11.9	"Part.Cloud., Windy"	16:37	16:56	19	No		
+10/04/06	2006	o	40	1	0	0	1	0	0	0	0	0	0	0	0	0	Elizabeth Gruenstein	12.3	7.6	"Clear,Windy"	14:45	15:20	75	Yes		
+10/04/06	2006	o	41	2	1	14	3	15	0	14	0	0	0	0	12	0	Elizabeth Gruenstein	13	10.7	"Clear,Windy"	14:05	14:40	35	No	Just a bunch of fish.	
+08/23/07	2007	f	2	0	0	0	0	0	0	0	0	0	0	0	0	0	Elizabeth Gruenstein	12.1	10.5	"Clear,Windy"	13:20	14:00	40	No		
+08/23/07	2007	f	4	22	44	80	66	124	130	210	425	0	0	0	30	0	Kathleen Matthews	28	NA	"Clear, Calm"	15:00	15:01	1	No	"Some mets, sub, ads in pool above trail."	
+08/23/07	2007	f	5	16	50	100	66	150	215	315	295	0	0	0	0	0	Kathleen Matthews	28	20	"Clear, Calm"	15:30	15:55	25	No		
+08/24/07	2007	f	1	29	8	0	37	8	0	0	73	0	0	0	49	0	Kathleen Matthews	24	NA	"Clear, Calm"	15:10	15:25	15	No	"fairy shrimp, lake at 50%"	
+08/24/07	2007	f	20	101	69	74	170	143	54	128	247	0	0	0	0	0	Kathleen Matthews	25	NA	"Clear, Calm"	14:15	15:45	90	Yes	50% lake level	
+08/24/07	2007	f	21	0	0	0	0	0	0	0	0	0	0	0	0	0	Kathleen Matthews	28	22	"Clear, Calm"	9:40	10:00	20	No		
+08/24/07	2007	f	22	36	44	83	80	127	45	128	35	0	0	1	0	0	Kathleen Matthews	25	20	"Clear, Calm"	10:00	10:00	1	No	"large frogs, lake level 75%"	
+08/25/07	2007	f	3	7	2	0	9	2	0	0	0	0	0	0	0	0	Kathleen Matthews	28	22	"Clear, Calm"	12:10	12:30	20	No	lake dried and empty	
+06/23/08	2008	b	2	21	2	0	23	2	0	0	0	5	18	0	0	4	Kathleen Matthews	27	24	"Clear, Calm"	14:30	14:55	25	No	hot waether	
+06/23/08	2008	b	4	0	0	0	0	0	0	0	0	0	0	0	0	0	"KK, KM, AS"	13.7	9.4	"sunny, clear"	9:40	10:45	65	No	"lake warm and lots of algae, looked trampled and mucky from mules"	
+06/23/08	2008	b	5	8	8	0	16	8	2	2	5	0	6	0	0	0	everyone	15.1	17.3	"sunny, clear"	2:35	2:45	10	No	"3 amplexing pair RAMU, lots of HYLA, snow around 1/4 of lake"	
+06/23/08	2008	b	6	1	0	0	1	0	0	0	0	0	4	0	0	0	everyone	16.6	20.9	"sunny, clear"	11:05	11:20	15	No	0	
+06/23/08	2008	b	7	7	3	12	10	15	2	14	12	0	2	0	0	0	everyone	18.1	14.5	"sunny, clear"	2:05	3:00	5	No	"water temp 5.2 near ice, 20.9 near shore where most RAMU obs. 70% of lake frozen"	
+06/23/08	2008	b	8	1	0	0	1	0	0	0	0	0	0	0	0	0	everyone	18.3	10.4	"sunny, clear"	1:35	2:00	25	No	"half snow covered, two amplexing HYLA"	
+06/23/08	2008	b	9	11	0	0	11	0	0	0	0	1	1	0	0	0	everyone	16.3	20.2	"Clear, Occas/Light Wind"	13:10	13:15	5	No	"approx 35 dead tadpoles form last year, live tadpoles mostly on E edge of lake"	
+06/23/08	2008	b	10	0	1	0	1	1	0	0	0	0	5	0	0	0	everyone	15.8	15.5	"Clear, Occas/Light Wind"	13:20	13:25	5	No		
+06/23/08	2008	b	33	3	0	0	3	0	0	0	0	0	0	0	0	0	everyone	14.7	17.9	"Clear, Occas/Light Wind"	14:00	14:05	5	No		
+06/24/08	2008	b	3	1	0	0	1	0	0	0	0	0	0	0	0	0	everyone	15.8	10.2	"Clear, Occas/Light Wind"	13:25	13:35	10	Yes	1 pair amplexing HYLA in temporary part of Lake 10	
+06/24/08	2008	b	4	1	0	0	1	0	0	0	0	0	1	0	0	0	AS	18.6	18.2	"clear, breeze"	2:25	2:40	15	Yes	lots of fish present (more than 10 seen); 1 unknown frog spotted	
+06/24/08	2008	b	20	2	0	2	2	2	296	298	626	6	0	0	0	0	"AS, KM"	15	18.7	"Clear, Occas/Light Wind"	3:20	3:40	20	No	0	
+06/24/08	2008	b	21	0	0	0	0	0	0	0	0	0	0	0	0	0	"KK, AS"	25.3	18.1	"Clear, Calm"	1:10	1:45	35	No	"snow around appox. 10% of perimeter, lots of fairy shrimp"	
+06/24/08	2008	b	22	3	5	2	8	7	114	116	42	0	0	0	0	0	"KM, KK, AS"	NA	NA	clear	13:45	13:55	10	No	"possibly hundreds of tadpoles on lake bottom, cannot see to count, PIT surveyed 6 frogs here today"	
+06/25/08	2008	b	1	20	14	3	34	17	0	3	4	0	4	0	0	0	"KM, KK, AS"	23.4	19.3	clear	12:40	12:55	15	No	10% snow on lake	
+06/25/08	2008	b	2	37	0	0	37	0	0	0	0	2	17	0	0	11	"AS, KK"	19.4	11.4	"Clear, Calm"	9:25	11:26	121	Yes	pit surveyed 6 frogs here today	
+06/25/08	2008	b	11	0	0	0	0	0	0	0	0	0	0	0	0	0	"AS, KK"	15	16.2	"clear, breezy"	13:05	13:50	45	No	add 5 unknown; one dead RAMU obs; lots of fish cruzing the shallows	
+06/25/08	2008	b	30.1	4	0	0	4	0	0	0	0	0	0	0	0	0	"AS, KK"	18.6	13.2	"clear, breezy"	13:00	13:03	3	No	plus one unknown egg mass	
+06/25/08	2008	b	30.2	1	0	0	1	0	0	0	0	0	0	0	0	0	kyung koh and annie shattuck	19.3	9.9	"Clear, Occas/Light Wind"	12:35	12:45	10	No	60% snow covered	
+06/25/08	2008	b	31	0	0	0	0	0	0	0	0	0	0	0	0	0	Kyung Koh	19.3	9.9	"Clear, Occas/Light Wind"	12:45	12:50	5	Yes		
+06/25/08	2008	b	32	0	0	0	0	0	0	0	0	0	0	0	0	0	Kyung Koh	15.8	13.6	"Clear, Occas/Light Wind"	10:50	11:00	10	Yes		
+07/03/08	2008	b	2	21	5	0	26	5	0	0	0	0	0	0	0	0	KK	18.6	14.4	"Clear, Calm"	12:55	13:00	5	No		
+07/03/08	2008	b	3	1	0	0	1	0	0	0	0	0	0	0	0	0	Kyung Koh	20	20.2	"Clear, Occas/Light Wind"	11:35	12:20	45	No		
+07/03/08	2008	b	4	0	0	0	0	0	0	0	0	0	0	0	0	0	Kyung Koh	17.7	16.2	"Clear, Occas/Light Wind"	11:10	11:20	10	Yes	"1 unknown tadpole; 4 unknown egg masses (small tadpole size, possibly HYLA)"	
+07/03/08	2008	b	5	2	0	0	2	0	37	37	0	0	0	0	0	0	KK	18.5	17.9	clear	10:50	11:05	15	No		
+07/03/08	2008	b	6	2	0	0	2	0	0	0	0	1	0	0	0	0	Kyung Koh	18	13.1	"Clear, Occas/Light Wind"	9:35	10:05	30	No		
+07/03/08	2008	b	7	5	1	0	6	1	95	95	0	7	3	0	0	0	Kyung Koh	18.6	16.3	"Clear, Occas/Light Wind"	10:10	10:25	15	No	about 20 dead tadpoles; about 40 dead frogs (3/4 are RAMU); ice on about 10% of lake; and a coyote sighting	
+07/03/08	2008	b	8	4	3	0	7	3	0	0	0	0	1	0	0	0	Kyung Koh	20.7	15.9	"Clear, Occas/Light Wind"	13:35	13:50	25	No	1 dead RAMU	
+07/03/08	2008	b	9	1	2	0	3	2	0	0	0	0	1	0	0	0	Kyung Koh	17.7	25.3	"Clear, Occas/Light Wind"	13:15	13:25	10	No	2 unknown frogs	
+07/03/08	2008	b	10	4	2	0	6	2	0	0	0	0	0	0	0	0	Kyung Koh	21.1	28.4	"Clear, Occas/Light Wind"	13:10	13:15	5	No	lots of insect larvae	
+07/03/08	2008	b	11	2	2	0	4	2	0	0	0	0	0	0	0	0	Kyung Koh	19.8	25.2	"Clear, Occas/Light Wind"	13:50	14:00	10	No	lots of insect larvae	
+07/03/08	2008	b	30.1	1	0	0	1	0	0	0	0	0	0	0	0	0	Kyung Koh	19	18.8	"Clear, Occas/Light Wind"	11:30	11:35	5	No		
+07/03/08	2008	b	30.2	3	0	0	3	0	0	0	0	0	0	0	0	0	Kyung Koh	18.8	9	"Clear, Calm"	10:35	10:45	10	Yes		
+07/03/08	2008	b	33	1	1	0	2	1	0	0	0	0	0	0	0	0	Kyung Koh	20.7	8.7	"Clear, Calm"	10:25	10:35	10	Yes		
+07/04/08	2008	b	20	2	3	19	5	22	103	122	70	12	0	0	1	0	Kyung Koh	20.1	16.2	"Clear, Calm"	13:25	13:30	5	Yes		
+07/04/08	2008	b	21	4	0	0	4	0	0	0	0	0	0	0	0	0	"kk, as"	15.5	17.3	"overcast, chilly"	10:45	11:10	25	No		
+07/04/08	2008	b	22	7	8	1	15	9	10	11	0	0	0	0	219	0	"KK, AS"	17.7	18.3	high clouds	11:25	11:35	10	No	"all egg masses in stream just above lake 20, tadpoles in masses, soon to hatch"	
+07/05/08	2008	b	1	38	13	7	51	20	0	7	19	8	0	0	0	0	"kk, as"	14.5	17.3	"overcast, chilly"	10:00	10:35	35	No		
+07/05/08	2008	b	31	4	3	1	7	4	0	1	0	0	0	0	0	0	"KK, AS"	13.4	15.9	"Clear, Calm"	9:50	11:45	115	Yes	"many many more tadpoles obs. Later in afternoon during PIT survey, re-count later in the week"	
+07/05/08	2008	b	32	2	0	0	2	0	0	0	0	0	0	0	0	0	"KK, AS"	16	15.9	"Clear, Calm"	10:50	11:05	15	Yes	"one dead RAMU adult; egg masses all tadpole sized, ready to hatch, in grid S; little pond now isolated from 1, formerly part of shallows had 5 adults, 5 subs, and 2 recent mets incl. In lake 1 count"	
+07/08/08	2008	b	2	19	6	1	25	7	0	1	886	2	0	0	3334	0	"KK, AS"	17.2	12.1	"Clear, Calm"	10:30	10:35	5	No		
+07/08/08	2008	b	3	1	1	0	2	1	0	0	0	0	0	0	0	0	"KK, AS"	22.3	16.6	"breezy, partly cloudy"	10:50	12:16	86	No	one adult in count was actually in a stream parallel to stream 32 that used to connect to lake 2	
+07/08/08	2008	b	4	3	2	0	5	2	0	0	0	0	0	0	0	0	"KK, AS"	18.6	18.8	cloudy	14:45	14:50	5	Yes	"newly emerged tadpoles<5 days old, likely 3 days oldish, cannot ID estimated 4220 new tadpoles; lots of fairy shrimp"	
+07/08/08	2008	b	5	5	3	1	8	4	25	26	22	14	0	0	0	0	"KK, AS"	19.4	19.6	cloudy	14:33	14:40	7	No		
+07/08/08	2008	b	6	7	2	0	9	2	0	0	0	0	0	0	0	0	"KK, AS"	19.2	19.8	"Clear, Calm"	10:13	10:38	25	No		
+07/08/08	2008	b	7	4	2	28	6	30	63	91	150	3	0	0	0	0	"KK, AS"	17.4	20.8	cloudy	15:00	15:05	5	No	approx. 20 dead RAMU carcasses in lake; 4 dead tadpole bodies; adults were a little sluggish	
+07/08/08	2008	b	8	4	0	3	4	3	0	3	0	0	0	0	0	0	"AS, KK"	21.8	17.9	partly cloudy	13:31	13:56	25	Yes		
+07/08/08	2008	b	9	5	5	7	10	12	0	7	6	0	0	0	44	0	"KK, AS"	22.3	32.6	partly cloudy	13:10	13:15	5	No	one egg mass broken apart and nearly hatched; all tadpoles are holdovers from last year; legs are beginning to emerge on some tadpoles; one trout observed in south (back) end of lake	
+07/08/08	2008	b	10	5	2	3	7	5	0	3	0	0	0	0	238	0	"AS, KK"	22.3	27.5	partly cloudy	13:17	13:24	7	No		
+07/08/08	2008	b	11	2	1	0	3	1	0	0	0	0	0	0	0	0	"KK, AS"	18.3	27.7	cloudy	13:58	14:05	8	No	"one empty egg mass, 50 very small tadpoles, cannot ID; lots of fairy shrimp"	
+07/08/08	2008	b	30.1	4	1	0	5	1	0	0	0	0	0	0	0	0	"KK, AS"	17.4	19.5	cloudy	15:06	15:10	4	No	"208 brand new tadpoles present, cannot ID"	
+07/08/08	2008	b	30.2	2	2	0	4	2	0	0	0	0	0	0	0	0	"AS, KK"	16.9	16.7	cloudy	15:15	15:20	5	No	drying up fast	
+07/08/08	2008	b	33	2	0	2	2	2	0	2	2	0	0	0	0	0	"AS, KK"	16.9	16.7	cloudy	15:20	15:25	5	Yes		
+07/09/08	2008	b	20	1	1	0	2	1	183	183	699	8	0	0	0	0	"AS, KK"	21.8	16.9	6	13:25	13:31	6	No		
+07/09/08	2008	b	21	5	1	0	6	1	0	0	0	0	0	0	129	0	"as, kk"	21.5	19.3	"clear, calm, buggy"	11:38	12:14	36	No		
+07/09/08	2008	b	22	2	6	22	8	28	16	38	0	0	0	0	427	0	"AS, KK"	22.1	16.2	"Clear, Calm"	12:32	12:38	6	No	all egg masses in various stages of hatching - stream drying up rapidly; 204 hatched tadpoles in stream near their egg masses; remaining 495 tadpoles appear to be from the previous season	
+07/18/08	2008	f	1	31	5	15	36	20	5	20	57	0	0	0	0	0	"AS, KK"	23.2	18.2	"Clear, Calm"	10:42	11:27	45	No	"129 unidentifyable tadpoles all approx. .5cm in body length blackish, newly emerged"	
+07/21/08	2008	f	2	29	6	2	35	8	0	2	904	0	0	0	3403	0	"annie Shattuck, Kyung Koh"	17.3	15.5	"Clear, Calm"	9:40	11:26	106	Yes	"432 new tadpoles since last survey on 7-4; tadpoles were whitish below with a coppery opalescent sheen, eyes on top vs lateral not apparent, 1cm in size, cannot positively ID"	
+07/21/08	2008	f	3	0	0	1	0	1	0	1	0	0	0	0	0	0	"KK, AS"	17.6	25.3	"Part. Cloudy, Calm"	14:15	14:52	37	No	"RAMU larvae: 41 overwinter, 16 new tadpoles; found 3 hatched egg masses in grid T"	
+07/21/08	2008	f	4	4	3	2	7	5	0	2	0	0	0	0	0	0	"KK, AS"	17.3	17.7	"Clear, Calm"	10:58	11:08	10	Yes	4307 unidentifiable tadpoles; lots of fairy shrimp and caddis flies	
+07/21/08	2008	f	5	1	1	1	2	2	29	30	35	0	0	0	112	0	"KK, AS"	14	17.3	"Clear, Calm"	9:45	10:03	18	No		
+07/21/08	2008	f	6	6	1	0	7	1	0	0	0	0	0	0	1061	0	"KK, AS"	19.2	27	partly cloudy	14:00	14:11	11	No	3 unidentifiable tadpoles	
+07/21/08	2008	f	7	10	0	20	10	20	98	118	94	0	0	0	0	0	"KK, AS"	16.3	22	partly cloudy	11:17	11:26	19	No	"one dead recent metamorph, one dead big tadpole; 140 of the tadpoles are new, 7 from last year"	
+07/21/08	2008	f	8	0	0	0	0	0	0	0	0	0	0	0	12	0	"KK, AS"	20.9	17.9	partly cloudy	13:02	13:26	24	No	"1061 tadpoles, cannot positively ID; lake grassing in, drying fast"	
+07/21/08	2008	f	9	7	7	2	14	9	0	2	42	0	0	0	337	0	"AS, KK"	13.4	28.4	partly cloudy	12:34	12:35	1	No	"one new tadpole, 93 overwinter-ers"	
+07/21/08	2008	f	10	6	0	4	6	4	0	4	0	0	0	0	403	0	"KK, AS"	15.6	26.5	partly cloudy	12:42	12:56	14	No	"12 tadpoles - we moved to lake nine, lake depth less than 2cm, tentative ID = PSRE"	
+07/21/08	2008	f	11	1	1	0	2	1	0	0	0	0	0	0	0	0	"KK, AS"	17.6	26.5	"Part. Cloudy, Calm"	13:34	13:42	8	No	"389 total tadpoles, no more than 20% RAMU est.?; lots of fairy shrimp"	
+07/21/08	2008	f	30.1	4	1	0	5	1	0	0	0	0	0	0	0	0	"KK, AS"	18.8	11.3	"Clear, Calm"	11:35	11:36	1	No	"403 new tadpoles, 53 of them in adjacent pond, cannot positively ID"	
+07/21/08	2008	f	30.2	3	0	1	3	1	0	1	0	0	0	0	0	0	"KK, AS"	16.3	13.2	"Clear, Calm"	11:27	11:31	4	No	pool of water 8ft by 1ft by 1ft deep	
+07/21/08	2008	f	31	7	2	1	9	3	0	1	0	0	0	0	0	0	"KK, AS"	16.3	13.2	"Clear, Calm"	11:12	11:17	5	Yes		
+07/21/08	2008	f	33	2	1	2	3	3	0	2	17	0	0	0	0	0	"KK, AS"	18.5	16.8	"Clear, Calm"	10:20	10:40	20	No		
+07/22/08	2008	f	20	2	1	10	3	11	343	353	388	0	0	0	0	0	"KK, AS"	17.8	16.1	partly cloudy	12:56	13:02	6	No		
+07/22/08	2008	f	21	4	3	2	7	5	0	2	0	0	0	0	285	0	"KK, AS"	16.6	20.5	"clear, windy"	12:37	13:02	29	No	"tadpoles all from last season, from lake 7?"	
+07/22/08	2008	f	22	7	1	23	8	24	16	39	0	0	0	0	613	0	"KK, AS"	21.1	19.9	"clear, breezy"	13:35	14:00	25	No	We moved approx. 400 RAMU tadpoles from the stream in which all egg masses were observed on 7-19; only approx. 100 tadpoles without legs in the count are the new recruits me moved	
+07/31/08	2008	f	7	5	4	8	9	12	19	27	17	0	0	0	0	0	"AS, KK"	16.2	19.7	"clear, breezy"	11:16	11:35	19	No	285 unidentifiable tadpoles	
+07/31/08	2008	f	8	0	0	0	0	0	0	0	0	0	0	0	0	0	"KK, AS"	22.2	22.8	clear	15:42	16:00	18	No	613 unidentifiable tadpoles	
+07/31/08	2008	f	9	3	7	2	10	9	0	2	37	0	0	0	258	0	"KK, AS"	NA	NA	clear	14:36	14:37	1	No	"all the usual tadpole hotspots are empty, racoon? Tracks near formerly populated tadpole haven, one tadpole observed with trailing intestines"	
+07/31/08	2008	f	10	3	0	3	3	3	0	3	0	0	0	0	240	0	"KK, AS"	20.3	28.2	clear	14:37	14:48	11	No	DRY	
+07/31/08	2008	f	33	3	5	10	8	15	8	18	9	0	0	0	0	0	"KK, AS"	20.7	21.4	clear	16:02	16:21	19	No		
+08/01/08	2008	f	3	0	0	0	0	0	0	0	0	0	0	0	0	0	"KK, AS"	19.4	19.9	"clear, breezy"	15:03	15:17	14	No	nearly dry 80%	
+08/01/08	2008	f	4	5	2	0	7	2	1	1	158	0	0	0	104	0	"KK, AS"	19.2	23.5	"Clear, Calm"	14:35	14:44	11	Yes		
+08/01/08	2008	f	5	1	1	5	2	6	17	22	131	0	0	0	423	0	"KK, AS"	19	23.7	"Clear, Calm"	13:35	13:46	11	No		
+08/01/08	2008	f	6	2	1	0	3	1	0	0	1	0	0	0	385	0	"KK, AS"	18.9	24	"Clear, Calm"	15:40	15:56	16	No		
+08/01/08	2008	f	30.1	3	1	0	4	1	0	0	0	0	0	0	0	0	"KK, AS"	21.1	26	"Clear, Calm"	14:57	15:10	13	No		
+08/01/08	2008	f	30.2	1	1	0	2	1	0	0	0	0	0	0	1	0	"KK, AS"	20.6	19.7	"Clear, Calm"	13:14	13:25	9	No	80% DRY	
+08/01/08	2008	f	31	11	5	0	16	5	0	0	0	0	0	0	0	0	"KK, AS"	19.4	20.1	"Clear, Calm"	14:48	14:55	7	Yes	water level 30-50% lower than last week	
+08/02/08	2008	f	2	27	10	0	37	10	0	0	1236	0	0	0	4636	0	"KK, AS"	18.6	23.1	"Clear, Calm"	13:57	14:13	16	Yes		
+08/02/08	2008	f	11	0	0	0	0	0	0	0	0	0	0	0	0	0	"KK, AS"	17	21.5	clear	13:38	14:20	42	No	I relocated one trout to lake one.	
+08/02/08	2008	f	20	7	0	74	7	74	731	805	223	0	0	0	108	0	"KK, AS"	NA	NA		13:37	13:38	1	No		
+08/02/08	2008	f	21	6	3	0	9	3	0	0	0	0	0	0	256	0	"KK, As"	20.1	18.9	"Clear, Calm"	11:07	11:53	46	No	DRY	
+08/02/08	2008	f	22	5	5	29	10	34	4	33	0	0	0	0	713	0	"KK, AS"	21.2	20.6	"clear, breezy"	12:43	12:58	15	No		
+08/02/08	2008	f	32	0	0	0	0	0	0	0	0	0	0	0	0	0	"KK, AS"	17.9	18.7	clear	10:29	10:40	11	No		
+08/04/08	2008	f	1	36	15	10	51	25	54	64	72	0	0	0	0	0	"KK, AS"	NA	NA		13:35	13:36	1	No		
+08/18/08	2008	f	7	8	14	26	22	40	15	41	23	0	0	0	0	0	"KK, AS"	14.4	17.6	"clear, breezy"	13:00	15:20	140	Yes	DRY	
+08/18/08	2008	f	8	0	0	0	0	0	0	0	0	0	0	10	0	0	Kyung Koh	13.7	20.4	"Clear, Calm"	16:22	16:46	24	No	12 of the no-leg tads are this year's cohort	
+08/18/08	2008	f	9	5	9	3	14	12	0	3	25	0	0	53	0	0	Kyung Koh	14.7	NA	"Clear, Calm"	14:30	14:33	3	No		
+08/18/08	2008	f	10	0	0	0	0	0	0	0	0	0	0	3	0	0	Kyung Koh	13.7	24	"Clear, Calm"	14:39	14:58	19	No		
+08/18/08	2008	f	33	8	17	23	25	40	6	29	13	0	0	7	0	0	Kyung Koh	14.4	NA	"Clear, Calm"	17:04	17:07	3	No	almost dry (10% wet)	
+08/19/08	2008	f	2	35	7	0	42	7		0	2200	0	0	250	1000	0	Kyung Koh	14.8	11.2	"Clear, Calm"	14:21	14:57	36	No	lake dry	
+08/19/08	2008	f	5	6	4	14	10	18	83	97	811	0	0	7	38	0	Kyung Koh	14.5	20.3	"Clear, Calm"	13:50	14:26	36	No	both pockets of water and dry areas	
+08/19/08	2008	f	6	0	0	0	0	0	0	0	2	0	0	0	0	0	Kyung Koh	14.6	17.7	"Clear, Calm"	16:21	16:34	13	No	only 40-50% wet; sunken frog leg near shore (RAMU); counted 10% pond then estimated based on equal density throughout pond for tadpoles	
+08/19/08	2008	f	11	0	0	0	0	0	0	0	0	0	0	0	0	0	Kyung Koh	14.7	NA	"Clear, Calm"	15:21	15:26	5	No	dead frog/PSRE	
+08/19/08	2008	f	20	10	15	134	25	149	438	572	178	0	0	0	24	0	Kyung Koh	14.5	NA	"Clear, Calm"	13:50	13:53	3	No	less than 1% water; dead tadpoles	
+08/19/08	2008	f	21	4	1	0	5	1	0	0	0	0	0	0	94	0	Kyung Koh	14.8	16.1	"Clear, Calm"	11:06	11:42	66	No		
+08/19/08	2008	f	22	14	21	3	35	24	155	158	34	0	0	16	50	0	Kyung Koh	16.4	16.3	"Clear, Calm"	13:02	13:30	28	No	snake skin found; extra large 2nd year tadpoles tend to congregate in deeper part of lake; caught snake 8 up. Labials on each side--ventral	
+08/19/08	2008	f	30.1	4	0	0	4	0	0	0	0	0	0	0	0	0	Kyung Koh	13.7	14	"Clear, Calm"	9:28	10:15	47	No	adult RAMU eating tadpole (maybe RAMU tadpole)	
+08/19/08	2008	f	30.2	4	2	1	6	3	2	3	0	0	0	0	0	0	Kyung Koh	15.4	17.3	"Clear, Calm"	15:51	16:01	10	Yes	snake skin found; data logger #794549 found	
+08/20/08	2008	f	1	61	23	26	84	49	48	74	61	0	0	1	0	0	Kyung Koh	16.2	17.4	"Clear, Calm"	15:30	15:41	11	Yes		
+08/20/08	2008	f	3	13	0	0	13	0	0	0	0	0	0	0	0	0	Kyung Koh	13.8	15.7	"Clear, Calm"	8:41	16:49	427	Yes		
+08/20/08	2008	f	4	9	3	0	12	3	35	35	170	0	0	0	35	0	Kyung Koh	16.3	21.5	"Clear, Calm"	14:24	14:48	24	Yes	"detoured in middle to survey lake 3 (lake 1 start 0841-1419, then 1520-1649)"	
+08/20/08	2008	f	31	0	1	0	1	1	0	0	0	0	0	0	0	0	Kyung Koh	17.6	23.6	"Clear, Calm"	17:07	17:41	34	No		
+08/20/08	2008	f	32	0	0	0	0	0	0	0	0	0	0	0	0	0	Kyung Koh	17.4	24.4	"Clear, Calm"	14:19	14:24	5	No	fairy shrimp	
+08/28/08	2008	f	7	10	18	41	28	59	6	47	4	0	0	0	0	0	Kyung Koh	17.8	NA	"Clear, Calm"	15:57	15:58	1	No	"stream dry, except for a pool near lake 3, and at mouth in lake 1)"	
+08/28/08	2008	f	8	0	0	0	0	0	0	0	0	0	0	3	0	0	"CS, AS, KK"	18.5	21.5	partly cloudy	16:53	17:36	43	No		
+08/28/08	2008	f	9	0	0	0	0	0	0	0	0	0	0	2	0	0	"KK, AS, CS"	17.2	NA	partly cloudy	16:33	16:34	1	No		
+08/28/08	2008	f	10	0	0	0	0	0	0	0	0	0	0	1	0	0	"KK, AS, CS"	17.2	19.6	partly cloudy	16:35	16:36	1	No		
+08/28/08	2008	f	11	0	0	0	0	0	0	0	0	0	0	95	0	0	"KK, AS, CS"	17.3	NA	partly cloudy	16:51	16:53	2	No	DRY	
+08/28/08	2008	f	33	2	13	5	15	18	0	5	4	0	0	1	0	0	"KK, AS, CS"	21	NA	partly cloudy	15:30	15:31	2	No	DRY	
+08/29/08	2008	f	2	20	3	0	23	3	0	0	2350	0	0	220	600	0	"KK, AS, CS"	17.2	19.2	partly cloudy	16:34	16:43	9	No	DRY	
+08/29/08	2008	f	3	6	0	0	6	0	0	0	0	0	0	0	0	0	"KK, AS, CS"	20.8	28.7	high clouds	16:00	16:21	21	No	90% DRY	
+08/29/08	2008	f	4	17	2	0	19	2	0	0	420	0	0	44	0	0	"KK, CS, AS"	19.7	21.3	partly cloudy	12:58	13:15	18	Yes	"nearly dry, puddle <15% of lake area"	
+08/29/08	2008	f	5	11	11	5	22	16	6	11	856	0	0	42	0	0	"CS, AS, KK"	19.7	16.9	partly cloudy	13:36	14:00	24	No	lots of baby trout	
+08/29/08	2008	f	6	0	0	0	0	0	0	0	0	0	0	26	0	0	"CS, AS, KK"	19.5	18.8	partly cloudy	14:30	14:48	18	No	fairy shrimp	
+08/29/08	2008	f	20	10	63	152	73	215	459	611	159	0	0	3	0	0	"KK, AS, CS"	20.7	NA	partly cloudy	14:25	14:26	1	No	"Lake shallows are all dry, 5 feet deep at deepest point"	
+08/29/08	2008	f	21	5	1	0	6	1	0	0	0	0	0	5	6	0	"KK, AS, CS"	20	16.7	partly cloudy	10:55	11:44	49	No	DRY	
+08/29/08	2008	f	22	13	39	3	52	42	8	11	7	0	0	7	16	0	"KK, AS, CS"	19.9	19.2	partly cloudy	12:32	12:42	10	No		
+08/29/08	2008	f	30.1	0	0	1	0	1	0	1	0	0	0	39	0	0	"KK, AS, CS"	18	16.3	partly cloudy	9:42	10:15	33	No		
+08/29/08	2008	f	30.2	2	0	0	2	0	0	0	0	0	0	12	0	0	"KK, AS, CS"	19.7	20.1	Partly cloudy	15:14	15:19	5	No		
+08/29/08	2008	f	31	0	0	0	0	0	0	0	0	0	0	0	0	0	"KK, AS, CS"	22.6	22.9	partly cloudy	15:19	15:24	5	No	90% DRY	
+08/30/08	2008	f	1	58	25	35	83	60	13	48	77	0	0	166	0	0	"KK, AS, CS"	20.9	NA	partly cloudy	13:31	13:32	1	No	90% DRY	
+08/30/08	2008	f	32	0	0	0	0	0	0	0	0	0	0	0	0	0	"AS, CS, KK"	14.7	14.5	partly cloudy	10:26	16:08	342	Yes	DRY	
+09/11/08	2008	o	7	1	7	16	8	23	3	19	12	0	0	0	0	0	KK	14.7	NA	partly cloudy	13:13	13:14	1	No		
+09/11/08	2008	o	8	0	0	0	0	0	0	0	0	0	0	2	0	0	"AS, CS"	15.7	18.6	"Clear, Calm"	16:35	16:46	11	No	DRY	
+09/11/08	2008	o	9	0	0	0	0	0	0	0	0	0	0	2	0	0	"CS, AS"	13.9	NA	"Clear, Calm"	16:15	16:17	2	No		
+09/11/08	2008	o	10	0	0	0	0	0	0	0	0	0	0	0	0	0	"CS, AS"	13.8	NA	"Clear, Calm"	16:19	16:20	1	No	DRY	
+09/11/08	2008	o	33	1	4	3	5	7	0	3	1	0	0	1	0	0	"CS, AS"	13.7	NA	"Clear, Calm"	16:54	16:55	1	No	DRY	
+09/12/08	2008	o	1	46	14	34	60	48	7	41	68	0	0	47	0	0	"AS, CS"	14.1	13.6	"Clear, Calm"	16:21	16:30	9	No	DRY	
+09/12/08	2008	o	31	0	0	0	0	0	0	0	0	0	0	0	0	0	"CS, AS"	16.9	12.9	"Clear, Calm"	10:07	16:54	407	Yes	"95% dry, max depth 4in"	
+09/12/08	2008	o	32	0	0	0	0	0	0	0	0	0	0	0	0	0	Carrie Sendak	16.4	NA	"Clear, Calm"	13:14	13:19	5	No	shady corner/edge ices over 2-3mm thick at 11am; very large garter snake; weather turned smoky in afternoon	
+09/13/08	2008	o	2	0	0	0	0	0	0	0	0	0	0	204	0	0	Annie Shattuck	16.4	NA	"Clear, Calm"	13:10	13:11	1	No	DRY	
+09/13/08	2008	o	3	2	0	0	2	0	0	0	0	0	0	0	0	0	"AS, CS"	18	NA	"sunny, smoky"	16:07	16:19	12	No	DRY	
+09/13/08	2008	o	4	12	1	0	13	1	55	55	265	0	0	29	0	0	"AS, CS"	15.1	18.3	"Clear, Calm"	13:35	13:44	9	Yes	Pockets of dessicated tadpoles present; one massive garter snake w/PIT tag number 411B1F5343	
+09/13/08	2008	o	5	13	4	9	17	13	80	89	530	0	0	4	0	0	"Annie Shattuck, Carrie Sendak"	15.3	15.5	"Clear, Calm"	13:58	14:15	17	No		
+09/13/08	2008	o	6	0	0	0	0	0	0	0	0	0	0	17	0	0	"AS, CS"	17.1	14.8	"Clear, Calm"	15:00	15:28	28	No		
+09/13/08	2008	o	11	0	0	0	0	0	0	0	0	0	0	0	0	0	"AS, CS"	16.4	NA	"Clear, Calm"	14:47	14:51	3	No		
+09/13/08	2008	o	20	16	9	203	25	212	263	466	248	0	0	2	0	0	"AS, CS"	16	NA	"Clear, Calm"	16:23	16:24	1	No	DRY	
+09/13/08	2008	o	21	0	0	0	0	0	0	0	0	0	0	0	0	0	"AS, CS"	17.2	12.3	"Clear, Calm"	11:03	11:40	37	No	DRY	
+09/13/08	2008	o	22	15	29	2	44	31	0	2	0	0	0	0	0	0	"AS, CS"	16.5	NA	"Clear, Calm"	12:25	12:34	11	No		
+09/13/08	2008	o	30.1	0	0	0	0	0	0	0	0	0	0	0	0	0	"AS, CS"	15.1	12	"Clear, Calm"	9:48	10:30	42	No	"snakes intertwined in last part of lake to go dry, possibly mating, fat; LAKE IS DRY"	
+09/13/08	2008	o	30.2	0	0	0	0	0	0	0	0	0	0	1	0	0	"AS, CS"	16.4	NA	"Clear, Calm"	14:52	14:58	3	No		
+09/27/08	2008	o	3	1	0	0	1	0	0	0	0	0	0	0	0	0	"AS, CS"	16.4	NA	"Clear, Calm"	14:55	14:58	3	No	Dry	
+09/27/08	2008	o	4	0	0	0	0	0	0	0	1	0	0	8	0	0	"Annie Shattuck, Carrie Sendak"	NA	NA	"Clear, Calm"	14:40	14:47	7	Yes	DRY	
+09/27/08	2008	o	5	12	11	8	23	19	17	25	350	0	0	2	0	0	"Annie Shattuck, Carrie Sendak"	NA	NA	"Clear, Calm"	14:30	14:37	7	No		
+09/27/08	2008	o	7	0	2	16	2	18	0	16	9	0	0	0	0	0	"Annie Shattuck, Carrie Sendak"	NA	NA	"Clear, Calm"	14:10	14:23	13	No		
+09/27/08	2008	o	20	11	5	161	16	166	280	441	222	0	0	1	0	0	"Annie Shattuck, Carrie Sendak"	NA	NA	"Clear, Calm"	13:52	13:58	6	No		
+09/27/08	2008	o	22	13	11	22	24	33	0	22	25	0	0	2	0	0	"Annie Shattuck, Carrie Sendak"	NA	NA	"Clear, Calm"	15:00	15:22	22	No		
+09/27/08	2008	o	33	0	0	0	0	0	1	1	6	0	0	0	0	0	"Annie Shattuck, Carrie Sendak"	NA	NA	"Clear, Calm"	16:02	16:16	14	No	water is extremely muddy	
+09/28/08	2008	o	1	12	0	6	12	6	1	7	51	0	0	15	0	0	"Annie Shattuck, Carrie Sendak"	NA	NA	"Clear, Calm"	13:59	14:03	4	No		
+06/26/09	2009	b	2	5	0	0	5	0	0	0	0	0	19	0	0	122	Michael Davis	16.2	16	"Part. Cloudy, Calm"	16:31	17:20	49	No	"GRID U 90% dry (two small puddles);  GRID T is isolated from the lake, has fish P, ~.75m deep"	
+06/26/09	2009	b	3	0	0	0	0	0	0	0	0	0	0	0	0	0	Michael Davis	13.7	12.7	"Part. Cloudy, Calm"	13:30	13:42	12	Yes		
+06/26/09	2009	b	4	0	0	0	0	0	9	9	36	0	1	0	0	0	Michael Davis	12.9	14.8	"Part. Cloudy, Calm"	14:06	14:19	13	No		
+06/26/09	2009	b	5	1	2	0	3	2	4	4	28	0	1	0	0	0	Michael Davis	11.8	14.7	"Part. Cloudy, Calm"	14:43	14:53	10	No		
+06/26/09	2009	b	6	2	0	0	2	0	0	0	0	0	3	0	0	0	Michael Davis	13.4	13.3	"Part. Cloudy, Calm"	14:27	14:36	9	No		
+06/26/09	2009	b	7	1	1	0	2	1	0	0	0	0	0	0	0	0	Michael Davis	14.5	9.6	"Part. Cloudy, Calm"	15:52	16:02	10	No		
+06/26/09	2009	b	8	0	0	0	0	0	0	0	0	0	0	0	0	0	Michael Davis	15.4	15.8	"Part. Cloudy, Calm"	15:38	15:45	7	No		
+06/26/09	2009	b	9	0	2	0	2	2	0	0	0	0	1	0	0	0	Michael Davis	15.4	14.6	"Part. Cloudy, Calm"	15:38	15:45	7	No		
+06/26/09	2009	b	10	0	0	0	0	0	0	0	0	0	3	0	0	3	Michael Davis	14	14	"Part. Cloudy, Calm"	16:04	16:10	6	No		
+06/26/09	2009	b	11	2	0	0	2	0	0	0	0	0	0	0	0	0	Michael Davis	16.7	14.2	"Part. Cloudy, Calm"	15:02	15:07	5	No		
+06/26/09	2009	b	20	9	32	11	41	43	155	166	250	1	0	0	0	0	Michael Davis	13.8	15.8	"Clear, Calm"	11:00	11:46	46	No		
+06/26/09	2009	b	21	0	0	0	0	0	0	0	0	0	0	0	0	5	Michael Davis	17.1	13.5	"Clear, Calm"	12:42	12:55	13	No		
+06/26/09	2009	b	22	9	3	0	12	3	17	17	22	0	0	0	3	2	Michael Davis	14.5	17.9	"Clear, Calm"	12:00	12:22	22	No		
+06/26/09	2009	b	31	0	0	0	0	0	0	0	0	0	0	0	0	0	Michael Davis	16.5	12.1	"Part. Cloudy, Calm"	13:50	13:54	4	Yes		
+06/26/09	2009	b	33	0	0	0	0	0	0	0	0	0	0	0	0	0	Michael Davis	15.4	14.6	"Part. Cloudy, Calm"	15:38	15:45	7	Yes		
+06/27/09	2009	b	1	14	3	0	17	3	0	0	0	2	1	0	0	0	Michael Davis	12.6	9.5	"Clear, Calm"	10:15	16:30	375	Yes		
+06/27/09	2009	b	30.1	1	0	0	1	0	0	0	0	0	2	0	0	0	Michael Davis	17.4	7.6	"Clear, Calm"	14:51	14:56	5	Yes		
+06/27/09	2009	b	30.2	1	0	0	1	0	0	0	0	0	0	0	0	0	Michael Davis	17.4	7.6	"Clear, Calm"	14:56	15:00	4	No		
+07/03/10	2010	f	30.2	0	0	0	0	0	0	0	0	0	0	0	0	0	Julia Anderson	18.1	16.9	"Clear, Calm"	13:28	13:32	4	No		
+07/09/10	2010	f	2	0	0	0	0	0	0	0	0	0	9	0	0	72	Julia Anderson	17.4	14.2	"Part. Cloudy, Calm"	14:13	14:42	29	No	snow cover on about 20% of the bank	
+07/09/10	2010	f	3	0	0	0	0	0	0	0	0	0	0	0	0	0	Matthew Young	16.8	13.5	"Part. Cloudy, Calm"	12:50	13:08	18	Yes	snow on ~30% of snowline	
+07/09/10	2010	f	5	0	0	0	0	0	25	25	269	0	8	0	0	0	Christoper Loomis	17.2	19.7	"Part. Cloudy, Calm"	13:30	13:39	9	No	snow covering 50% of bank	
+07/09/10	2010	f	7	0	0	0	0	0	0	0	0	0	0	0	0	0	Julia Anderson	17.2	11	"Part. Cloudy, Calm"	15:47	15:55	8	No	snow covering ~50% of lake bank	
+07/09/10	2010	f	8	0	0	0	0	0	0	0	0	0	0	0	0	4	Christoper Loomis	12.9	17.8	"Part. Cloudy, Calm"	15:25	15:29	4	No		
+07/09/10	2010	f	9	0	0	0	0	0	0	0	0	0	0	0	0	0	Julia Anderson	12.9	13	"Part. Cloudy, Calm"	15:25	15:30	5	No		
+07/09/10	2010	f	10	0	0	0	0	0	0	0	0	0	1	0	0	0	Julia Anderson	14.7	20.8	"Part. Cloudy, Calm"	15:57	16:00	3	No		
+07/09/10	2010	f	20	0	0	0	0	0	43	43	458	0	0	0	0	0	Christoper Loomis	16.3	12.6	"Clear, Calm"	9:55	10:26	31	No		
+07/09/10	2010	f	21	0	0	0	0	0	0	0	0	0	0	0	0	0	Matthew Young	13.5	11.9	"Clear, Occas/Light Wind"	11:45	11:56	11	No		
+07/09/10	2010	f	22	0	0	0	0	0	4	4	96	0	0	0	0	13	Julia Anderson	18.4	16.8	"Clear, Calm"	10:35	11:18	43	No		
+07/09/10	2010	f	33	0	0	0	0	0	0	0	0	0	0	0	0	0	Julia Anderson	12.9	12.5	"Part. Cloudy, Calm"	15:33	15:43	10	Yes		
+07/11/10	2010	f	1	0	0	0	0	0	0	0	0	0	0	0	0	0	Christoper Loomis	17.2	15.3	"Part. Cloudy, Calm"	9:08	16:24	426	No	"ten dead rana frogs, one with PIT 4A0E21425C, seven dead trout"	
+07/11/10	2010	f	4	0	0	0	0	0	23	23	117	0	0	0	0	0	Julia Anderson	16.5	8.8	"Part. Cloudy, Calm"	10:47	11:06	19	No	~40% of lake shoreline covered in snow	
+07/11/10	2010	f	6	0	0	0	0	0	0	0	0	0	1	0	0	28	Christoper Loomis	15.7	10.7	"Part. Cloudy, Calm"	11:22	11:38	16	No	20% of shoreline covered in snow	
+07/11/10	2010	f	30.2	0	0	0	0	0	0	0	0	0	0	0	0	0	Christoper Loomis	15.1	6.7	"Part. Cloudy, Calm"	11:49	11:55	6	Yes		
+07/30/10	2010	f	2	0	0	0	0	0	0	0	0	0	0	0	2838	0	Julia Anderson	16.4	23	"Clear, Calm"	14:10	14:47	37	No	many fairy shrimp	
+07/30/10	2010	f	3	0	0	0	0	0	0	0	0	0	0	0	0	0	Julia Anderson	16.8	16.8	"Clear,Windy"	12:15	12:26	11	No		
+07/30/10	2010	f	4	0	0	1	0	1	113	114	261	0	0	0	0	0	Jacob Martin	17.8	18.1	"Part.Cloud,Occas/Light Wind"	12:35	12:47	12	No		
+07/30/10	2010	f	5	0	0	30	0	30	125	155	355	0	0	0	0	0	Julia Anderson	20.7	21.1	"Clear, Occas/Light Wind"	13:49	14:00	11	No	"According to Roland's field techs, approximately 1031 tadepoles and premorphs in treatment nets."	
+07/30/10	2010	f	6	0	0	0	0	0	0	0	0	0	0	0	373	0	Julia Anderson	17.9	23.4	"Part.Cloud,Occas/Light Wind"	13:15	13:26	11	No		
+07/30/10	2010	f	7	0	0	0	0	0	0	0	0	0	0	0	0	0	Julia Anderson	16.5	20.1	"Clear, Calm"	16:34	16:38	4	No		
+07/30/10	2010	f	8	0	0	0	0	0	0	0	0	0	0	0	0	0	Christoper Loomis	17.5	28.9	"Clear, Calm"	16:44	16:46	2	No		
+07/30/10	2010	f	9	0	0	0	0	0	0	0	0	0	0	0	5	0	Julia Anderson	17.5	28	"Clear, Calm"	16:44	16:45	1	No	fairy shrimp present	
+07/30/10	2010	f	10	0	0	0	0	0	0	0	0	0	0	0	63	0	Julia Anderson	17.7	27.3	"Clear, Calm"	16:30	16:31	1	No		
+07/30/10	2010	f	20	0	0	46	0	46	459	505	186	0	0	0	0	0	Matthew Young	15.5	17	"Clear, Calm"	10:22	10:46	24	No	"Estimates of tadepoles and premorphs made in Roland's treatment nets: 140 premorphs in first net, 36 recents, 170 premorphs and 30 tadepoles in second net"	
+07/30/10	2010	f	21	0	0	0	0	0	0	0	0	0	0	0	138	0	Matthew Young	15.5	19	"Clear, Calm"	11:00	11:15	15	No		
+07/30/10	2010	f	22	0	0	11	0	11	23	34	32	0	0	0	242	0	Christoper Loomis	15.5	19	"Clear, Calm"	10:00	10:20	20	No		
+07/30/10	2010	f	30.1	0	0	0	0	0	0	0	0	0	0	0	0	0	Matthew Young	18.1	16.9	"Clear, Calm"	13:30	13:33	3	No		
+07/31/10	2010	f	1	1	2	0	3	2	2	2	36	0	0	0	0	0	Christoper Loomis	14.4	16.9	"Clear, Calm"	10:30	14:27	417	Yes	one dead fish and two dead frogs	
+08/16/10	2010	f	7	0	0	0	0	0	2	2	0	0	0	0	65	0	Christoper Loomis	20.6	20.3	"Clear, Calm"	15:46	16:00	14	No	premorph does not look good-slow and thin	
+08/16/10	2010	f	8	0	0	0	0	0	0	0	0	0	0	0	0	0	Christoper Loomis	22.8	20	"Clear, Calm"	15:31	15:32	1	No	lake dry	
+08/16/10	2010	f	9	0	0	0	0	0	0	0	0	0	0	0	83	0	Christoper Loomis	27.2	17.9	"Clear, Calm"	15:35	15:39	4	No	fairy shrimp	
+08/16/10	2010	f	10	0	0	0	0	0	0	0	0	0	0	0	88	0	Christoper Loomis	14.2	23	"Clear, Calm"	16:02	16:07	5	No	"lake very dry, fairy shrimp present"	
+08/16/10	2010	f	33	0	0	0	0	0	0	0	0	0	0	0	2	0	Christoper Loomis	15	17	"Clear, Calm"	15:40	15:45	5	No	dead fish in stagnant pool	
+08/17/10	2010	f	2	0	0	0	0	0	0	0	0	0	0	0	1899	0	Julia Anderson	22	20.4	"Clear, Occas/Light Wind"	14:45	15:30	45	No	"lake level full, fairy shrimp"	
+08/17/10	2010	f	3	0	0	0	0	0	0	0	0	0	0	0	0	0	Julia Anderson	22.9	15.2	"Clear, Occas/Light Wind"	12:40	12:50	10	No		
+08/17/10	2010	f	4	0	11	17	11	28	7	24	167	0	0	0	0	0	Christoper Loomis	22.4	18	"Clear, Occas/Light Wind"	13:00	13:30	30	No		
+08/17/10	2010	f	5	1	0	96	1	96	484	580	187	0	0	0	39	0	Julia Anderson	23.8	16.5	"Clear, Calm"	13:30	14:00	30	No	"lake starting to dry around edges, fairy shrimp"	
+08/17/10	2010	f	6	0	0	0	0	0	0	0	0	0	0	0	987	0	Julia Anderson	23.7	22.3	"Clear, Calm"	14:30	14:40	10	No		
+08/17/10	2010	f	11	0	0	0	0	0	0	0	0	0	0	0	50	0	Christoper Loomis	22	22	"Clear, Calm"	15:30	15:35	5	No		
+08/17/10	2010	f	20	0	1	33	1	34	411	444	223	0	0	0	2	0	Julia Anderson	19	17.6	"Clear, Calm"	10:50	11:25	35	No		
+08/17/10	2010	f	21	0	0	0	0	0	0	0	0	0	0	0	252	0	Julia Anderson	23	19.4	"Clear,Windy"	12:15	12:25	10	No		
+08/17/10	2010	f	22	0	2	1	2	3	16	17	92	0	0	1	232	0	Julia Anderson	18	16.7	"Clear, Calm"	10:20	10:50	20	No		
+08/17/10	2010	f	30.1	0	0	0	0	0	0	0	0	0	0	0	0	0	Julia Anderson	23	17.3	"Clear, Calm"	14:45	14:45	1	No		
+08/17/10	2010	f	30.2	0	0	0	0	0	0	0	0	0	0	0	0	0	Julia Anderson	23	17.3	"Clear, Calm"	14:45	14:46	1	No		
+08/18/10	2010	f	1	0	0	4	0	4	3	7	66	0	0	0	0	0	Christoper Loomis	15.1	17.7	"Clear, Occas/Light Wind"	9:50	13:00	190	No	two dead frogs and two dead fish	
+09/09/10	2010	f	2	0	0	0	0	0	0	0	0	0	0	12	313	0	Christoper Loomis	10.4	18.8	"Clear, Calm"	14:37	15:01	24	No	Lake half dry	
+09/09/10	2010	f	3	0	0	0	0	0	0	0	0	0	0	0	0	0	Christoper Loomis	9.5	8.6	"Clear, Calm"	13:11	13:22	10	No		
+09/09/10	2010	f	4	0	0	0	0	0	5	5	32	0	0	0	0	0	Julia Anderson	4.4	10	"Clear, Occas/Light Wind"	13:31	13:43	12	No	One dead Rana.	
+09/09/10	2010	f	5	0	1	69	1	70	242	311	159	0	0	0	59	0	Christoper Loomis	13.5	11.8	"Clear, Calm"	13:53	14:16	23	No	"One dead recent rana, and several very sluggish recents"	
+09/09/10	2010	f	6	0	0	0	0	0	0	0	0	0	0	0	0	0	Christoper Loomis	10.4	18.8	"Clear, Calm"	14:37	15:01	24	No	Dry with no frogs	
+09/09/10	2010	f	21	0	0	0	0	0	0	0	0	0	0	1	7	0	Christoper Loomis	12.5	9.2	"Clear, Calm"	12:17	12:33	16	No		
+09/09/10	2010	f	22	0	0	1	0	1	17	18	0	0	0	58	6	0	Christoper Loomis	7.4	9.4	"Clear, Calm"	11:00	11:28	28	No		
+09/09/10	2010	f	30.1	0	0	0	0	0	0	0	0	0	0	0	0	0	Christoper Loomis	10.4	18.8	"Clear, Calm"	14:37	15:01	24	No		
+09/09/10	2010	f	30.2	0	0	0	0	0	0	0	0	0	0	0	0	0	Christoper Loomis	10.4	18.8	"Clear, Calm"	14:37	15:01	24	No		
+09/09/10	2010	f	31	0	0	0	0	0	0	0	0	0	0	0	0	0	Christoper Loomis	9.5	8.6	"Clear, Calm"	13:22	13:26	4	No		
+09/10/10	2010	f	1	2	1	4	3	5	25	29	17	0	0	0	0	0	Christoper Loomis	17.6	12.5	"Clear, Calm"	10:16	14:17	241	No		
+09/10/10	2010	f	7	0	0	2	0	2	0	2	0	0	0	0	10	0	Christoper Loomis	13.8	9	"Clear, Calm"	10:44	10:53	9	No		
+09/10/10	2010	f	8	0	0	0	0	0	0	0	0	0	0	0	0	0	Christoper Loomis	12	16.5	"Clear, Calm"	10:29	10:39	10	No		
+09/10/10	2010	f	9	0	0	0	0	0	0	0	0	0	0	7	45	0	Christoper Loomis	12	16.5	"Clear, Calm"	10:29	10:39	10	No	Almost dry	
+09/10/10	2010	f	10	0	0	0	0	0	0	0	0	0	0	0	0	0	Christoper Loomis	13.8	9	"Clear, Calm"	10:44	10:53	9	No		
+09/10/10	2010	f	20	0	6	19	6	25	158	177	47	0	0	0	0	0	Christoper Loomis	7.1	12.6	"Clear, Calm"	11:37	12:00	23	No	Two dead recent rana	
+09/10/10	2010	f	33	0	0	0	0	0	0	0	0	0	0	0	0	0	Christoper Loomis	13.8	9	"Clear, Calm"	10:44	10:53	9	No		
+07/30/11	2011	f	33	0	0	0	0	0	0	0	0	0	0	0	0	0	Julia Anderson	17.5	19.6	"Clear, Calm"	16:40	16:44	4	No		
+09/03/11	2011	f	1	0	3	2	3	5	1	3	1	0	0	0	0	0	Julia Anderson	18.3	18.3	"Clear, Calm"	10:30	12:50	140	No		
+09/03/11	2011	f	2	0	0	0	0	0	0	0	0	0	0	0	943	0	Julia Anderson	19.4	19.8	"Clear, Calm"	12:38	13:06	28	No	"fairy shrimp, stream 5 and lake 11 are dry"	
+09/03/11	2011	f	3	0	0	0	0	0	0	0	0	0	0	0	0	0	Julia Anderson	22	19	"Clear, Calm"	13:56	14:03	7	No		
+09/03/11	2011	f	4	0	0	0	0	0	8	8	99	0	0	0	0	0	Julia Anderson	22	20	"Clear, Calm"	13:44	13:51	7	No		
+09/03/11	2011	f	5	0	9	0	9	9	0	0	233	0	0	0	0	0	Julia Anderson	21	20	"Clear, Calm"	13:18	13:33	15	No		
+09/03/11	2011	f	6	0	0	0	0	0	0	0	0	0	0	0	264	0	Matthew Young	20	19	"Clear, Calm"	13:34	13:39	5	No		
+09/03/11	2011	f	7	0	0	1	0	1	0	1	0	0	0	0	0	0	Julia Anderson	17.7	16	"Clear, Calm"	10:51	11:04	13	No		
+09/03/11	2011	f	8	0	0	0	0	0	0	0	0	0	0	0	0	0	Julia Anderson	17	16.9	"Clear, Calm"	10:40	10:41	1	No	lake dry	
+09/03/11	2011	f	9	0	0	0	0	0	0	0	0	0	0	0	0	0	Julia Anderson	17.2	16	"Clear, Calm"	10:42	10:44	2	No	fairy shrimp	
+09/03/11	2011	f	10	0	0	0	0	0	0	0	0	0	0	0	0	0	Julia Anderson	18	18	"Clear, Calm"	11:05	11:07	2	No		
+09/03/11	2011	f	12	0	0	0	0	0	0	0	0	0	0	0	0	0	Matthew Young	19	18	"Clear, Calm"	10:14	10:26	12	No	"many fairy shrimp,"	
+09/03/11	2011	f	20	0	59	4	59	63	28	32	340	0	0	0	0	0	Julia Anderson	22	20	"Clear, Calm"	14:28	14:41	14	No	a dead subadult rana	
+09/03/11	2011	f	21	0	0	0	0	0	0	0	0	0	0	0	0	0	Julia Anderson	21.1	20	"Clear, Calm"	15:10	15:13	3	No		
+09/03/11	2011	f	22	0	4	0	4	4	2	2	0	0	0	0	3	0	Julia Anderson	21.1	20	"Clear, Calm"	14:48	14:57	9	No		
+09/03/11	2011	f	30.1	0	0	0	0	0	0	0	0	0	0	0	0	0	Julia Anderson	21.1	18.3	"Clear, Calm"	13:09	13:16	7	No		
+09/03/11	2011	f	30.2	0	0	0	0	0	0	0	0	0	0	0	0	0	Julia Anderson	20.1	18.9	"Clear, Calm"	13:09	13:16	7	No		
+09/03/11	2011	f	31	0	0	0	0	0	0	0	0	0	0	0	0	0	Matthew Young	20	18	"Clear, Calm"	13:56	14:01	5	No		
+09/03/11	2011	f	33	0	0	0	0	0	0	0	0	0	0	0	0	0	Julia Anderson	19	18	"Clear, Calm"	10:45	10:50	5	No		
+07/02/12	2012	f	2	0	0	0	0	0	0	0	0	0	0	0	280	0	Kathleen Matthews	18	12	"Clear, Calm"	17:00	17:30	30	No		
+07/03/12	2012	f	1	0	0	0	0	0	0	0	0	0	0	0	0	0	Kathleen Matthews	19	10	"Clear, Calm"	10:10	12:00	110	No		
+07/03/12	2012	f	3	0	0	0	0	0	0	0	0	0	0	0	0	0	Kathleen Matthews	19	13	"Clear, Calm"	14:00	14:30	30	No		
+07/03/12	2012	f	4	0	0	2	0	2	0	2	12	0	0	0	0	0	Kathleen Matthews	17	12	"Clear, Occas/Light Wind"	15:00	15:20	20	No		
+07/03/12	2012	f	5	0	2	31	2	33	16	47	156	0	0	0	290	0	Kathleen Matthews	16	12	"Clear, Occas/Light Wind"	15:00	15:30	30	No		
+07/03/12	2012	f	20	0	0	12	0	12	16	28	112	0	0	0	249	0	Kathleen Matthews	20	14	"Clear, Occas/Light Wind"	12:30	14:00	90	No		
+07/03/12	2012	f	21	0	0	0	0	0	0	0	0	0	0	0	0	0	Kathleen Matthews	15	16	"Clear, Occas/Light Wind"	16:00	16:20	20	No		
+07/03/12	2012	f	22	0	0	0	0	0	0	0	0	0	0	0	34	0	Kathleen Matthews	18	14	"Clear, Occas/Light Wind"	14:00	14:25	25	No		
+07/04/12	2012	f	7	0	0	0	0	0	0	0	0	0	0	0	190	0	Kathleen Matthews	10	10	"Clear, Calm"	8:00	8:25	25	No		
+07/04/12	2012	f	8	0	0	0	0	0	0	0	0	0	0	0	212	0	Kathleen Matthews	12	12	"Clear, Calm"	8:30	8:45	15	No		
+07/04/12	2012	f	9	0	0	0	0	0	0	0	0	0	0	0	58	0	Kathleen Matthews	13	12	"Clear, Calm"	9:00	9:15	15	No		
+07/04/12	2012	f	10	0	0	0	0	0	0	0	0	0	0	0	21	0	Kathleen Matthews	14	13	"Clear, Calm"	10:00	10:15	15	No		
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										
+																										

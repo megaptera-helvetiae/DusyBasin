@@ -6,6 +6,7 @@ Plots/*
 
 !README.md
 !LICENSE.md
+!*.Rmd
 *.docs
 *.pdf
 *.fastq
