@@ -11,7 +11,6 @@ Plots/*
 *.pdf
 *.fastq
 *.fq
-*.html
 *.png
 *.jpeg
 *.jpg

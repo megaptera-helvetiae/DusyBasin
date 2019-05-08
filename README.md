@@ -1,6 +1,5 @@
-# unmarked
-
 # Rana sierrae at Dusy Basin
+
 This is a project I have been working on with Kathleen Matthews, Zack Steel, and Sébastien Nusslé while I was in Stephanie Carlson’s lab https://nature.berkeley.edu/carlsonlab/.  Kathleen had gone out every summer for many years to count yellow legged frogs at Dusy Basin in Kings Canyon National Park (*Rana sierra*, the Sierra Nevada Mountain yellow legged frog). We compiled counts from 1997-2012. Volunteers went out at least three times a year (July, August, September) and counted the frogs at their various life-stages. We analyzed this dataset as a collaborative effort. 
 
 
