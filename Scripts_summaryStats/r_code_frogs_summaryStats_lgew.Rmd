@@ -1,7 +1,7 @@
 ---
 title: "_Rana sierrae_ at Dusy Basin"
 author: "Laetitia Wilkins"
-date: "May 10 2019"
+date: "May 10 2019 in Munich"
 output: html_document
 ---
 
@@ -67,7 +67,7 @@ load(file = "~/DusyBasin/Input_summaryStats/data.frogs.Rdata")
 
 Code for Figure 1:
 
-```{r, eval=FALSE, echo=FALSE}
+```{r, eval=TRUE, echo=TRUE}
 # Since the end of 2018 we need an API key from Google to use their maps for ggmap. It is a hassle.
 
 # You can learn more about it here:
