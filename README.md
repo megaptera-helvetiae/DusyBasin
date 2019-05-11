@@ -1,6 +1,6 @@
 # _Rana sierrae_ at Dusy Basin
 
-This is a project I have been working on with Kathleen Matthews, Zack Steel, Stehpanie Carlson, and Sébastien Nusslé while I was in Stephanie Carlson’s lab https://nature.berkeley.edu/carlsonlab/.  Kathleen had gone out every summer for many years to count yellow legged frogs at Dusy Basin in Kings Canyon National Park (*Rana sierra*, the Sierra Nevada yellow-legged frog). We compiled counts from 1997-2012. Volunteers went out at least three times a year (July, August, September) and counted frogs at their various life-stages. We analyzed this dataset as a collaborative effort. 
+This is a project I have been working on with Kathleen Matthews, Zack Steel, Stephanie Carlson, and Sébastien Nusslé while I was in Stephanie Carlson’s lab https://nature.berkeley.edu/carlsonlab/.  Kathleen had gone out every summer for many years to count yellow legged frogs at Dusy Basin in Kings Canyon National Park (*Rana sierra*, the Sierra Nevada yellow-legged frog). We compiled counts from 1997-2012. Volunteers went out at least three times a year (July, August, September) and counted frogs at their various life-stages. We analyzed this dataset as a collaborative effort. 
 
 
 # Abstract:
@@ -13,17 +13,17 @@ First, we would like to thank the summer field assistants (Adam Calo, Alex Figue
 
 # Files:
 
-Scripts for summary statistics can be found [here](https://github.com/megaptera-helvetiae/DusyBasin/tree/master/Scripts_summaryStats) 
+Scripts for summary statistics can be found [here](https://github.com/megaptera-helvetiae/DusyBasin/tree/master/Scripts_summaryStats). 
 
-And scripts for the unmarked analysis can be found [here](https://github.com/megaptera-helvetiae/DusyBasin/tree/master/Scripts_unmarked)
+And scripts for the unmarked analysis can be found [here](https://github.com/megaptera-helvetiae/DusyBasin/tree/master/Scripts_unmarked).
  
 **All scripts point directly to the directory with the necessary input files.**
 
 In the [input summary stats](https://github.com/megaptera-helvetiae/DusyBasin/tree/master/Input_summaryStats) directory you can find all our raw files:
-[raw counts](https://github.com/megaptera-helvetiae/DusyBasin/blob/master/Input_summaryStats/counts.txt) 
-[snowpack data](https://github.com/megaptera-helvetiae/DusyBasin/blob/master/Input_summaryStats/snowpack.txt)
-[precipitation data](https://github.com/megaptera-helvetiae/DusyBasin/blob/master/Input_summaryStats/water_content.txt)
+[raw counts](https://github.com/megaptera-helvetiae/DusyBasin/blob/master/Input_summaryStats/counts.txt), 
+[snowpack data](https://github.com/megaptera-helvetiae/DusyBasin/blob/master/Input_summaryStats/snowpack.txt),
+[precipitation data](https://github.com/megaptera-helvetiae/DusyBasin/blob/master/Input_summaryStats/water_content.txt),
 and [lake volumes](https://github.com/megaptera-helvetiae/DusyBasin/blob/master/Input_summaryStats/LakeVolume%26SA_Data_Dusy.xls) from [Lacan et al. 2018](https://www.fs.fed.us/psw/publications/matthews/psw_2008_matthews001.pdf) are the raw files of this manuscript.
 
 The following [directory](https://github.com/megaptera-helvetiae/DusyBasin/tree/master/Input_summaryStats) also harbors the input files for the summary statistics analysis.
-The input files for the unmarked analysis are [here](https://github.com/megaptera-helvetiae/DusyBasin/tree/master/Data)
+The input files for the unmarked analysis are [here](https://github.com/megaptera-helvetiae/DusyBasin/tree/master/Data).
