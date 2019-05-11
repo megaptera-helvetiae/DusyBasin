@@ -22,10 +22,10 @@ First, we would like to thank the summer field assistants (Adam Calo, Alex Figue
 
 &nbsp;
 
-This script assumes you have a working directory in your home directory. Here, this directory is called "/DusyBasin"
+This [script](https://github.com/megaptera-helvetiae/DusyBasin/blob/master/Scripts_summaryStats/r_code_frogs_summaryStats_lgew.Rmd) assumes you have a working directory in your home directory. Here, this directory is called "/DusyBasin"
 
-All the input files are in "~/DusyBasin/Input_summaryStats/"
-ADD URL GITHUB.
+All the input files for this script here are in "~/DusyBasin/Input_summaryStats/"
+or live: https://github.com/megaptera-helvetiae/DusyBasin/tree/master/Input_summaryStats
 
 &nbsp;
 
@@ -470,8 +470,7 @@ par(mfrow = c(1,1), las = 2, mar = c(4,4,1,1))
 barplot(YGF, beside = TRUE, legend = TRUE, ylim = c(0, 1), args.legend = list(x = "topright", bty = "n"), col = terrain.colors(4), ylab = "Proportion of occupied lakes")
 ```
 
-## Figures 3 and 4 were done using code in another script (directory Scripts_unmarked on GitHub repository https://github.com/megaptera-helvetiae/DusyBasin) by Zack Steel!!!
-ADD URL GITHUB.
+## Figures 3 and 4 were done using code in another [script](https://github.com/megaptera-helvetiae/DusyBasin/tree/master/Scripts_unmarked) by Zack Steel!!!
 
 **Snow Data**
 

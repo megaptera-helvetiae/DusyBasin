@@ -5,7 +5,7 @@ This is a project I have been working on with Kathleen Matthews, Zack Steel, Ste
 
 # Abstract:
 
-The Sierra Nevada yellow-legged frog (*Rana sierrae*) was once an abundant and widely distributed amphibian in California’s alpine ranges. However, today it is critically endangered, and most populations have been extirpated. *Rana sierrae* is adapted to high-elevation, fishless habitats. It has a unique life-cycle that involves an extended juvenile phase due to the short growing season typical of its alpine habitat. Here we present a 15-year demographic study of a *R. sierrae* population in 15 lakes at Dusy Basin in Kings Canyon National Park. We focused on the period leading up to the arrival of a pathogenic chytrid fungus, *Batrachochytrium dendrobatidis* (*Bd*), and the subsequent local extinction of *R. sierrae*. We used N-mixture abundance modeling, which accounts for detection probabilities at different life stages, to quantify factors affecting frog abundance, including egg-masses, tadpoles, subadults, and adults. Abundance of all life stages was negative correlation with presence of introduced trout (*Oncorhynchus mykiss* and *O. aquabonita*). Lake surface area correlated positively with frog abundance in all life stages, but negatively with lake depth. While deeper lakes historically served as buffers during dry years, they are now effectively unavailable to the frogs due to presence of predatory, non-native trout, with shallow lakes now providing important refugia from predators. However, drought years characterized by longer summers and less winter snowpack, led to higher rates of lake drying and, hence, a decrease in frog reproduction and a reduction of individuals in the earlier life stages. Finally, our results suggest that the frequency of such droughts in the region has increased since 1937. Increased frequency or severity of droughts is expected to decrease the value of shallow lakes for yellow-legged frogs because these habitats are prone to drying. We discuss our results in terms of future restoration strategies, including reintroduction and treatment, in this changed and changing ecosystem.
+The Sierra Nevada yellow-legged frog (*Rana sierrae*) was once an abundant and widely distributed amphibian in California’s alpine ranges. However, today it is critically endangered, and most populations have been extirpated. *Rana sierrae* is adapted to high-elevation, fishless habitats. It has a unique life-cycle that involves an extended juvenile phase due to the short growing season typical of its alpine habitat. Here we present a 15-year demographic study of a *R. sierrae* population in 15 lakes at Dusy Basin in Kings Canyon National Park. We focused on the period leading up to the arrival of a pathogenic chytrid fungus, *Batrachochytrium dendrobatidis* (*Bd*), and the subsequent local extinction of *R. sierrae*. We used N-mixture abundance modeling, which accounts for detection probabilities at different life stages, to quantify factors affecting frog abundance, including egg-masses, tadpoles, subadults, and adults. Abundance of all life stages was negative correlation with presence of introduced trout (*Oncorhynchus mykiss* and *O. aquabonita*). Lake surface area correlated positively with frog abundance in all life stages, but negatively with lake depth. While deeper lakes historically served as buffers during dry years, they are now effectively unavailable to the frogs due to presence of predatory, non-native trout, with shallow lakes now providing important refugia from predators. However, drought years characterized by longer summers and less winter snowpack, led to higher rates of lake drying and, hence, a decrease in frog reproduction and a reduction of individuals in the earlier life stages. Finally, our results suggest that the frequency of such droughts in the region has increased since 1937. Increased frequency or severity of droughts is expected to decrease the value of shallow lakes for yellow-legged frogs because these habitats are prone to drying. We discuss our results in terms of future restoration strategies, including reintroduction and probiotics treatment, in this changed and changing ecosystem.
 
 # Acknowledgments
 
@@ -13,14 +13,17 @@ First, we would like to thank the summer field assistants (Adam Calo, Alex Figue
 
 # Files:
 
-Scripts for summary statistics can be found here url: 
+Scripts for summary statistics can be found [here](https://github.com/megaptera-helvetiae/DusyBasin/tree/master/Scripts_summaryStats) 
 
-And scripts for the unmarked analysis can be found here url:
-
+And scripts for the unmarked analysis can be found [here](https://github.com/megaptera-helvetiae/DusyBasin/tree/master/Scripts_unmarked)
+ 
 **All scripts point directly to the directory with the necessary input files.**
 
-In the 'Input_summaryStats -- fill in url' directory you can find all our raw files:
-raw counts: 'counts.txt  -- fill in url', snowpack data: 'snowpack.txt -- fill in url', precipitation data: 'water_content.txt -- fill in url', and lake volumes from Lacan et al. 2018 (add doi) 'LakeVolume&SA_Data_Dusy.xls  -- fill in url' are the raw files of this manuscript.
+In the [input summary stats](https://github.com/megaptera-helvetiae/DusyBasin/tree/master/Input_summaryStats) directory you can find all our raw files:
+[raw counts](https://github.com/megaptera-helvetiae/DusyBasin/blob/master/Input_summaryStats/counts.txt) 
+[snowpack data](https://github.com/megaptera-helvetiae/DusyBasin/blob/master/Input_summaryStats/snowpack.txt)
+[precipitation data](https://github.com/megaptera-helvetiae/DusyBasin/blob/master/Input_summaryStats/water_content.txt)
+and [lake volumes](https://github.com/megaptera-helvetiae/DusyBasin/blob/master/Input_summaryStats/LakeVolume%26SA_Data_Dusy.xls) from [Lacan et al. 2018](https://www.fs.fed.us/psw/publications/matthews/psw_2008_matthews001.pdf) are the raw files of this manuscript.
 
-The 'Input_summaryStats -- fill in url' also harbors the input files for the summary statistics analysis.
-The input files for the unmarked analysis are here: 'Data'
+The following [directory](https://github.com/megaptera-helvetiae/DusyBasin/tree/master/Input_summaryStats) also harbors the input files for the summary statistics analysis.
+The input files for the unmarked analysis are [here](https://github.com/megaptera-helvetiae/DusyBasin/tree/master/Data)
