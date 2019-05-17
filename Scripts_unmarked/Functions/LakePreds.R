@@ -100,7 +100,7 @@ LakePreds <- function() {
           axis.text = element_text(size = 10)) + 
     coord_flip()
   
-  save_plot("Figures/LakePreds.png", p1, base_width = 8, base_height = 4)
-  save_plot("Figures/LakeChars.png", p2, base_width = 8, base_height = 4)
+  save_plot("Figures/LakePreds.png", p1, base_width = 8, base_height = 4, dpi = 600)
+  save_plot("Figures/LakeChars.png", p2, base_width = 8, base_height = 4, dpi = 600)
   
 }

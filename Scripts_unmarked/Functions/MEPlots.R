@@ -117,6 +117,6 @@ me_plots <- function() {
                  ncol = 2, align = "vh")
   
   save_plot("Figures/ME_abund.png", p, 
-            base_height = 8, base_width = 6)
+            base_height = 8, base_width = 6, dpi = 600)
   
 }
