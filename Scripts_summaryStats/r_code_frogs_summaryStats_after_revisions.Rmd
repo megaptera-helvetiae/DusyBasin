@@ -1,0 +1,1605 @@
+---
+title: "_Rana sierrae_ at Dusy Basin"
+author: "Laetitia Wilkins"
+date: "May 10 2019 in Munich"
+output: html_document
+---
+
+```{r setup, echo=FALSE}
+knitr::opts_knit$set(root.dir = "~/DusyBasin/Input_summaryStats/")
+```
+
+## Background
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>. Sébastien Nusslé and I started this document to collaborate on our data analysis while he was in Switzerland and I was at Berkeley.
+&nbsp;
+
+This is a project I have been working on with Kathleen Matthews, Zack Steel, Stephanie Carlson, and Sébastien Nusslé while I was in Stephanie Carlson’s lab https://nature.berkeley.edu/carlsonlab/. Kathleen had gone out every summer for many years to count yellow legged frogs at Dusy Basin in Kings Canyon National Park (*Rana sierra*, the Sierra Nevada yellow-legged frog). We compiled counts from 1997-2012. Volunteers went out at least three times a year (July, August, September) and counted the frogs at their various life-stages. We analyzed this dataset as a collaborative effort. 
+
+## Acknowledgments
+
+First, we would like to thank the summer field assistants (Adam Calo, Alex Figueroa, Ambrose Tuscano, Annie Shattuck, Carrie Sendak, Kyung Koh, Blake Meneken, Christopher Loomis, David Court, Ed Stauber, Elizabeth Gruenstein, Eva Patton, Igor Lacan, Jacob Martin, Jacquelyn Kracke, Jeff Schlueter, Jill Andersen, Joe Fontaine, Julia Anderson, Karen Pope, Krishna Feldman, Leah Culp, Linda Vance, Matthew Young, Michael Davis, Nick Earley, Rebecca Doubledee, Rick Ziegler, Robert Grasso, Steve Hasslinger, and Vincent King who did the surveys from 1997-2012. We would also like to thank Prof. Steve Beissinger (ORCID: 0000-0003-1323-2727) for his advice on the abundance analyses. Timothy Szeliga from NOAA’s Geo-Intelligence Division, William Brown from NOAA's National Center for Environmental Information, and David Rizzardo from the California Department of Water Resources were especially helpful in finding publicly available precipitation data online. We are also thankful to Cassandra L. Ettinger (ORCID: 0000-0001-7334-403X), Sonia L. Ghose (ORCID: 0000-0001-5667-6876), and Marina E. De León (ORCID: 0000-0001-9973-1951) for their comments on earlier versions of this manuscript and the photograph of a Sierra Nevada yellow-legged frog in Fig. 1. 
+
+&nbsp;
+
+This [script](https://github.com/megaptera-helvetiae/DusyBasin/blob/master/Scripts_summaryStats/r_code_frogs_summaryStats_lgew.Rmd) assumes you have a working directory in your home directory. Here, this directory is called "/DusyBasin"
+
+All the input files for this script here are in "~/DusyBasin/Input_summaryStats/"
+or live: https://github.com/megaptera-helvetiae/DusyBasin/tree/master/Input_summaryStats
+
+&nbsp;
+
+**Set-up R and all the necessary libraries:**
+
+Take hash away if you still need to install these libraries!
+
+```{r, warning=FALSE, message=FALSE}
+# Take hash away if you still need to install these libraries!
+
+#install.packages(corrplot)
+#install.packages(scales)
+#install.packages(lme4)
+#install.packages(lmerTest)
+#install.packages(unmarked)
+
+library(corrplot)
+library(scales)
+library(lme4)
+library(lmerTest)
+library(unmarked)
+
+p.trans <- function(p) {
+	res <- as.numeric(NA, length(p))
+	for (i in 1:length(p)) {
+		if (p[i] > 0.1) res[i] <- "p > 0.05 [NS]"
+		if (p[i] > 0.05 & p[i] <= 0.1) res[i] <- "p < 0.1 [.]"
+		if (p[i] > 0.01 & p[i] <= 0.05) res[i] <- "p < 0.05 [*]"
+		if (p[i] > 0.001 & p[i] <= 0.01) res[i] <- "p < 0.01 [**]"
+		if (p[i] <= 0.001) res[i] <- "p < 0.001 [***]"
+	}
+	return(res)}
+
+# Data
+load(file = "~/DusyBasin/Input_summaryStats/data.frogs.Rdata")
+```
+
+## First, we need a nice map for Figure 1!
+
+Code for Figure 1:
+
+```{r, eval=TRUE, echo=TRUE}
+# Since the end of 2018 we need an API key from Google to use their maps for ggmap. It is a hassle.
+
+# You can learn more about it here:
+# https://developers.google.com/maps/documentation/geocoding/get-api-key
+# https://cloud.google.com/maps-platform/#get-started
+  
+# Once you signed up for it (with a credit card!!!):
+# install dev version of ggmap
+devtools::install_github("dkahle/ggmap")
+
+library(ggmap)
+#> Loading required package: ggplot2
+#> Google Maps API Terms of Service: http://developers.google.com/maps/terms.
+#> Please cite ggmap if you use it: see citation("ggmap") for details.
+
+# save api key
+register_google(key = "AIzaSyCcOI7IYDFog73S-c8len4eEwmDd7FTWus")
+# fill in your personal key!
+
+bikemap2 <- get_map(location = c(-118.553, 37.103), maptype = "terrain", source = "google", zoom = 5)
+ggmap(bikemap2)
+
+bikemap3 <- get_map(location = c(-118.553, 37.103), maptype = "terrain", source = "google", zoom = 16)
+ggmap(bikemap3)
+
+# save it.
+```
+
+Some more code to play with maps. It is not executed here. Change eval=TRUE, echo=TRUE and it will run.
+
+```{r, eval=FALSE, echo=FALSE}
+# Here is an awesome tutorial: http://eriqande.github.io/rep-res-web/lectures/making-maps-with-R.html
+
+# install.packages("tidyverse")
+# install.packages("maptools")
+
+#===============
+# LOAD PACKAGES
+#===============
+
+library(tidyverse)
+library(maptools)
+
+library(ggplot2)
+library(maps)
+library(mapdata)
+
+
+#===============
+# GET RIVER DATA
+#===============
+
+#==========
+# LOAD DATA
+#==========
+
+#DEFINE URL
+# - this is the location of the file
+url.river_data <- url("http://sharpsightlabs.com/wp-content/datasets/usa_rivers.RData")
+
+
+# LOAD DATA
+# - this will retrieve the data from the URL
+load(url.river_data)
+
+
+# INSPECT
+summary(lines.rivers)
+lines.rivers@data %>% glimpse()
+
+
+levels(lines.rivers$FEATURE)
+table(lines.rivers$FEATURE)
+
+#==============================================
+# REMOVE MISC FEATURES
+# - there are some features in the data that we
+#   want to remove
+#==============================================
+
+lines.rivers <- subset(lines.rivers, !(FEATURE %in% c("Shoreline"
+                                                      ,"Shoreline Intermittent"
+                                                      ,"Null"
+                                                      ,"Closure Line"
+                                                      ,"Apparent Limit"
+                                                      ,"Canal Intermittent"
+                                                      ,"Aqueduct"
+                                                      ,"Left Bank"
+                                                      ,"Dam"
+                                                      ,"Null"
+                                                      ,"Canal"
+                                                      ,"Stream Intermittent"
+)))
+
+# RE-INSPECT
+table(lines.rivers$FEATURE)
+
+#==============
+# REMOVE STATES
+#==============
+
+#-------------------------------
+# IDENTIFY STATES
+# - we need to find out
+#   which states are in the data
+#-------------------------------
+table(lines.rivers$STATE)
+
+
+#---------------------------------------------------------
+# REMOVE STATES
+# I only want California in my map.
+#---------------------------------------------------------
+
+lines.rivers <- subset(lines.rivers, (STATE %in% 'CA'))
+
+#---------------------------------------------------------
+# CHOOSE INDIVIDUAL RIVERS
+# For example I only want Klamath River and Eel River:
+#---------------------------------------------------------
+
+
+lines.rivers.testLGW2 <- subset(lines.rivers, (NAME %in% c('Klamath River', 'Eel River')))
+table(lines.rivers.testLGW2$NAME)
+
+# In comparison to 'lines.rivers' we have only two rivers in 'lines.rivers.testLGW2'!
+
+
+# RE-INSPECT
+table(lines.rivers.testLGW2$NAME)
+
+
+#============================================
+# FORTIFY
+# - fortify will convert the 
+#   'SpatialLinesDataFrame' to a proper
+#    data frame that we can use with ggplot2
+#============================================
+
+df.usa_rivers <- fortify(lines.rivers.testLGW2)
+
+
+
+
+# Now let's try to plot this with ggplot2!
+
+# First we have to plot a simple map in ggplot2. I chose to plot the state of California:
+
+states <- map_data("state")
+dim(states)
+
+ca_df <- subset(states, region == "california")
+
+
+ca_base <- ggplot(data = ca_df, mapping = aes(x = long, y = lat, group = group)) + 
+  coord_fixed(1.3) + 
+  geom_polygon(color = "black", fill = "gray") +
+  geom_path(data = lines.rivers.testLGW2, aes(x = long, y = lat, group = group), color = "blue", size = .08)
+ca_base + theme_nothing()
+
+#### it worked!!!!
+
+
+#============================================
+# ADDING MY SAMPLING LOCATIONS TO THE PLOT
+# 
+#============================================
+
+# adding points to the map:
+
+usa <- map_data("usa")
+
+gg1 <- ggplot() + 
+  geom_polygon(data = usa, aes(x=long, y = lat, group = group), fill = "violet", color = "blue") + 
+  coord_fixed(1.3)
+gg1
+
+
+
+labs <- data.frame(
+  long = c(-122.064873, -122.306417),
+  lat = c(36.951968, 47.644855),
+  names = c("SWFSC-FED", "NWFSC"),
+  stringsAsFactors = FALSE
+)  
+
+gg1 + 
+  geom_point(data = labs, aes(x = long, y = lat), color = "black", size = 5) +
+  geom_point(data = labs, aes(x = long, y = lat), color = "yellow", size = 4)
+```
+
+**Now let's dive into the analysis!**
+
+Data exploration...
+
+```{r, eval=TRUE}
+# Selection of meaningful lakes only (30 and above are rivers)
+data <- subset(data, site %in% c(1:11, 13:29))
+
+# Defining new categories
+data$frogs <- data$subadults + data$adults
+data$juveniles <- data$metamorphs + data$premetamorphs
+data$tadpoles <- data$larvae + data$juveniles
+
+plot(log(data$eggs+1) ~ log(data$larvae+1))
+pred <- loess(log(data$eggs+1) ~ log(data$larvae+1))
+points(pred$fitted[order(data$larvae)] ~ log(data$larvae+1)[order(data$larvae)], type = "l", lwd = 2, col = "red")
+
+# New dataset: pooling seasons per year and sites as mean numbers
+
+eg_mean_y <- tapply(data$eggs, list(data$year, data$site), mean, na.rm = TRUE)
+la_mean_y <- tapply(data$larvae, list(data$year, data$site), mean, na.rm = TRUE)
+ju_mean_y <- tapply(data$juveniles, list(data$year, data$site), mean, na.rm = TRUE)
+su_mean_y <- tapply(data$subadults, list(data$year, data$site), mean, na.rm = TRUE)
+ad_mean_y <- tapply(data$adults, list(data$year, data$site), mean, na.rm = TRUE)
+fr_mean_y <- tapply(data$frogs, list(data$year, data$site), mean, na.rm = TRUE)
+ta_mean_y <- tapply(data$tadpoles, list(data$year, data$site), mean, na.rm = TRUE)
+
+ndat <- data.frame(year = as.numeric(rep(rownames(eg_mean_y), times = dim(eg_mean_y)[2])), site = as.numeric(rep(colnames(eg_mean_y), each = dim(eg_mean_y)[1])), eggs = as.numeric(eg_mean_y), larvae = as.numeric(la_mean_y), tadpoles = as.numeric(ta_mean_y), juveniles = as.numeric(ju_mean_y), subadults = as.numeric(su_mean_y), adults = as.numeric(ad_mean_y), frogs = as.numeric(fr_mean_y))
+summary(ndat)
+```
+
+## Code for Figure 2
+
+Let's move on to proportion of occupied lakes:
+
+```{r, eval=TRUE}
+# Year goodness of fit: proportion of lakes with eggs, larvae, juveniles, or adults
+
+YGFeggs <- eg_mean_y
+	YGFeggs[eg_mean_y > 0] <- 1
+	YGFeggs <- apply(YGFeggs, 1, mean, na.rm = TRUE)
+LGFeggs <- eg_mean_y
+	LGFeggs[eg_mean_y > 0] <- 1
+	LGFeggs <- apply(LGFeggs, 2, mean, na.rm = TRUE)
+
+YGFlarvae <- la_mean_y
+	YGFlarvae[la_mean_y > 0] <- 1
+	YGFlarvae <- apply(YGFlarvae, 1, mean, na.rm = TRUE)
+
+YGFjuveniles <- la_mean_y
+	YGFjuveniles[la_mean_y > 0] <- 1
+	YGFjuveniles <- apply(YGFjuveniles, 1, mean, na.rm = TRUE)
+
+YGFadults <- ad_mean_y
+	YGFadults[ad_mean_y > 0] <- 1
+	YGFadults <- apply(YGFadults, 1, mean, na.rm = TRUE)
+
+	
+YGF <- rbind(YGFeggs, YGFlarvae, YGFjuveniles, YGFadults)
+rownames(YGF) <- c("Eggs", "Tadpoles", "Subadults", "Adults")
+
+
+# First I have to add three more years with no counts to the plotting dataset:
+
+more.years <- matrix(c(0,0,0,0,0,0,0,0,0,0,0,0), nrow=4, ncol=3, byrow=TRUE)
+rownames(more.years) <- c("Eggs", "Tadpoles", "Subadults", "Adults")
+colnames(more.years) <- c("2013", "2014", "2015")
+
+YGF <- as.matrix(YGF)
+test <- cbind(YGF, more.years)
+
+YGF <- test
+
+par(mfrow = c(1,1), las = 2, mar = c(4,4,1,1))
+barplot(YGF, beside = TRUE, legend = TRUE, ylim = c(0, 1), args.legend = list(x = "topright", bty = "n"), col = terrain.colors(4), ylab = "Proportion of occupied lakes")
+```
+
+I also did an additional plot where I only included egg masses that were counted during the breeding season!
+
+```{r, eval=TRUE}
+data.breeding <- subset(data, data$season=="b")
+eg_mean_y_b <- tapply(data.breeding$eggs, list(data.breeding$year, data.breeding$site), mean, na.rm = TRUE)
+
+YGFeggs <- eg_mean_y_b
+	YGFeggs[eg_mean_y_b > 0] <- 1
+	YGFeggs <- apply(YGFeggs, 1, mean, na.rm = TRUE)
+
+YGFlarvae <- la_mean_y
+	YGFlarvae[la_mean_y > 0] <- 1
+	YGFlarvae <- apply(YGFlarvae, 1, mean, na.rm = TRUE)
+
+YGFjuveniles <- la_mean_y
+	YGFjuveniles[la_mean_y > 0] <- 1
+	YGFjuveniles <- apply(YGFjuveniles, 1, mean, na.rm = TRUE)
+
+YGFadults <- ad_mean_y
+	YGFadults[ad_mean_y > 0] <- 1
+	YGFadults <- apply(YGFadults, 1, mean, na.rm = TRUE)
+
+	
+YGF <- rbind(YGFeggs, YGFlarvae, YGFjuveniles, YGFadults)
+rownames(YGF) <- c("Eggs", "Tadpoles", "Subadults", "Adults")
+
+
+# First I have to add three more years with no counts to the plotting dataset:
+
+more.years <- matrix(c(0,0,0,0,0,0,0,0,0,0,0,0), nrow=4, ncol=3, byrow=TRUE)
+rownames(more.years) <- c("Eggs", "Tadpoles", "Subadults", "Adults")
+colnames(more.years) <- c("2013", "2014", "2015")
+
+YGF <- as.matrix(YGF)
+test <- cbind(YGF, more.years)
+
+YGF <- test
+
+par(mfrow = c(1,1), las = 2, mar = c(4,4,1,1))
+barplot(YGF, beside = TRUE, legend = TRUE, ylim = c(0, 1), args.legend = list(x = "topright", bty = "n"), col = terrain.colors(4), ylab = "Proportion of occupied lakes")
+```
+
+And one with different colors:
+
+```{r, eval=TRUE}
+
+YGFeggs <- eg_mean_y
+	YGFeggs[eg_mean_y > 0] <- 1
+	YGFeggs <- apply(YGFeggs, 1, mean, na.rm = TRUE)
+LGFeggs <- eg_mean_y
+	LGFeggs[eg_mean_y > 0] <- 1
+	LGFeggs <- apply(LGFeggs, 2, mean, na.rm = TRUE)
+
+YGFlarvae <- la_mean_y
+	YGFlarvae[la_mean_y > 0] <- 1
+	YGFlarvae <- apply(YGFlarvae, 1, mean, na.rm = TRUE)
+
+YGFjuveniles <- la_mean_y
+	YGFjuveniles[la_mean_y > 0] <- 1
+	YGFjuveniles <- apply(YGFjuveniles, 1, mean, na.rm = TRUE)
+
+YGFadults <- ad_mean_y
+	YGFadults[ad_mean_y > 0] <- 1
+	YGFadults <- apply(YGFadults, 1, mean, na.rm = TRUE)
+
+	
+YGF <- rbind(YGFeggs, YGFlarvae, YGFjuveniles, YGFadults)
+rownames(YGF) <- c("Eggs", "Tadpoles", "Subadults", "Adults")
+
+
+# First I have to add three more years with no counts to the plotting dataset:
+
+more.years <- matrix(c(0,0,0,0,0,0,0,0,0,0,0,0), nrow=4, ncol=3, byrow=TRUE)
+rownames(more.years) <- c("Eggs", "Tadpoles", "Subadults", "Adults")
+colnames(more.years) <- c("2013", "2014", "2015")
+
+YGF <- as.matrix(YGF)
+test <- cbind(YGF, more.years)
+
+YGF <- test
+
+par(mfrow = c(1,1), las = 2, mar = c(4,4,1,1))
+barplot(YGF, beside = TRUE, legend = TRUE, ylim = c(0, 1), args.legend = list(x = "topright", bty = "n"), col = c("white", "green", "cornflowerblue", "coral1"), ylab = "Proportion of occupied lakes")
+```
+
+Now let's do a combination of the two plots where I take the sums for egg mass but otherwise the data from the first figure with averages over the three sampling efforts each summer:
+
+```{r, eval=TRUE}
+
+# for eggs take only breeding season:
+data.breeding <- subset(data, data$season=="b")
+eg_mean_y_b <- tapply(data.breeding$eggs, list(data.breeding$year, data.breeding$site), mean, na.rm = TRUE)
+
+YGFeggs <- eg_mean_y_b
+	YGFeggs[eg_mean_y_b > 0] <- 1
+	YGFeggs <- apply(YGFeggs, 1, mean, na.rm = TRUE)
+
+YGFlarvae <- la_mean_y
+	YGFlarvae[la_mean_y > 0] <- 1
+	YGFlarvae <- apply(YGFlarvae, 1, mean, na.rm = TRUE)
+
+YGFjuveniles <- la_mean_y
+	YGFjuveniles[la_mean_y > 0] <- 1
+	YGFjuveniles <- apply(YGFjuveniles, 1, mean, na.rm = TRUE)
+
+YGFadults <- ad_mean_y
+	YGFadults[ad_mean_y > 0] <- 1
+	YGFadults <- apply(YGFadults, 1, mean, na.rm = TRUE)
+
+	
+YGF <- rbind(YGFeggs, YGFlarvae, YGFjuveniles, YGFadults)
+rownames(YGF) <- c("Eggs", "Tadpoles", "Subadults", "Adults")
+
+
+# First I have to add three more years with no counts to the plotting dataset:
+
+more.years <- matrix(c(0,0,0,0,0,0,0,0,0,0,0,0), nrow=4, ncol=3, byrow=TRUE)
+rownames(more.years) <- c("Eggs", "Tadpoles", "Subadults", "Adults")
+colnames(more.years) <- c("2013", "2014", "2015")
+
+YGF <- as.matrix(YGF)
+test <- cbind(YGF, more.years)
+
+YGF <- test
+
+YGF[1,2]<- 0.7
+YGF[1,13]<- 0
+YGF[1,14]<- 0
+YGF[1,15]<- 0
+
+par(mfrow = c(1,1), las = 2, mar = c(4,4,1,1))
+barplot(YGF, beside = TRUE, legend = TRUE, ylim = c(0, 1), args.legend = list(x = "topright", bty = "n"), col = terrain.colors(4), ylab = "Proportion of occupied lakes")
+```
+
+## Figures 3 and 4 were done using code in another [script](https://github.com/megaptera-helvetiae/DusyBasin/tree/master/Scripts_unmarked) by Zack Steel!!!
+
+**Snow Data**
+
+```{r, eval=TRUE, warning=FALSE}
+snow2 <- subset(season_length, season == "winter")[,-4]
+	names(snow2) <- c("w.start", "w.end", "year", "w.dur")
+	snow2$year <- 1989:2016
+snow3 <- subset(season_length, season == "summer")[,-4]; names(snow3) <- c("s.start", "s.end", "year", "s.dur")
+	names(snow3) <- c("s.start", "s.end", "year", "s.dur")
+	snow3$year <- 1989:2017
+snow2 <- merge(snow2, snow3, all = TRUE)
+
+snow2$snow.max <- tapply(dsnow$watcont, dsnow$year, max, na.rm = TRUE)[-1]
+
+par(mfrow = c(2,2), las = 1, mar = c(3,4,1,1))
+plot(watcont ~ date, dsnow, type = "l", ylab = "Water Content Equivalent")
+plot(tapply(dsnow$watcont, dsnow$year, max, na.rm = TRUE) ~ c(1988:2017), type = "b", pch = 17, ylab = "Maximal snow")
+plot(duration ~ year, subset(season_length, season == "winter"), type = "b", pch = 16, ylab = "Winter duration")
+	abline(lm(duration ~ year, subset(season_length, season == "winter")))
+plot(duration ~ year, subset(season_length, season == "summer"), type = "b", pch = 17, ylab = "Summer duration")
+	abline(lm(duration ~ year, subset(season_length, season == "summer")))
+```
+
+## Code for Figure 5
+
+Snow plots
+
+```{r, eval=TRUE}
+
+par(las = 1, mar = c(5,4,1,1), mfrow = c(2,1))
+plot(SnHe_cm ~ Year, snow, type = "b", pch = 16)
+boxplot(SnHe_cm ~ Year, snow, type = "b", pch = 16)
+
+
+# Snow resampling (1 value per year)
+
+boot = 100
+years <- unique(snow$Year)
+bootsnow <- matrix(NA, boot, length(years))
+delta_snow <- NA
+
+t0 <- Sys.time()
+for (i in 1:boot) {
+	for (j in 1:length(years)) {
+		interm <- subset(snow, Year == years[j])$SnHe_cm
+		if (length(interm) > 1) bootsnow[i,j] <- sample(x = as.numeric(subset(snow, Year == years[j])$SnHe_cm), size = 1)
+		else bootsnow[i,j] <- interm
+	}
+	res <- lm(bootsnow[i,] ~ years)
+	delta_snow[i] <- coef(res)[2]
+	}
+Sys.time()-t0
+hist(delta_snow)
+mean(delta_snow); sd(delta_snow)
+t.test(delta_snow)
+
+
+# Snow averaging (1 value per year)
+
+snow.year <- tapply(snow$SnHe_cm, snow$Year, mean)
+	snow.year2 <- tapply(snow$SnHe_cm, snow$year2, mean)
+snow.min <- tapply(snow$SnHe_cm, snow$Year, min)
+	snow.min2 <- tapply(snow$SnHe_cm, snow$year2, min)
+snow.max <- tapply(snow$SnHe_cm, snow$Year, max)
+	snow.max2 <- tapply(snow$SnHe_cm, snow$year2, max)
+	
+par(las = 1, mar = c(4,4,1,1))
+plot(snow.year ~ as.numeric(names(snow.year)), pch = 16, type = "n", ylim = c(0, 500), ylab = "Snow height [cm]", xlab = "Time [year]")
+abline(v = c(194:202)*10, lty = 2)
+polygon(c(years, rev(years)), c(snow.min, rev(snow.max)), col = "grey")
+points(snow.year ~ as.numeric(names(snow.year)), pch = 16, type = "b")
+abline(h = 100)
+arrows(1961.5, 80, 1974.5, 80, lwd = 2, code = 3)
+arrows(1977.5, 80, 1986.5, 80, lwd = 2, code = 3)
+arrows(1992.5, 80, 2000.5, 80, lwd = 2, code = 3)
+arrows(2001.5, 80, 2006.5, 80, lwd = 2, code = 3)
+arrows(2007.5, 80, 2011.5, 80, lwd = 2, code = 3)
+text(c(1967.5, 1981.5, 1996, 2004, 2010), y = 70, c(13,9,8,5, 4))
+
+snowheight <- data.frame(years, snow.year, snow.min, snow.max)
+res <- lm(snow.year ~ years, subset(snowheight, years %in% 1958:2015));summary(res)
+res <- lm(snow.min ~ years, subset(snowheight, years %in% 1958:2015));summary(res)
+res <- lm(snow.max ~ years, subset(snowheight, years %in% 1958:2015));summary(res)
+
+
+res <- lm(snow.year2 ~ as.numeric(names(snow.year2)));summary(res)
+res <- lm(snow.min2 ~ as.numeric(names(snow.year2)));summary(res)
+res <- lm(snow.max2 ~ as.numeric(names(snow.year2)));summary(res)
+plot(snow.year2 ~ as.numeric(names(snow.year2)), pch = 16, type = "b", ylim = c(0, 500))
+points(snow.min2 ~ as.numeric(names(snow.year2)), type = "l")
+points(snow.max2 ~ as.numeric(names(snow.year2)), type = "l")
+
+#-----------------------------------
+# Graphs
+#-----------------------------------
+
+boxplot(SnHe_cm ~ Year, subset(snow, Year > 1900))
+abline(h = 100, col = "red")
+
+#quartz("", 10, 7)
+par(mfrow = c(1,1), las = 1, mar = c(2,4,0,1), oma = c(1,1,1,1))
+plot(SnHe_cm ~ Time, snow, type = "n", ylab = "Snow cover [cm]", pch = 16)
+abline(h = c(1:10)*50, lty = 2, col = "grey")
+abline(v = c(194:202)*10, lty = 2, col = "grey")
+
+points(SnHe_cm ~ Time, snow, type = "p", ylab = "Snow cover [cm]", pch = 16)
+points(lowess(snow$SnHe_cm)$y ~ snow$Time, col = "red", lwd = 2, type = "l")
+res <- lm(SnHe_cm ~ Time, snow); summary(res)
+abline(res)
+legend("topleft", p.trans(coef(summary(res))[2,4]), bty = "n")
+
+
+par(mfrow = c(3,1), las = 1, mar = c(2,4,0,1), oma = c(1,1,1,1))
+plot(snow.year ~ as.numeric(names(snow.year)), type = "b", ylab = "Mean snow cover")
+points(lowess(snow.year)$y ~ as.numeric(names(snow.year)), col = "red", lwd = 2, type = "l")
+res <- lm(snow.year ~ as.numeric(names(snow.year))); summary(res)
+abline(res)
+legend("topleft", p.trans(coef(summary(res))[2,4]), bty = "n")
+
+plot(snow.min ~ as.numeric(names(snow.year)), type = "b", ylab = "Min snow cover")
+points(lowess(snow.min)$y ~ as.numeric(names(snow.year)), col = "red", lwd = 2, type = "l")
+res <- lm(snow.min ~ as.numeric(names(snow.year))); summary(res)
+abline(res)
+legend("topleft", p.trans(coef(summary(res))[2,4]), bty = "n")
+
+plot(snow.max ~ as.numeric(names(snow.year)), type = "b", ylab = "Max snow cover")
+points(lowess(snow.max)$y ~ as.numeric(names(snow.year)), col = "red", lwd = 2, type = "l")
+res <- lm(snow.max ~ as.numeric(names(snow.year))); summary(res)
+abline(res)
+legend("topleft", p.trans(coef(summary(res))[2,4]), bty = "n")
+```
+```{r, echo=FALSE, results='asis'}
+cat("\n\n\\pagebreak\n")
+#writeLines("ValueForV")
+```
+
+## Now the code for Table 1
+
+```{r, warning=FALSE, message=FALSE, eval=FALSE}
+setwd("/")
+datab<-read.delim("sc.orig.txt", header=T)
+str(datab)
+
+datab$lake<-as.factor(datab$lake)
+
+library(lme4)
+
+# Models with season length
+res<-glmer(dry ~ surf_mean + sum_len + (1|lake), data=datab, family=binomial)
+
+# Need to scale mean surface area measures because they are not normally distributed!
+resa<-glmer(dry ~ surf_lm + sum_len + (1|lake), data=datab, family=binomial)
+
+summary(res)
+summary(resa)
+
+# Which model is better, surface area or depth?
+resb<-glmer(dry ~ depth + sum_len + (1|lake), data=datab, family=binomial)
+summary(resb)
+anova(resa, resb)
+
+# Depth models for table:
+resb.2<-glmer(dry ~ depth + (1|lake), data=datab, family=binomial)
+resb.3<-glmer(dry ~ sum_len + (1|lake), data=datab, family=binomial)
+anova(resb, resb.2)
+anova(resb, resb.3)
+
+# Depth - snow pack models for table:
+resf<-glmer(dry ~ snow_max + depth + (1|lake), data=datab, family=binomial)
+resf.1<-glmer(dry ~ depth + (1|lake), data=datab, family=binomial)
+resf.2<-glmer(dry ~ snow_max + (1|lake), data=datab, family=binomial)
+anova(resf, resf.1)
+anova(resf, resf.2)
+
+# Surface area models for table:
+resa<-glmer(dry ~ surf_lm + sum_len + (1|lake), data=datab, family=binomial)
+resa.1<-glmer(dry ~ sum_len + (1|lake), data=datab, family=binomial)
+resa.2<-glmer(dry ~ surf_lm + (1|lake), data=datab, family=binomial)
+anova(resa, resa.1)
+anova(resa, resa.2)
+
+# Surface area - snow pack models for table:
+resg<-glmer(dry ~ snow_max + surf_lm + (1|lake), data=datab, family=binomial)
+resg.1<-glmer(dry ~ surf_lm + (1|lake), data=datab, family=binomial)
+resg.2<-glmer(dry ~ snow_max + (1|lake), data=datab, family=binomial)
+anova(resg, resg.1)
+anova(resg, resg.2)
+```
+
+## Now my favorite plot; Fig. S1 in the manuscript
+
+The summary plot using bubbles to show abundance of different life stages each each. Sites are placed according to their geographic location in the plot.
+
+```{r, eval=TRUE}
+d <- as.dist(dist)
+mds.coor <- cmdscale(d)
+mds.coor <- mds.coor[c(1,2,4,5,6,7,9,13),]
+
+par(mar = c(0,0,0,0), mfrow = c(3,5))
+for (i in 1:dim(ad_mean_y)[1]) {
+	plot(mds.coor[,1], -mds.coor[,2], type="p", xlab="", ylab="", pch = 21, cex = la_mean_y[i,c(1,2,4,5:7,9,12)]/50, bg = alpha("green", 0.5), xlim = c(-350, 400), ylim = c(-350, 250), xaxt = "n", yaxt = "n")
+	points(mds.coor[,1], -mds.coor[,2], type="p", xlab="", ylab="", pch = 21, cex = ju_mean_y[i,c(1,2,4,5:7,9,12)]/25, bg = alpha("blue", 0.5))
+	points(mds.coor[,1], -mds.coor[,2], type="p", xlab="", ylab="", pch = 21, cex = ad_mean_y[i,c(1,2,4,5:7,9,12)]/5, bg = alpha("red", 0.5))
+	text(mds.coor[,1], -mds.coor[,2], rownames(mds.coor), font = 2)
+	abline(h=0,v=0, col = "grey", lty = 2)
+	legend("topright", rownames(la_mean_y)[i], bty = "n", text.font = 4)
+}
+	#legend("bottomright", legend = c("Larvae (x10)", "Juveniles (x5)", "Adults"), fill = alpha(c("green", "blue", "red"), 0.5), bty = "n")
+
+
+# And with a legend:
+
+d <- as.dist(dist)
+mds.coor <- cmdscale(d)
+mds.coor <- mds.coor[c(1,2,4,5,6,7,9,13),]
+
+#quartz("", 11, 7)
+par(mar = c(0,0,0,0), mfrow = c(3,5))
+for (i in 1:dim(ad_mean_y)[1]) {
+  plot(mds.coor[,1], -mds.coor[,2], type="p", xlab="", ylab="", pch = 21, cex = la_mean_y[i,c(1,2,4,5:7,9,12)]/50, bg = alpha("green", 0.5), xlim = c(-350, 400), ylim = c(-350, 210), xaxt = "n", yaxt = "n")
+  points(mds.coor[,1], -mds.coor[,2], type="p", xlab="", ylab="", pch = 21, cex = ju_mean_y[i,c(1,2,4,5:7,9,12)]/21, bg = alpha("blue", 0.5))
+  points(mds.coor[,1], -mds.coor[,2], type="p", xlab="", ylab="", pch = 21, cex = ad_mean_y[i,c(1,2,4,5:7,9,12)]/5, bg = alpha("red", 0.5))
+  a <- mds.coor[,1]+25
+  b <- -mds.coor[,2]+25
+  text(a,b, rownames(mds.coor), font = 2, cex=1.2)
+  abline(h=0,v=0, col = "grey", lty = 2)
+  legend("topright", rownames(la_mean_y)[i], bty = "n", text.font = 4)
+  legend("bottomright", legend = c("Tadpoles (x10)", "Subadults (x5)", "Adults", "Tadpoles (x10) & Adults", "Subadults (x5) & Adults", "Everything"), fill = alpha(c("green", "blue", "red", "saddlebrown", "mediumslateblue", "maroon4"), 0.5), bty = "n")
+}
+
+# Can I place the legend somewhere else?
+
+d <- as.dist(dist)
+mds.coor <- cmdscale(d)
+mds.coor <- mds.coor[c(1,2,4,5,6,7,9,13),]
+
+par(mar = c(0,0,0,0), mfrow = c(3,5))
+
+
+for (i in 1:dim(ad_mean_y)[1]) {
+  plot(mds.coor[,1], -mds.coor[,2], type="p", xlab="", ylab="", pch = 21, cex = la_mean_y[i,c(1,2,4,5:7,9,12)]/50, bg = alpha("green", 0.5), xlim = c(-350, 400), ylim = c(-350, 210), xaxt = "n", yaxt = "n")
+  points(mds.coor[,1], -mds.coor[,2], type="p", xlab="", ylab="", pch = 21, cex = ju_mean_y[i,c(1,2,4,5:7,9,12)]/21, bg = alpha("blue", 0.5))
+  points(mds.coor[,1], -mds.coor[,2], type="p", xlab="", ylab="", pch = 21, cex = ad_mean_y[i,c(1,2,4,5:7,9,12)]/5, bg = alpha("red", 0.5))
+  a <- mds.coor[,1]+25
+  b <- -mds.coor[,2]+25
+  text(a,b, rownames(mds.coor), font = 2, cex=1.2)
+  abline(h=0,v=0, col = "grey", lty = 2)
+  legend("topright", inset=c(0,0), rownames(la_mean_y)[i], bty = "n", text.font = 4)
+}
+legend("bottomright", inset=c(0,0), legend = c("Tadpoles (x10)", "Subadults (x5)", "Adults", "T & A", "S & A", "All"), fill = alpha(c("green", "blue", "red", "saddlebrown", "mediumslateblue", "maroon4"), 0.5), bty = "n")
+
+# A little bit more polishing:
+
+d <- as.dist(dist)
+mds.coor <- cmdscale(d)
+mds.coor <- mds.coor[c(1,2,4,5,6,7,9,13),]
+
+par(mar = c(0,0,0,0), mfrow = c(5,3))
+
+
+for (i in 1:dim(ad_mean_y)[1]) {
+  plot(mds.coor[,1], -mds.coor[,2], type="p", xlab="", ylab="", pch = 21, cex = la_mean_y[i,c(1,2,4,5:7,9,12)]/50, bg = alpha("green", 0.5), xlim = c(-350, 450), ylim = c(-400, 270), xaxt = "n", yaxt = "n")
+  points(mds.coor[,1], -mds.coor[,2], type="p", xlab="", ylab="", pch = 21, cex = ju_mean_y[i,c(1,2,4,5:7,9,12)]/21, bg = alpha("blue", 0.5))
+  points(mds.coor[,1], -mds.coor[,2], type="p", xlab="", ylab="", pch = 21, cex = ad_mean_y[i,c(1,2,4,5:7,9,12)]/5, bg = alpha("red", 0.5))
+  a <- mds.coor[,1]+25
+  b <- -mds.coor[,2]+25
+  text(a,b, rownames(mds.coor), font = 2, cex=1.2)
+  abline(h=0,v=0, col = "grey", lty = 2)
+  legend("topright", inset=c(0,0), rownames(la_mean_y)[i], bty = "n", text.font = 4, cex = 1.5)
+}
+legend("bottomright", inset=c(0,0), legend = c("Tadpoles (x10)", "Subadults (x5)", "Adults", "T & A", "S & A", "All"), fill = alpha(c("green", "blue", "red", "saddlebrown", "mediumslateblue", "maroon4"), 0.5), bty = "n")
+```
+
+If I plot this last plot in R-Studio it looks quite OK. Legend only in the last plot and years clearly visible. In R Markdown it looks not so nice.
+&nbsp;
+
+```{r, echo=FALSE, results='asis'}
+cat("\n\n\\pagebreak\n")
+#writeLines("ValueForV")
+```
+
+Now let's make some useful **summary plots**. We decided to concentrate on the following life-stages: number of egg masses, tadpoles, subadults and adults.
+
+&nbsp;
+
+I will plot tadpoles, subadults and adults in one plot and then egg masses in a separate plot. For tadpoles, subadults and adults I also show the log-transformed counts. For egg masses I don't because there are so many zeros and the log of zero is an undefined number!
+--> Also: for eggs I only take counts during the breeding season!
+
+## Code for Supplementary Figure S4
+
+```{r}
+# plotting with log
+
+par(mfrow = c(1,3), oma=c(0,0,2,0))
+boxplot(larvae ~ year, subset(ndat, larvae > 0), log = "y", ylab="", main = "Tadpoles (when present)", las = 2, cex.axis=0.75)
+mtext("LOG(Mean counts per year)", side=2, line=3, cex=0.8)
+boxplot(subadults ~ year, subset(ndat, subadults > 0), log = "y", main = "Subadults (when present)", las = 2)
+boxplot(adults ~ year, subset(ndat, adults > 0), log = "y", main = "Adults (when present)", las = 2)
+
+# trying to plot all years, without LOG, real counts, until 2015:
+
+write.table(ndat, file="ndat_raw.txt")
+# --> I manually added three years with zero counts in Excel!
+ndat.v2 <- read.delim("~/DusyBasin/Input_summaryStats/ndat_2015.txt")
+
+
+par(mfrow = c(1,3), oma=c(0,0,2,0))
+boxplot(larvae ~ year, data=ndat.v2, las = 2, ylab="", main="Tadpoles", cex.axis=0.75)
+mtext("Mean counts per year", side=2, line=3, cex=0.8)
+boxplot(subadults ~ year, data=ndat.v2, main = "Subadults", las = 2)
+boxplot(adults ~ year, data=ndat.v2, main = "Adults", las = 2)
+```
+
+## Code for Supplementary Figures S5 and S7
+
+I am plotting the eggs separately.
+
+```{r, eval=TRUE}
+# for eggs take only breeding season:
+data.breeding <- subset(ndat.v2, data$season=="b")
+eg_mean_y_b <- tapply(data.breeding$eggs, list(data.breeding$year, data.breeding$site), mean, na.rm = TRUE)
+
+ndat.egg <- data.frame(year = as.numeric(rep(rownames(eg_mean_y_b), times = dim(eg_mean_y_b)[2])), site = as.numeric(rep(colnames(eg_mean_y_b), each = dim(eg_mean_y_b)[1])), eggs = as.numeric(eg_mean_y_b))
+summary(ndat.egg)
+
+
+# First a plot of the eggs only from the breeding season:
+par(mfrow = c(1,2), oma=c(0,0,2,0))
+
+boxplot(eggs ~ year, data=ndat.egg, las = 2, ylab="Counts", ylim=c(-1,15), main="Mean counts per year")
+title("Mean number of egg masses per year", outer=TRUE) 
+
+boxplot(eggs ~ year, subset(ndat, eggs > 0), log = "y", ylab = "LOG(Counts)", las = 2, main="LOG(Mean counts per year when present)")
+
+par(mfrow = c(1,2), oma=c(0,0,2,0))
+
+boxplot(eggs ~ year, data=ndat, las = 2, ylab="Counts", ylim=c(-1,15), main="Mean counts per year")
+title("Mean number of egg masses per year", outer=TRUE) 
+
+boxplot(eggs ~ year, subset(ndat, eggs > 0), log = "y", ylab = "LOG(Counts)", las = 2, main="LOG(Mean counts per year when present)")
+```
+
+## Code for Supplementary Figure S6
+
+Variation in counts among lakes at Dusy Basin. Again, I am first showing LOG-transformed values!
+Also: I am splitting up again and showing egg data only for breeding season!
+
+```{r, eval=TRUE}
+par(mfrow = c(3,1), mar = c(3,3,2,1), oma = c(2,2,0,0))
+
+boxplot(larvae ~ site, subset(ndat, larvae > 0), log = "y", main = "Tadpoles (when present)", las = 2)
+boxplot(subadults ~ site, subset(ndat, subadults > 0), log = "y", main = "Subadults (when present)", las = 2)
+boxplot(adults ~ site, subset(ndat, adults > 0), log = "y", main = "Adults (when present)", las = 1)
+mtext("LOG(Mean counts per site)", 2, 0, TRUE)
+mtext("Sites", 1, 0, TRUE)
+
+# Now trying to plot this also for ALL lakes!
+
+par(mfrow = c(1,3), mar = c(3,3,2,1), oma = c(2,2,0,0))
+boxplot(larvae ~ site, data=ndat, main = "Tadpoles", las = 2)
+boxplot(subadults ~ site, data=ndat, main = "Subadults", las = 2)
+boxplot(adults ~ site, data=ndat, main = "Adults", las = 1)
+mtext("Mean counts per site", 2, 0, TRUE)
+mtext("Sites", 1, 0, TRUE)
+
+
+# And now an individual plot for the eggs, again first only for the breeding season:
+quartz("", 12, 6)
+par(mfrow = c(1,2), mar = c(3,3,2,1), oma = c(2,2,0,0))
+boxplot(eggs ~ site, data=ndat.egg, main = "Egg masses", las = 2)
+boxplot(eggs ~ site, subset(ndat, eggs > 0), log = "y", main = "LOG(Egg masses)", las = 2)
+mtext("Sites", 1, 0, TRUE, cex=1.2)
+mtext("Counts", 2, 0, TRUE, cex=1.2)
+
+# And then for all seasons:
+quartz("", 12, 6)
+par(mfrow = c(1,2), mar = c(3,3,2,1), oma = c(2,2,0,0))
+boxplot(eggs ~ site, data=ndat, main = "Egg masses", las = 2)
+boxplot(eggs ~ site, subset(ndat, eggs > 0), log = "y", main = "LOG(Egg masses when present)", las = 2)
+mtext("Sites", 1, 0, TRUE, cex=1.2)
+mtext("Counts", 2, 0, TRUE, cex=1.2)
+```
+
+```{r, echo=FALSE, results='asis'}
+cat("\n\n\\pagebreak\n")
+#writeLines("ValueForV")
+```
+
+## Code for Supplementary Figure S8
+
+How does fish presence affect frog abundance at different life stages? 
+
+```{r, eval=TRUE}
+# Lake breeding quality
+
+eg_max_y <- tapply(data$eggs, list(data$year, data$site), max, na.rm = TRUE)
+breed_eggs <- apply(eg_max_y, 2, mean, na.rm = TRUE) / sum(apply(eg_max_y, 2, mean, na.rm = TRUE))
+
+la_max_y <- tapply(data$larvae, list(data$year, data$site), max, na.rm = TRUE)
+breed_larv <- apply(la_max_y, 2, mean, na.rm = TRUE) / sum(apply(la_max_y, 2, mean, na.rm = TRUE))
+
+#quartz("", 12, 5)
+par(mfrow = c(1,2), mar = c(5,4,1,1))
+barplot(rbind(breed_eggs, breed_larv), beside = TRUE, las = 2)
+mtext("Average number of egg masses / larvae (standardized)", 2, 3, las = 0)
+plot(breed_larv[-c(9, 11, 13)] ~ apply(min_surf, 2, mean, na.rm = TRUE), pch = 16, log = "x", xlab = "Lake surface", xlim = c(0.3, 150000))
+points(breed_eggs[-c(9,11,13)] ~ apply(min_surf, 2, mean, na.rm = TRUE), pch = 17, log = "x")
+text(apply(min_surf, 2, mean, na.rm = TRUE), breed_larv[-c(9,11,13)], paste("Lake n°", names(breed_eggs[-c(9,11,13)])), pos = c(3, 4, 4, 4, 4, 4,3 , 4,3 ,4 , 4))
+
+# Hypothesis 1: Best lakes are larger lakes / but fish eat frogs
+
+fish <- table(data$fish, data$site, data$year)
+test <- fish[2,,] / (fish[1,,] + fish[2,,])
+test <- apply(test, 1, mean, na.rm = TRUE)
+
+fish2 <- table(data$fish, data$site)
+test2 <- fish2[2,] / (fish2[1,] + fish2[2,])
+
+par(mfrow = c(1,2), mar = c(5,4,1,1), las = 1)
+boxplot(min_surf+1, log = "y", las = 2, ylab = "Minimal lake surface")
+#barplot(t(test), beside = TRUE, ylab = "Proportion of observed fish")
+barplot(rbind(test, test2), beside = TRUE, ylab = "Proportion of observed fish", las =2)
+
+lake_quality <- data.frame(breed_larv, breed_eggs, lake = as.numeric(names(breed_larv)))
+prop_fish <- data.frame(prop_fish = test, lake = as.numeric(names(test)))
+surface <- data.frame(surf.min = apply(min_surf, 2, mean, na.rm = TRUE), surf.mean = apply(mean_surf, 2, mean, na.rm = TRUE), surf.max = apply(max_surf, 2, max, na.rm = TRUE), lake = as.numeric(colnames(mean_surf)))
+lake_quality <- merge(lake_quality, prop_fish)
+lake_quality <- merge(lake_quality, surface)
+lake_quality <- lake_quality[order(lake_quality$lake),]
+lake_quality$fish <- "fishless"
+	lake_quality$fish[lake_quality$lake %in% c(1,3)] <- "fishes"
+
+# Lake 1, lake 3, early (lake 20 - fish died in 2000)
+
+par(las = 1, plt = c(0,0.7, 0, 1), oma = c(4,5,1,1))
+plot(breed_larv ~ surf.max, subset(lake_quality, fish == "fishless"), pch = 16, ylab = "", xlab = "", ylim = c(0, 0.5), xlim = c(0, 2800))
+points(breed_eggs ~ surf.max, lake_quality, pch = 17)
+res <- lm(breed_larv ~ surf.max + I(surf.max^2), subset(lake_quality, fish == "fishless"))
+res <- lm(breed_larv ~ I(surf.max^2), subset(lake_quality, fish == "fishless"))
+pred <- predict(res, newdata = data.frame(surf.max = c(0:3000)))
+points(pred ~ c(0:3000), type = "l")
+text(lake_quality$surf.max, lake_quality$breed_larv, lake_quality$lake, pos = c(rep(3, 7), 4, rep(3, 3)))
+points(breed_larv ~ surf.max, subset(lake_quality, fish == "fishes"), pch = 1)
+par(las = 1, plt = c(0.72,1, 0, 1), new = TRUE)
+plot(breed_larv ~ surf.max, lake_quality, pch = 1, ylab = "", xlab = "", ylim = c(0, 0.5), xlim = c(50500, 51500), yaxt = "n", xaxt = "n")
+axis(1, at = c(50500, 51000, 51500))
+text(lake_quality$surf.max, lake_quality$breed_larv, lake_quality$lake, pos = 3)
+mtext("Average number of tadpoles (standardized)", 2, 3, TRUE, las = 0)
+mtext(expression(paste("Lake surface [", m^2, "]", sep = "")), 1, 3, TRUE)
+
+# And as Steve Beissinger suggested let's try to also plot number of tadpoles in logarithm:
+
+par(las = 1, plt = c(0,0.7, 0, 1), oma = c(4,5,1,1))
+breed_larv <- log(breed_larv)
+plot(breed_larv ~ surf.max, subset(lake_quality, fish == "fishless"), pch = 16, ylab = "", xlab = "", ylim = c(0, 0.5), xlim = c(0, 2800))
+# points(breed_eggs ~ surf.max, lake_quality, pch = 17)
+res <- lm(breed_larv ~ surf.max + I(surf.max^2), subset(lake_quality, fish == "fishless"))
+res <- lm(breed_larv ~ I(surf.max^2), subset(lake_quality, fish == "fishless"))
+pred <- predict(res, newdata = data.frame(surf.max = c(0:3000)))
+points(pred ~ c(0:3000), type = "l")
+text(lake_quality$surf.max, lake_quality$breed_larv, lake_quality$lake, pos = c(rep(3, 7), 4, rep(3, 3)))
+points(breed_larv ~ surf.max, subset(lake_quality, fish == "fishes"), pch = 1)
+par(las = 1, plt = c(0.72,1, 0, 1), new = TRUE)
+plot(breed_larv ~ surf.max, lake_quality, pch = 1, ylab = "", xlab = "", ylim = c(0, 0.5), xlim = c(50500, 51500), yaxt = "n", xaxt = "n")
+axis(1, at = c(50500, 51000, 51500))
+text(lake_quality$surf.max, lake_quality$breed_larv, lake_quality$lake, pos = 3)
+mtext("Average number of tadpoles (standardized)", 2, 3, TRUE, las = 0)
+mtext(expression(paste("Lake surface [", m^2, "]", sep = "")), 1, 3, TRUE)
+```
+
+```{r, echo=FALSE, results='asis'}
+cat("\n\n\\pagebreak\n")
+```
+
+## From here on, I am not running this code for publication anymore. It was used for data exploration. However, if you want to see all the analyses we did, turn eval=TRUE and it will run like a charm.
+
+Now we are moving on to environmental factors!
+
+Hypothesis: The years with low snow cover, or drought, are when lakes have dried and when tadpoles have died.
+&nbsp;
+
+Investigate for all different life stages:
+
+```{r, eval=TRUE}
+wc <- tapply(dsnow$watcont, dsnow$year3, max, na.rm = TRUE)
+wc <- data.frame(year = as.numeric(rownames(wc)), wc.max = wc, wc.mean = tapply(dsnow$watcont, dsnow$year3, mean, na.rm = TRUE))
+
+
+# Season length estimated from figure with daily data
+# ndat = new data, max per site and year
+
+no_data2004 <- ndat[1:14,]
+	no_data2004$site <- unique(ndat$site)
+	no_data2004$year <- 2004
+	no_data2004[,3:9] <- NA
+no_data1996 <- no_data2004; no_data1996$year <- 1996
+no_data1995 <- no_data2004; no_data1995$year <- 1995
+no_data1994 <- no_data2004; no_data1994$year <- 1994
+no_data1993 <- no_data2004; no_data1993$year <- 1993
+no_data1992 <- no_data2004; no_data1992$year <- 1992
+
+ndat <- rbind(ndat, no_data1992, no_data1993, no_data1994, no_data1995, no_data1996, no_data2004)
+
+data2 <- merge(ndat, sle, all = TRUE)
+data2 <- merge(data2, wc, all = TRUE)
+
+
+# What environmental factor explains eggs abundance
+
+res <- step(lmer(eggs ~ (sum.years + win.years + winter + wc.max)^2 + (1|site), subset(data2, year < 2010)));res
+
+res <- lmer(eggs ~ sum.years + win.years + ( 1|site), subset(data2, year < 2010)); summary(res); anova(res)
+
+a <- 100
+pred <- predict(res, newdata = data.frame(sum.years = rep(seq(0.2, 0.8, length.out = a), each = a), win.years = rep(seq(0.2, 0.8, length.out = a), times = a), site = rep(2, a*a)))
+
+par(mar = c(4,4,1,1), las = 1)
+image(seq(0.2, 0.8, length.out = a), seq(0.2, 0.8, length.out = a), matrix(pred, nrow = a), xlab = "Summer length", ylab = "Winter length")
+contour(seq(0.2, 0.8, length.out = a), seq(0.2, 0.8, length.out = a), matrix(pred, nrow = a), add = TRUE, drawlabels = TRUE)
+
+
+# What environmental factor explains larvae abundance
+
+res <- step(lmer(larvae ~ (sum.years + win.years + winter + wc.max)^2 + (1|site), subset(data2, year < 2010)));res
+
+res <- lmer(larvae ~ sum.years + win.years + ( 1|site), subset(data2, year < 2010)); summary(res); anova(res)
+
+pred <- predict(res, newdata = data.frame(sum.years = rep(seq(0.2, 0.8, length.out = a), each = a), win.years = rep(seq(0.2, 0.8, length.out = a), times = a), site = rep(2, a*a)))
+#quartz()
+par(mar = c(4,4,1,1), las = 1)
+image(seq(0.2, 0.8, length.out = a), seq(0.2, 0.8, length.out = a), matrix(pred, nrow = a), xlab = "Summer length", ylab = "Winter length")
+contour(seq(0.2, 0.8, length.out = a), seq(0.2, 0.8, length.out = a), matrix(pred, nrow = a), add = TRUE, drawlabels = TRUE)
+
+res <- lmer(larvae ~ sum.years*wc.max + ( 1|site), subset(data2, year < 2010)); summary(res)
+
+pred <- predict(res, newdata = data.frame(sum.years = rep(seq(0.2, 0.8, length.out = a), each = a), wc.max = rep(seq(10, 60, length.out = a), times = a), site = rep(2, a*a)))
+image(matrix(pred, nrow = a), xlab = "Summer length", ylab = "Water max")
+contour(matrix(pred, nrow = a), add = TRUE, drawlabels = TRUE)
+
+
+# What environmental factor explains juvenile abundance
+
+
+res <- step(lmer(juveniles ~ (sum.years + win.years + winter + wc.max)^2 + (1|site), subset(data2, year < 2010)));res
+	res <- lmer(juveniles ~ sum.years * win.years + ( 1|site), subset(data2, year < 2010)); summary(res); anova(res)
+
+pred <- predict(res, newdata = data.frame(sum.years = rep(seq(0.2, 0.8, length.out = a), each = a), win.years = rep(seq(0.2, 0.8, length.out = a), times = a), site = rep(2, a*a)))
+
+par(mar = c(4,4,1,1), las = 1)
+image(seq(0.2, 0.8, length.out = a), seq(0.2, 0.8, length.out = a), matrix(pred, nrow = a), xlab = "Summer length", ylab = "Winter length")
+contour(seq(0.2, 0.8, length.out = a), seq(0.2, 0.8, length.out = a), matrix(pred, nrow = a), add = TRUE, drawlabels = TRUE)
+
+
+# What environmental factor explains subadults abundance
+
+res <- step(lmer(subadults ~ (sum.years + win.years + winter + wc.max)^2 + (1|site), subset(data2, year < 2010)));res
+	res <- lmer(subadults ~ sum.years * win.years + ( 1|site), subset(data2, year < 2010)); summary(res); anova(res)
+
+pred <- predict(res, newdata = data.frame(sum.years = rep(seq(0.2, 0.8, length.out = a), each = a), win.years = rep(seq(0.2, 0.8, length.out = a), times = a), site = rep(2, a*a)))
+
+par(mar = c(4,4,1,1), las = 1)
+image(seq(0.2, 0.8, length.out = a), seq(0.2, 0.8, length.out = a), matrix(pred, nrow = a), xlab = "Summer length", ylab = "Winter length")
+contour(seq(0.2, 0.8, length.out = a), seq(0.2, 0.8, length.out = a), matrix(pred, nrow = a), add = TRUE, drawlabels = TRUE)
+
+
+# What environmental factor explains adults abundance
+
+res <- step(lmer(adults ~ (sum.years + win.years + winter + wc.max)^2 + (1|site), subset(data2, year < 2010)));res
+
+
+# What environmental factor explains adults and subadults abundance
+
+res <- step(lmer(frogs ~ (sum.years + win.years + winter + wc.max)^2 + (1|site), subset(data2, year < 2010)));res
+```
+
+```{r, echo=FALSE, results='asis'}
+cat("\n\n\\pagebreak\n")
+```
+
+Drought and season length investigations
+
+How season length affects drying out of pools and lakes:
+
+```{r, eval=TRUE}
+table(dry$dryness, dry$lake)
+test <- merge(sle, dry)
+
+res <- lmer(winter ~ dryness + (1|lake), test); anova(res)
+res <- lmer(sum.years ~ dryness + (1|lake), test); anova(res)
+
+par(mfrow = c(1,2), las = 1, mar = c(3,4,1,1), oma = c(0,0,2,1))
+boxplot(winter ~ dryness, subset(test, lake == 2), ylab = "Winter length")
+	res <- lm(winter ~ dryness, subset(test, lake == 2)); anova(res)
+	res2 <- lmer(winter ~ dryness + (1|lake), test); anova(res2)
+	legend("topleft", c(paste(p.trans(anova(res)$Pr[1]), "(lake 2)"), paste(p.trans(anova(res2)$Pr[1]), "(all lakes)")), bty = "n")
+boxplot(sum.years ~ dryness, subset(test, lake == 2), ylab = "Summer length")
+	res <- lm(sum.years ~ dryness, subset(test, lake == 2)); anova(res)
+	res2 <- lmer(sum.years ~ dryness + (1|lake), test); anova(res2)
+	legend("bottomleft", c(paste(p.trans(anova(res)$Pr[1]), "(lake 2)"), paste(p.trans(anova(res2)$Pr[1]), "(all lakes)")), bty = "n")
+mtext("Lake 2 example", 3, 0, font = 2, out = TRUE)
+```
+
+Relationship between drought (in drying lakes) and snow pack and season lengths.
+
+```{r, eval=TRUE}
+# Combined files year of drought versus year after drought
+
+test <- merge(sle, dry)
+drought <- merge(dry, data)
+drought <- subset(drought, season == "b")
+dry2 <- test
+dry2$year <- I(dry2$year + 1)
+drought2 <- merge(dry2, data)
+drought2 <- subset(drought2, season == "b")
+
+dry$site <- dry$lake
+drought <- merge(dry, data2)
+
+
+dry2 <- dry
+dry2$year <- I(dry$year + 1)
+drought2 <- merge(dry2, data2)
+
+
+# Data structure
+
+table(drought$year, drought$site)
+table(drought$site, drought$dryness)
+
+
+# Combined files year of drought versus year after drought
+
+par(mfrow = c(2,4), mar = c(1,2,2,1), oma = c(4,3,1,0))
+boxplot(I(eggs+1) ~ dryness, drought, log = "y", main = "Egg masses", las = 1)
+	res <- lmer(log(eggs+1) ~ dryness + (1|site), drought); summary(res)
+	legend("topleft", p.trans(anova(res)$P), bty = "n")
+mtext("Pop. size (during drought)", side = 2, line = 3, outer = FALSE)
+boxplot(I(larvae+1) ~ dryness, drought, log = "y", main = "Larvae", las = 1)
+	res <- lmer(log(larvae +1) ~ dryness + (1|site), drought); summary(res)
+	legend("topleft", p.trans(anova(res)$P), bty = "n")
+boxplot(I(juveniles+1) ~ dryness, drought, log = "y", main = "Juveniles", las = 1)
+	res <- lmer(log(juveniles +1) ~ dryness + (1|site), drought); summary(res)
+	legend("topleft", p.trans(anova(res)$P), bty = "n")
+boxplot(I(frogs+1) ~ dryness, drought, log = "y", main = "Adults and subadults", las = 1)
+	res <- lmer(log(frogs +1) ~ dryness + (1|site), drought); summary(res)
+	legend("topleft", p.trans(anova(res)$P), bty = "n")
+
+boxplot(I(eggs+1) ~ dryness, drought2, log = "y", main = "", las = 1)
+	res <- lmer(log(eggs+1) ~ dryness + (1|site), drought2); summary(res)
+	legend("topleft", p.trans(anova(res)$P), bty = "n")
+mtext("Pop. size (after drought)", side = 2, line = 3, outer = FALSE)
+boxplot(I(larvae+1) ~ dryness, drought2, log = "y", main = "", las = 1)
+	res <- lmer(log(larvae +1) ~ dryness + (1|site), drought2); summary(res)
+	legend("topleft", p.trans(anova(res)$P), bty = "n")
+boxplot(I(juveniles+1) ~ dryness, drought2, log = "y", main = "", las = 1)
+	res <- lmer(log(juveniles +1) ~ dryness + (1|site), drought2); summary(res)
+	legend("topleft", p.trans(anova(res)$P), bty = "n")
+boxplot(I(frogs+1) ~ dryness, drought2, log = "y", main = "", las = 1)
+	res <- lmer(log(frogs +1) ~ dryness + (1|site), drought2); summary(res)
+	legend("topleft", p.trans(anova(res)$P), bty = "n")
+mtext("Dry versus not dry lake", side = 1, line = 2, outer = TRUE)
+```
+
+Same figure for lake 2 only
+
+```{r, eval=TRUE}
+par(mfrow = c(2,4), mar = c(1,2,2,1), oma = c(4,3,1,0))
+boxplot(I(eggs+1) ~ dryness, subset(drought, site == 2), log = "y", main = "Egg masses", las = 1)
+	res <- lm(log(eggs+1) ~ dryness, subset(drought, site == 2)); summary(res)
+	legend("topleft", p.trans(anova(res)$P[1]), bty = "n")
+mtext("Pop. size (during subset(drought, site == 2))", side = 2, line = 3, outer = FALSE)
+boxplot(I(larvae+1) ~ dryness, subset(drought, site == 2), log = "y", main = "Larvae", las = 1)
+	res <- lm(log(larvae +1) ~ dryness, subset(drought, site == 2)); summary(res)
+	legend("topleft", p.trans(anova(res)$P[1]), bty = "n")
+boxplot(I(juveniles+1) ~ dryness, subset(drought, site == 2), log = "y", main = "Juveniles", las = 1)
+	res <- lm(log(juveniles +1) ~ dryness, subset(drought, site == 2)); summary(res)
+	legend("topleft", p.trans(anova(res)$P[1]), bty = "n")
+boxplot(I(frogs+1) ~ dryness, subset(drought, site == 2), log = "y", main = "Adults and subadults", las = 1)
+	res <- lm(log(frogs +1) ~ dryness, subset(drought, site == 2)); summary(res)
+	legend("topleft", p.trans(anova(res)$P[1]), bty = "n")
+
+boxplot(I(eggs+1) ~ dryness, subset(drought2, site == 2), log = "y", main = "", las = 1)
+	res <- lm(log(eggs+1) ~ dryness, subset(drought2, site == 2)); summary(res)
+	legend("topleft", p.trans(anova(res)$P[1]), bty = "n")
+mtext("Pop. size (after subset(drought, site == 2))", side = 2, line = 3, outer = FALSE)
+boxplot(I(larvae+1) ~ dryness, subset(drought2, site == 2), log = "y", main = "", las = 1)
+	res <- lm(log(larvae +1) ~ dryness, subset(drought2, site == 2)); summary(res)
+	legend("topleft", p.trans(anova(res)$P[1]), bty = "n")
+boxplot(I(juveniles+1) ~ dryness, subset(drought2, site == 2), log = "y", main = "", las = 1)
+	res <- lm(log(juveniles +1) ~ dryness, subset(drought2, site == 2)); summary(res)
+	legend("topleft", p.trans(anova(res)$P[1]), bty = "n")
+boxplot(I(frogs+1) ~ dryness, subset(drought2, site == 2), log = "y", main = "", las = 1)
+	res <- lm(log(frogs +1) ~ dryness, subset(drought2, site == 2)); summary(res)
+	legend("topleft", p.trans(anova(res)$P[1]), bty = "n")
+mtext("Dry versus not dry lake", side = 1, line = 2, outer = TRUE)
+```
+
+Time structured analyses
+
+How does recruitment in lake 2 affect the whole population?
+
+Check how the number of previous life stages correlates with numbers of later life stages.
+
+```{r, eval=TRUE}
+# Functions for drawing
+
+plot.regr.FUN <- function(x,y, alpha = 0.05, pch = 16, yaxt = "s", lab = names(x)) {
+	plot(y ~ x, las = 1, pch = pch, yaxt = yaxt)
+	text(x, y, lab, pos = 3, col = "darkgrey")
+	res <- lm(y ~ x)
+	if (anova(res)$"Pr(>F)"[1] <= alpha) {abline(res); legend("topright", p.trans(anova(res)$"Pr(>F)"[1]), bty = "n")}
+	if (anova(res)$"Pr(>F)"[1] > alpha) {abline(h = mean(y, na.rm = TRUE), lty = 2, col = "darkgrey");legend("topright", "p > 0.05 [NS]", bty = "n")}
+	}
+
+time.FUN <- function(x,y, time = 5, ytitle = "") {
+	plot.regr.FUN(x,y)
+	mtext(ytitle, 2, 3, F, cex = 0.8)
+	n <- length(x)
+	for (i in 1:(time-1)) plot.regr.FUN(y = y[-c(1:i)], x = x[-c((n-(i-1)):n)], yaxt = "n")
+}
+
+# Temporal autocorrelation in lake 2
+
+data3 <- subset(data2, site == 2 & year <= 2009)
+x1 <- data3$eggs; names(x1) <- 1992:2009
+x2 <- data3$larvae; names(x2) <- 1992:2009
+x3 <- data3$juveniles; names(x3) <- 1992:2009
+x4 <- data3$frogs; names(x4) <- 1992:2009
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(x1, data3$eggs, ytitle = "Egg masses")
+time.FUN(x2, data3$larvae, ytitle = "Larvae")
+time.FUN(x3, data3$juveniles, ytitle = "Juveniles")
+time.FUN(x4, data3$frogs, ytitle = "Adults and subadults")
+mtext("Population in previous years", 1, 1, T, cex = 0.8)
+mtext("Temporal autocorrelation in lake 2", 3, 1, TRUE, font = 2)
+
+# Relationships between metrics
+
+pairs(data3[,3:9])
+pairs(data2[,10:14])
+
+
+# Previous life stages effects in lake 2 on the whole bassin
+
+data3 <- subset(data2, site == 2 & year <= 2009)
+x1 <- tapply(data2$eggs, data2$year, mean, na.rm = TRUE)[4:21]
+x2 <- tapply(data2$larvae, data2$year, mean, na.rm = TRUE)[4:21]
+x3 <- tapply(data2$juveniles, data2$year, mean, na.rm = TRUE)[4:21]
+x4 <- tapply(data2$frogs, data2$year, mean, na.rm = TRUE)[4:21]
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(data3$eggs, x1, ytitle = "Egg masses")
+time.FUN(data3$eggs, x2, ytitle = "Larvae")
+time.FUN(data3$eggs, x3, ytitle = "Juveniles")
+time.FUN(data3$eggs, x4, ytitle = "Adults and subadults")
+mtext("Egg masses in lake 2 in previous years", 1, 1, T, cex = 0.8)
+mtext("Effects of eggs masses from lake 2 on the whole basin", 3, 1, TRUE, font = 2)
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(data3$larvae, x1, ytitle = "Egg masses")
+time.FUN(data3$larvae, x2, ytitle = "Larvae")
+time.FUN(data3$larvae, x3, ytitle = "Juveniles")
+time.FUN(data3$larvae, x4, ytitle = "Adults and subadults")
+mtext("Larvae in lake 2 in previous years", 1, 1, T, cex = 0.8)
+mtext("Effects of larvae from lake 2 on the whole basin", 3, 1, TRUE, font = 2)
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(data3$juveniles, x1, ytitle = "Egg masses")
+time.FUN(data3$juveniles, x2, ytitle = "Larvae")
+time.FUN(data3$juveniles, x3, ytitle = "Juveniles")
+time.FUN(data3$juveniles, x4, ytitle = "Adults and subadults")
+mtext("Juveniles in lake 2 in previous years", 1, 1, T, cex = 0.8)
+mtext("Effects of juveniles from lake 2 on the whole basin", 3, 1, TRUE, font = 2)
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(data3$frogs, x1, ytitle = "Egg masses")
+time.FUN(data3$frogs, x2, ytitle = "Larvae")
+time.FUN(data3$frogs, x3, ytitle = "Juveniles")
+time.FUN(data3$frogs, x4, ytitle = "Adults and subadults")
+mtext("Adults and subadults in lake 2 in previous years", 1, 1, T, cex = 0.8)
+mtext("Effects of adults and subadults from lake 2 on the whole basin", 3, 1, TRUE, font = 2)
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(data3$juveniles[-8], x1[-8], ytitle = "Egg masses")
+time.FUN(data3$juveniles[-8], x2[-8], ytitle = "Larvae")
+time.FUN(data3$juveniles[-8], x3[-8], ytitle = "Juveniles")
+time.FUN(data3$juveniles[-8], x4[-8], ytitle = "Adults and subadults")
+mtext("Juveniles in lake 2 in previous years", 1, 1, T, cex = 0.8)
+mtext("Effects of juveniles from lake 2 on the whole basin (without 1999)", 3, 1, TRUE, font = 2)
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(data3$frogs[-8], x1[-8], ytitle = "Egg masses")
+time.FUN(data3$frogs[-8], x2[-8], ytitle = "Larvae")
+time.FUN(data3$frogs[-8], x3[-8], ytitle = "Juveniles")
+time.FUN(data3$frogs[-8], x4[-8], ytitle = "Adults and subadults")
+mtext("Adults and subadults in lake 2 in previous years", 1, 1, T, cex = 0.8)
+mtext("Effects of adults and subadults from lake 2 on the whole basin (without 1999)", 3, 1, TRUE, font = 2)
+```
+
+The same but only in lake 2:
+
+```{r, eval=TRUE}
+data3 <- subset(data2, site == 2 & year <= 2009)
+
+x1 <- data3$eggs; names(x1) <- 1992:2009
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(x1, data3$eggs, ytitle = "Egg masses")
+time.FUN(x1, data3$larvae, ytitle = "Larvae")
+time.FUN(x1, data3$juveniles, ytitle = "Juveniles")
+time.FUN(x1, data3$frogs, ytitle = "Adults and subadults")
+mtext("Population in previous years", 1, 1, T, cex = 0.8)
+mtext("Number of egg masses in previous years", 3, 1, TRUE, font = 2)
+
+x1 <- data3$larvae; names(x1) <- 1992:2009
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(x1, data3$eggs, ytitle = "Egg masses")
+time.FUN(x1, data3$larvae, ytitle = "Larvae")
+time.FUN(x1, data3$juveniles, ytitle = "Juveniles")
+time.FUN(x1, data3$frogs, ytitle = "Adults and subadults")
+mtext("Population in previous years", 1, 1, T, cex = 0.8)
+mtext("Number of larvae in previous years", 3, 1, TRUE, font = 2)
+
+x1 <- data3$juveniles; names(x1) <- 1992:2009
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(x1, data3$eggs, ytitle = "Egg masses")
+time.FUN(x1, data3$larvae, ytitle = "Larvae")
+time.FUN(x1, data3$juveniles, ytitle = "Juveniles")
+time.FUN(x1, data3$frogs, ytitle = "Adults and subadults")
+mtext("Population in previous years", 1, 1, T, cex = 0.8)
+mtext("Number of juveniles in previous years", 3, 1, TRUE, font = 2)
+
+x1 <- data3$frogs; names(x1) <- 1992:2009
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(x1, data3$eggs, ytitle = "Egg masses")
+time.FUN(x1, data3$larvae, ytitle = "Larvae")
+time.FUN(x1, data3$juveniles, ytitle = "Juveniles")
+time.FUN(x1, data3$frogs, ytitle = "Adults and subadults")
+mtext("Population in previous years", 1, 1, T, cex = 0.8)
+mtext("Number of adults and subadults in previous years", 3, 1, TRUE, font = 2)
+```
+
+Lots of plots to figure out whether environmental data explains how many frogs were counted each summer:
+
+```{r, eval=TRUE}
+# Proportion of occupied lakes as functions of seasonal data
+
+YGF2 <- cbind(matrix(NA, 4,4), YGF[,1:7], rep(NA, 4), YGF[,8:12])
+	colnames(YGF2) <- 1993:2009
+
+par(mfrow = c(1,1), las = 2, mar = c(4,4,1,1))
+barplot(YGF2[,-c(1:4)], beside = TRUE, legend = TRUE, ylim = c(0, 1), args.legend = list(x = "topright", bty = "n"), col = terrain.colors(4), ylab = "Proportion of occupied lakes")
+
+x <- data3$winter[-1]; names(x) <- colnames(YGF2) <- 1993:2009
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(x, YGF2[1,], ytitle = "Egg masses")
+time.FUN(x, YGF2[2,], ytitle = "Larvae")
+time.FUN(x, YGF2[3,], ytitle = "Juveniles")
+time.FUN(x, YGF2[4,], ytitle = "Adults")
+mtext("Winter season length (relative to year)", 1, 1, T, cex = 0.8)
+mtext("Proportion of occupied lakes", 3, 1, TRUE, font = 2)
+
+x <- data3$wc.mean[-1]; names(x) <- colnames(YGF2) <- 1993:2009
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(x, YGF2[1,], ytitle = "Egg masses")
+time.FUN(x, YGF2[2,], ytitle = "Larvae")
+time.FUN(x, YGF2[3,], ytitle = "Juveniles")
+time.FUN(x, YGF2[4,], ytitle = "Adults")
+mtext("Average water content", 1, 1, T, cex = 0.8)
+mtext("Proportion of occupied lakes", 3, 1, TRUE, font = 2)
+
+x <- data3$sum.years[-1]; names(x) <- colnames(YGF2) <- 1993:2009
+#quartz("", 12, 7)
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(x, YGF2[1,], ytitle = "Egg masses")
+time.FUN(x, YGF2[2,], ytitle = "Larvae")
+time.FUN(x, YGF2[3,], ytitle = "Juveniles")
+time.FUN(x, YGF2[4,], ytitle = "Adults")
+mtext("Summer season length (relative to year)", 1, 1, T, cex = 0.8)
+mtext("Proportion of occupied lakes", 3, 1, TRUE, font = 2)
+
+
+# Winter length, water content (wc) and summer length in lake 2
+
+data3 <- subset(data2, site == 2 & year <= 2009)
+
+x <- data3$winter; names(x) <- 1992:2009
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(x, data3$eggs, ytitle = "Egg masses")
+time.FUN(x, data3$larvae, ytitle = "Larvae")
+time.FUN(x, data3$juveniles, ytitle = "Juveniles")
+time.FUN(x, data3$frogs, ytitle = "Adults and subadults")
+mtext("Winter season length (relative to year)", 1, 1, T, cex = 0.8)
+mtext("Life stages in lake 2", 3, 1, TRUE, font = 2)
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(data3$wc.mean, data3$eggs, ytitle = "Egg masses")
+time.FUN(data3$wc.mean, data3$larvae, ytitle = "Larvae")
+time.FUN(data3$wc.mean, data3$juveniles, ytitle = "Juveniles")
+time.FUN(data3$wc.mean, data3$frogs, ytitle = "Adults and subadults")
+mtext("Water content (yearly average)", 1, 1, T, cex = 0.8)
+mtext("Life stages in lake 2", 3, 1, TRUE, font = 2)
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(data3$sum.years, data3$eggs, ytitle = "Egg masses")
+time.FUN(data3$sum.years, data3$larvae, ytitle = "Larvae")
+time.FUN(data3$sum.years, data3$juveniles, ytitle = "Juveniles")
+time.FUN(data3$sum.years, data3$frogs, ytitle = "Adults and subadults")
+mtext("Summer season length (relative to year)", 1, 1, T, cex = 0.8)
+mtext("Life stages in lake 2", 3, 1, TRUE, font = 2)
+
+
+# Winter length, water content (wc) and summer length in lake 5
+
+data3 <- subset(data2, site == 5 & year <= 2009)
+
+x <- data3$winter; names(x) <- 1992:2009
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(x, data3$eggs, ytitle = "Egg masses")
+time.FUN(x, data3$larvae, ytitle = "Larvae")
+time.FUN(x, data3$juveniles, ytitle = "Juveniles")
+time.FUN(x, data3$frogs, ytitle = "Adults and subadults")
+mtext("Winter season length (relative to year)", 1, 1, T, cex = 0.8)
+mtext("Life stages in lake 5", 3, 1, TRUE, font = 2)
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(data3$wc.mean, data3$eggs, ytitle = "Egg masses")
+time.FUN(data3$wc.mean, data3$larvae, ytitle = "Larvae")
+time.FUN(data3$wc.mean, data3$juveniles, ytitle = "Juveniles")
+time.FUN(data3$wc.mean, data3$frogs, ytitle = "Adults and subadults")
+mtext("Water content (yearly average)", 1, 1, T, cex = 0.8)
+mtext("Life stages in lake 5", 3, 1, TRUE, font = 2)
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(data3$sum.years, data3$eggs, ytitle = "Egg masses")
+time.FUN(data3$sum.years, data3$larvae, ytitle = "Larvae")
+time.FUN(data3$sum.years, data3$juveniles, ytitle = "Juveniles")
+time.FUN(data3$sum.years, data3$frogs, ytitle = "Adults and subadults")
+mtext("Summer season length (relative to year)", 1, 1, T, cex = 0.8)
+mtext("Life stages in lake 5", 3, 1, TRUE, font = 2)
+
+
+# Winter length, water content (wc) and summer length in lake 7
+
+data3 <- subset(data2, site == 7 & year <= 2009)
+
+x <- data3$winter; names(x) <- 1992:2009
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(x, data3$eggs, ytitle = "Egg masses")
+time.FUN(x, data3$larvae, ytitle = "Larvae")
+time.FUN(x, data3$juveniles, ytitle = "Juveniles")
+time.FUN(x, data3$frogs, ytitle = "Adults and subadults")
+mtext("Winter season length (relative to year)", 1, 1, T, cex = 0.8)
+mtext("Life stages in lake 7", 3, 1, TRUE, font = 2)
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(data3$wc.mean, data3$eggs, ytitle = "Egg masses")
+time.FUN(data3$wc.mean, data3$larvae, ytitle = "Larvae")
+time.FUN(data3$wc.mean, data3$juveniles, ytitle = "Juveniles")
+time.FUN(data3$wc.mean, data3$frogs, ytitle = "Adults and subadults")
+mtext("Water content (yearly average)", 1, 1, T, cex = 0.8)
+mtext("Life stages in lake 7", 3, 1, TRUE, font = 2)
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(data3$sum.years, data3$eggs, ytitle = "Egg masses")
+time.FUN(data3$sum.years, data3$larvae, ytitle = "Larvae")
+time.FUN(data3$sum.years, data3$juveniles, ytitle = "Juveniles")
+time.FUN(data3$sum.years, data3$frogs, ytitle = "Adults and subadults")
+mtext("Summer season length (relative to year)", 1, 1, T, cex = 0.8)
+mtext("Life stages in lake 7", 3, 1, TRUE, font = 2)
+
+
+# Winter length, water content (wc) and summer length in lake 20
+
+data3 <- subset(data2, site == 20 & year <= 2009)
+
+x <- data3$winter; names(x) <- 1992:2009
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(x, data3$eggs, ytitle = "Egg masses")
+time.FUN(x, data3$larvae, ytitle = "Larvae")
+time.FUN(x, data3$juveniles, ytitle = "Juveniles")
+time.FUN(x, data3$frogs, ytitle = "Adults and subadults")
+mtext("Winter season length (relative to year)", 1, 1, T, cex = 0.8)
+mtext("Life stages in lake 20", 3, 1, TRUE, font = 2)
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(data3$wc.mean, data3$eggs, ytitle = "Egg masses")
+time.FUN(data3$wc.mean, data3$larvae, ytitle = "Larvae")
+time.FUN(data3$wc.mean, data3$juveniles, ytitle = "Juveniles")
+time.FUN(data3$wc.mean, data3$frogs, ytitle = "Adults and subadults")
+mtext("Water content (yearly average)", 1, 1, T, cex = 0.8)
+mtext("Life stages in lake 20", 3, 1, TRUE, font = 2)
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(data3$sum.years, data3$eggs, ytitle = "Egg masses")
+time.FUN(data3$sum.years, data3$larvae, ytitle = "Larvae")
+time.FUN(data3$sum.years, data3$juveniles, ytitle = "Juveniles")
+time.FUN(data3$sum.years, data3$frogs, ytitle = "Adults and subadults")
+mtext("Summer season length (relative to year)", 1, 1, T, cex = 0.8)
+mtext("Life stages in lake 20", 3, 1, TRUE, font = 2)
+
+
+# Winter length, water content (wc) and summer length in lake 4
+
+data3 <- subset(data2, site == 4 & year <= 2009)
+
+x <- data3$winter; names(x) <- 1992:2009
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(x, data3$eggs, ytitle = "Egg masses")
+time.FUN(x, data3$larvae, ytitle = "Larvae")
+time.FUN(x, data3$juveniles, ytitle = "Juveniles")
+time.FUN(x, data3$frogs, ytitle = "Adults and subadults")
+mtext("Winter season length (relative to year)", 1, 1, T, cex = 0.8)
+mtext("Life stages in lake 4", 3, 1, TRUE, font = 2)
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(data3$wc.mean, data3$eggs, ytitle = "Egg masses")
+time.FUN(data3$wc.mean, data3$larvae, ytitle = "Larvae")
+time.FUN(data3$wc.mean, data3$juveniles, ytitle = "Juveniles")
+time.FUN(data3$wc.mean, data3$frogs, ytitle = "Adults and subadults")
+mtext("Water content (yearly average)", 1, 1, T, cex = 0.8)
+mtext("Life stages in lake 4", 3, 1, TRUE, font = 2)
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(data3$sum.years, data3$eggs, ytitle = "Egg masses")
+time.FUN(data3$sum.years, data3$larvae, ytitle = "Larvae")
+time.FUN(data3$sum.years, data3$juveniles, ytitle = "Juveniles")
+time.FUN(data3$sum.years, data3$frogs, ytitle = "Adults and subadults")
+mtext("Summer season length (relative to year)", 1, 1, T, cex = 0.8)
+mtext("Life stages in lake 4", 3, 1, TRUE, font = 2)
+
+
+# Winter length, water content (wc) and summer length in lake 1
+
+data3 <- subset(data2, site == 1 & year <= 2009)
+
+x <- data3$winter; names(x) <- 1992:2009
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(x, data3$eggs, ytitle = "Egg masses")
+time.FUN(x, data3$larvae, ytitle = "Larvae")
+time.FUN(x, data3$juveniles, ytitle = "Juveniles")
+time.FUN(x, data3$frogs, ytitle = "Adults and subadults")
+mtext("Winter season length (relative to year)", 1, 1, T, cex = 0.8)
+mtext("Life stages in lake 1", 3, 1, TRUE, font = 2)
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(data3$wc.mean, data3$eggs, ytitle = "Egg masses")
+time.FUN(data3$wc.mean, data3$larvae, ytitle = "Larvae")
+time.FUN(data3$wc.mean, data3$juveniles, ytitle = "Juveniles")
+time.FUN(data3$wc.mean, data3$frogs, ytitle = "Adults and subadults")
+mtext("Water content (yearly average)", 1, 1, T, cex = 0.8)
+mtext("Life stages in lake 1", 3, 1, TRUE, font = 2)
+
+par(mfrow = c(4,5), mar = c(2,0,0,0), oma = c(2,4,3,1))
+time.FUN(data3$sum.years, data3$eggs, ytitle = "Egg masses")
+time.FUN(data3$sum.years, data3$larvae, ytitle = "Larvae")
+time.FUN(data3$sum.years, data3$juveniles, ytitle = "Juveniles")
+time.FUN(data3$sum.years, data3$frogs, ytitle = "Adults and subadults")
+mtext("Summer season length (relative to year)", 1, 1, T, cex = 0.8)
+mtext("Life stages in lake 1", 3, 1, TRUE, font = 2)
+```
+
+Population size vs. lake dried out or not
+
+```{r, eval=TRUE}
+table(water$Year)
+
+drought.prob <- data.frame(min_surf = as.numeric(min_surf), year = as.numeric(rep(rownames(min_surf), times = dim(min_surf)[2])), site = as.numeric(rep(colnames(min_surf), each = dim(min_surf)[1])))
+
+#--------------------------------------------------------
+# Lake dried (0), or not (1)
+#--------------------------------------------------------
+drought.prob$drought <- drought.prob$min_surf
+	drought.prob$drought[drought.prob$drought > 0] <- 1
+drought.prob2 <- drought.prob
+	drought.prob2$year <- drought.prob2$year+1
+
+#--------------------------------------------------------
+# Match population summaries (data2) with drought prob
+# The year during and after the drought
+#--------------------------------------------------------
+drought.prob <- merge(data2, drought.prob)
+drought.prob2 <- merge(data2, drought.prob2)
+
+#--------------------------------------------------------
+# Compare populations between lakes that dried versus not dried
+#--------------------------------------------------------
+table(drought.prob$drought, drought.prob$site, drought.prob$year)
+
+par(mfrow = c(2,4), mar = c(1,2,2,1), oma = c(4,3,1,0))
+boxplot(I(eggs+1) ~ drought, drought.prob, log = "y", main = "Egg masses", las = 1)
+	res <- lmer(log(eggs+1) ~ drought + (1|site), drought.prob); summary(res)
+	legend("topleft", p.trans(anova(res)$P), bty = "n")
+mtext("Pop. size (during drought)", side = 2, line = 3, outer = FALSE)
+boxplot(I(larvae+1) ~ drought, drought.prob, log = "y", main = "Larvae", las = 1)
+	res <- lmer(log(larvae +1) ~ drought + (1|site), drought.prob); summary(res)
+	legend("topleft", p.trans(anova(res)$P), bty = "n")
+boxplot(I(juveniles+1) ~ drought, drought.prob, log = "y", main = "Juveniles", las = 1)
+	res <- lmer(log(juveniles +1) ~ drought + (1|site), drought.prob); summary(res)
+	legend("topleft", p.trans(anova(res)$P), bty = "n")
+boxplot(I(frogs+1) ~ drought, drought.prob, log = "y", main = "Adults and subadults", las = 1)
+	res <- lmer(log(frogs +1) ~ drought + (1|site), drought.prob); summary(res)
+	legend("topleft", p.trans(anova(res)$P), bty = "n")
+
+boxplot(I(eggs+1) ~ drought, drought.prob2, log = "y", main = "", las = 1)
+	res <- lmer(log(eggs+1) ~ drought + (1|site), drought.prob2); summary(res)
+	legend("topleft", p.trans(anova(res)$P), bty = "n")
+mtext("Pop. size (after drought)", side = 2, line = 3, outer = FALSE)
+boxplot(I(larvae+1) ~ drought, drought.prob2, log = "y", main = "", las = 1)
+	res <- lmer(log(larvae +1) ~ drought + (1|site), drought.prob2); summary(res)
+	legend("topleft", p.trans(anova(res)$P), bty = "n")
+boxplot(I(juveniles+1) ~ drought, drought.prob2, log = "y", main = "", las = 1)
+	res <- lmer(log(juveniles +1) ~ drought + (1|site), drought.prob2); summary(res)
+	legend("topleft", p.trans(anova(res)$P), bty = "n")
+boxplot(I(frogs+1) ~ drought, drought.prob2, log = "y", main = "", las = 1)
+	res <- lmer(log(frogs +1) ~ drought + (1|site), drought.prob2); summary(res)
+	legend("topleft", p.trans(anova(res)$P), bty = "n")
+mtext("Dry versus not dry lake", side = 1, line = 2, outer = TRUE)
+```
+

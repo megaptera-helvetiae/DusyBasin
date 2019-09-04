@@ -2,7 +2,7 @@
 title: "_Rana sierrae_ at Dusy Basin"
 author: "Laetitia Wilkins"
 date: "May 10 2019 in Munich"
-output: html_document
+output: pdf_document
 ---
 
 ```{r setup, echo=FALSE}
