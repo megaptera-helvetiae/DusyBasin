@@ -616,7 +616,7 @@ cat("\n\n\\pagebreak\n")
 ```{r, warning=FALSE, message=FALSE, eval=FALSE}
 setwd("/")
 datab<-read.delim("sc.orig.rev.txt", header=T)
-# This data file is in the main directory for data on Git repository (Data).
+# This data file is in the directory "InputSummaryStats" on Git repository.
 
 str(datab)
 
