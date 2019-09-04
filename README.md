@@ -24,3 +24,6 @@ In the [input summary stats](https://github.com/megaptera-helvetiae/DusyBasin/tr
 [snowpack data](https://github.com/megaptera-helvetiae/DusyBasin/blob/master/Input_summaryStats/snowpack.txt),
 [precipitation data](https://github.com/megaptera-helvetiae/DusyBasin/blob/master/Input_summaryStats/water_content.txt),
 and [lake volumes](https://github.com/megaptera-helvetiae/DusyBasin/blob/master/Input_summaryStats/LakeVolume%26SA_Data_Dusy.xls) from [Lacan et al. 2018](https://www.fs.fed.us/psw/publications/matthews/psw_2008_matthews001.pdf) are the raw files of this manuscript.
+
+The following [directory](https://github.com/megaptera-helvetiae/DusyBasin/tree/master/Input_summaryStats) also harbors the input files for the summary statistics analysis.
+The input files for the unmarked analysis are [here](https://github.com/megaptera-helvetiae/DusyBasin/tree/master/Data).
