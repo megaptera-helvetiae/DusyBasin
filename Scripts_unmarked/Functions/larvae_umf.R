@@ -1,6 +1,6 @@
 ## Purpose: Set up unmarked dataframe for larvae occupancy models
+## Project: DusyBasin
 ## Author: Zack Steel
-## Created: 8/14/18
 
 larvae_umf <- function() {
   library(tidyverse)
@@ -10,7 +10,7 @@ larvae_umf <- function() {
   load("Data/Intermediate/Prepped.RData")
   
   larvae_obs <- filter(obs, year < 2009) %>%
-    select(year, julian, lake = site, total_time, larvae) %>%
+    select(year, julian, lake = site, total_time, obs_cnt, larvae) %>%
     merge(unique(sc.orig[,c("lake", "surf_mean")]), by = "lake", all.x = T) %>%
     mutate(lake = factor(lake), #Treat as categorical
            effort = log(total_time+1) / log(surf_mean), #add one minute bc of zero times
@@ -25,7 +25,7 @@ larvae_umf <- function() {
   ## Spread observation data
   larv_obs_w <- select(larvae_obs, lake, year, visit, larvae) %>%
     spread(key = visit, value = larvae) %>%
-    arrange(lake, year)
+    arrange(lake, year) 
   
   ## Same for observation covariates
   julian <- select(larvae_obs, lake, year, visit, julian) %>%
@@ -39,18 +39,19 @@ larvae_umf <- function() {
            stime = scale(stime)) %>%
     select(-total_time) %>% #standardize for modeling
     spread(key = visit, value = stime)
+  obs_cnt <- select(larvae_obs, lake, year, visit, obs_cnt) %>%
+    mutate(obs_cnt = scale(obs_cnt)) %>% #standardize for modeling
+    spread(key = visit, value = obs_cnt)
   
   ## line up site covs
   larv_sc <- select(larv_obs_w, lake, year) %>%
     merge(sc.stand, all.x = T) %>%
-    arrange(lake, year) %>%
-    mutate(year = as.factor(year))
+    arrange(lake, year) 
   
   ## Make sure everything lines up still
   identical(select(larv_obs_w, lake, year), select(julian, lake, year))
   identical(select(larv_obs_w, lake, year), select(effort, lake, year))
-  identical(as.data.frame(select(larv_obs_w, lake, year)), 
-            select(larv_sc, lake, year))
+  identical(as.data.frame(select(larv_obs_w, lake, year)), select(larv_sc, lake, year))
   
   ## Put y and obsCovs in correct format
   larv_y <- select(larv_obs_w, -lake, -year)
@@ -61,13 +62,17 @@ larvae_umf <- function() {
     as.matrix()
   stime_s <- select(stime, -lake, -year) %>%
     as.matrix()
+  obs_cnt_s <- select(obs_cnt, -lake, -year) %>%
+    as.matrix()
+  
   ## Put it into an unmarked dataframe for N-mixture
   larv_cnt_um <- unmarkedFramePCount(y = larv_y,
                                      siteCovs = larv_sc,
                                      obsCovs = list(julian = julian_s,
                                                     julian2 = julian_s2,
                                                     effort = effort_s,
-                                                    stime = stime_s))
+                                                    stime = stime_s,
+                                                    obs_cnt = obs_cnt_s))
   ## Set up dataframe for occupancy
   larv_y_occ <- ifelse(larv_y > 0, 1, 0)
   larv_occ_um <- unmarkedFrameOccu(y = larv_y_occ,
@@ -75,7 +80,8 @@ larvae_umf <- function() {
                                    obsCovs = list(julian = julian_s,
                                                   julian2 = julian_s2,
                                                   effort = effort_s,
-                                                  stime = stime_s))
+                                                  stime = stime_s,
+                                                  obs_cnt = obs_cnt_s))
   
   ## Save
   save(larv_occ_um, larv_cnt_um,

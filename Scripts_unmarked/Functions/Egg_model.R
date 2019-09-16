@@ -9,15 +9,22 @@ egg_model <- function() {
   ## read in data
   load("Data/Intermediate/egg_umf.Rdata")
   
-  # summary(eggs_cnt_um)
+  summary(eggs_cnt_um)
   
-  m2.nb <- pcount(~ julian + julian2 + offset(stime)
-                  ~ depth + surf_lm + fish, 
-                  data = eggs_cnt_um, mixture = "NB")
+  m1 <- pcount(~ julian + julian2 + stime + obs_cnt
+               ~ depth_l + fish + pbasin1_dry, 
+               data = eggs_cnt_um, mixture = "NB")
+  m2 <- pcount(~ julian + julian2 + stime + obs_cnt
+               ~ surf_lm + fish + pbasin1_dry, 
+               data = eggs_cnt_um, mixture = "NB")
   
-  ## Save for later
-  egg_m <- m2.nb
+  ## Model comparison
+  mlist <- fitList(egg_dm = m1, egg_sm = m2)
+  aictab <- modSel(mlist)
   
-  save(egg_m, eggs_cnt_um, eggs_obs, sc.orig, sc.stand, 
+  ## Save best for later
+  egg_m <- m2
+  
+  save(egg_m, aictab, eggs_cnt_um, eggs_obs, sc.orig, sc.stand, 
        file = "Models/egg_mod.RData")
 }

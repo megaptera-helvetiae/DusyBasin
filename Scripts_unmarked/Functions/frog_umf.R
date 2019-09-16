@@ -10,7 +10,7 @@ frog_umf <- function() {
   load("Data/Intermediate/Prepped.RData")
   
   frogs_obs <- filter(obs, year < 2009) %>%
-    select(year, julian, lake = site, total_time, frogs) %>%
+    select(year, julian, lake = site, total_time, obs_cnt, frogs) %>%
     merge(unique(sc.orig[,c("lake", "surf_mean")]), by = "lake", all.x = T) %>%
     mutate(lake = factor(lake), #Treat as categorical
            effort = log(total_time+1) / log(surf_mean), #add one minute bc of zero times
@@ -39,12 +39,15 @@ frog_umf <- function() {
            stime = scale(stime)) %>%
     select(-total_time) %>% #standardize for modeling
     spread(key = visit, value = stime)
+  obs_cnt <- select(frogs_obs, lake, year, visit, obs_cnt) %>%
+    mutate(obs_cnt = scale(obs_cnt)) %>% #standardize for modeling
+    spread(key = visit, value = obs_cnt)
   
   ## line up site covs
   frogs_sc <- select(frogs_obs_w, lake, year) %>%
     merge(sc.stand, all.x = T) %>%
-    arrange(lake, year) %>%
-    mutate(year = as.factor(year))
+    arrange(lake, year) #%>%
+  # mutate(year = as.factor(year))
   
   ## Make sure everything lines up still
   identical(select(frogs_obs_w, lake, year), select(julian, lake, year))
@@ -61,14 +64,17 @@ frog_umf <- function() {
     as.matrix()
   stime_s <- select(stime, -lake, -year) %>%
     as.matrix()
+  obs_cnt_s <- select(obs_cnt, -lake, -year) %>%
+    as.matrix()
   
   ## Put it into an unmarked dataframe for static abundance
   frogs_pc_um <- unmarkedFramePCount(y = frogs_y,
-                                   siteCovs = frogs_sc,
-                                   obsCovs = list(julian = julian_s,
-                                                  julian2 = julian_s2,
-                                                  effort = effort_s,
-                                                  stime = stime_s))
+                                     siteCovs = frogs_sc,
+                                     obsCovs = list(julian = julian_s,
+                                                    julian2 = julian_s2,
+                                                    effort = effort_s,
+                                                    stime = stime_s,
+                                                    obs_cnt = obs_cnt_s))
   
   frogs_pc_obs <- frogs_obs
   

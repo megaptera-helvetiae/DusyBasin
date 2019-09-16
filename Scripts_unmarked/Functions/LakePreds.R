@@ -13,10 +13,13 @@ LakePreds <- function() {
   load("Models/frog_pc_mod.RData")
   
   ## And just predict for one year
-  sc.stand <- select(sc.stand, year, lake, fish, depth, surf_lm) %>%
+  sc.stand <- select(sc.stand, year, lake, fish, #depth, 
+                     surf_lm) %>%
     ## Get year factors to match
     mutate(year = 2000,
-           year = factor(year, levels(factor(frog_pcm@data@siteCovs$year)))) %>%
+           year = factor(year, levels(factor(frog_pcm@data@siteCovs$year))),
+           ## predictions for mean basin drying (i.e 33% original) 
+           pbasin1_dry = 0) %>%
     unique()
   sc.s.egg <- mutate(sc.stand,
                      year = factor(year, levels(factor(egg_m@data@siteCovs$year)))) 
@@ -50,19 +53,23 @@ LakePreds <- function() {
     cbind(pred_real) %>%
     unique() %>%
     merge(mn_obs) %>%
-    mutate(stage = "eggs")
+    mutate(stage = "eggs",
+           upper = ifelse(upper > max(pred_real$Predicted), 
+                          max(pred_real$Predicted), upper))
   plot_data2 <- select(sc.stand, lake, fish) %>%
     cbind(pred_real2) %>%
     unique() %>%
     merge(mn_obs2) %>%
     mutate(stage = "larvae",
-           upper = ifelse(upper > 7000, 7000, upper))
+           upper = ifelse(upper > max(pred_real2$Predicted), 
+                          max(pred_real2$Predicted), upper))
   plot_data3 <- select(sc.stand, lake, fish) %>%
     cbind(pred_real3) %>%
     unique() %>%
     merge(mn_obs3) %>%
     mutate(stage = "frogs",
-           upper = ifelse(upper > 450, 450, upper))
+           upper = ifelse(upper > max(pred_real3$Predicted), 
+                          max(pred_real3$Predicted), upper))
   plot_data <- bind_rows(plot_data0, plot_data2, plot_data3) %>%
     mutate(lake = factor(lake),
            stage = factor(stage, levels = c("eggs", "larvae", "frogs"),
@@ -76,7 +83,8 @@ LakePreds <- function() {
                        breaks = c(0, 1),
                        labels = c("No", "Yes"),
                        values = c("steelblue", "grey70")) +
-    theme(legend.position = c(-.04,-.11), 
+    theme_bw() +
+    theme(legend.position = "top", #c(0.1,-.15), 
           legend.direction = "horizontal",
           text = element_text(size = 10), title = element_text(size = 10),
           axis.text = element_text(size = 10)) +
@@ -100,7 +108,7 @@ LakePreds <- function() {
           axis.text = element_text(size = 10)) + 
     coord_flip()
   
-  save_plot("Figures/LakePreds.png", p1, base_width = 8, base_height = 4, dpi = 600)
-  save_plot("Figures/LakeChars.png", p2, base_width = 8, base_height = 4, dpi = 600)
+  save_plot("Figures/LakePreds.png", p1, base_width = 8, base_height = 4)
+  save_plot("Figures/LakeChars.png", p2, base_width = 8, base_height = 4)
   
 }

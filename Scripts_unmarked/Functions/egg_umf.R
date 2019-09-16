@@ -1,6 +1,6 @@
 ## Purpose: Set up unmarked dataframe for egg occupancy models
+## Project: DusyBasin
 ## Author: Zack Steel
-## Created: 8/14/18
 
 egg_umf <- function() {
   library(tidyverse)
@@ -10,7 +10,7 @@ egg_umf <- function() {
   load("Data/Intermediate/Prepped.RData")
   
   eggs_obs <- filter(obs, year < 2009) %>%
-    select(year, julian, lake = site, total_time, eggs) %>%
+    select(year, julian, lake = site, total_time, obs_cnt, eggs) %>%
     merge(unique(sc.orig[,c("lake", "surf_mean")]), by = "lake", all.x = T) %>%
     mutate(lake = factor(lake), #Treat as categorical
            effort = log(total_time+1) / log(surf_mean), #add one minute bc of zero times
@@ -45,12 +45,15 @@ egg_umf <- function() {
            stime = scale(stime)) %>%
     select(-total_time) %>% #standardize for modeling
     spread(key = visit, value = stime)
+  obs_cnt <- select(eggs_obs, lake, year, visit, obs_cnt) %>%
+    mutate(obs_cnt = scale(obs_cnt)) %>% #standardize for modeling
+    spread(key = visit, value = obs_cnt)
   
   ## line up site covs
   eggs_sc <- select(eggs_obs_w, lake, year) %>%
     merge(sc.stand, all.x = T) %>%
-    arrange(lake, year) %>%
-    mutate(year = factor(year))
+    arrange(lake, year) #%>%
+    # mutate(year = factor(year))
   
   ## Make sure everything lines up still
   identical(select(eggs_obs_w, lake, year), select(julian, lake, year))
@@ -67,6 +70,8 @@ egg_umf <- function() {
     as.matrix()
   stime_s <- select(stime, -lake, -year) %>%
     as.matrix()
+  obs_cnt_s <- select(obs_cnt, -lake, -year) %>%
+    as.matrix()
   
   ## Put it into an unmarked dataframe for static occupancy
   eggs_cnt_um <- unmarkedFramePCount(y = eggs_y,
@@ -74,7 +79,8 @@ egg_umf <- function() {
                                    obsCovs = list(julian = julian_s,
                                                   julian2 = julian_s2,
                                                   effort = effort_s,
-                                                  stime = stime_s))
+                                                  stime = stime_s,
+                                                  obs_cnt = obs_cnt_s))
   
   save(eggs_cnt_um, eggs_obs, sc.orig, sc.stand, file = "Data/Intermediate/egg_umf.RData")
   

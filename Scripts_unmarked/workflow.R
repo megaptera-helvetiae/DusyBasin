@@ -1,6 +1,6 @@
 ## Purpose: Workflow script for unmarked frog models
+## Project: DusyBasin
 ## Author: Zack Steel
-## Created: 8/14/18
 
 ## Set up unmarked dataframes for the three model types
 source("Scripts_unmarked/Functions/egg_umf.R")
