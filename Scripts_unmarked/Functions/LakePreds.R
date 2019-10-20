@@ -79,16 +79,18 @@ LakePreds <- function() {
     facet_wrap(~factor(stage), ncol = 3, scales = "free") +
     geom_errorbar(aes(ymin=lower, ymax=upper), size = 2, width=0, alpha=0.5) +
     geom_point(shape=19, alpha=0.9, size=4) + 
-    scale_color_manual(name = "Fish Present",
+    scale_color_manual(name = "Fish present",
                        breaks = c(0, 1),
                        labels = c("No", "Yes"),
                        values = c("steelblue", "grey70")) +
     theme_bw() +
-    theme(legend.position = "top", #c(0.1,-.15), 
-          legend.direction = "horizontal",
-          text = element_text(size = 10), title = element_text(size = 10),
-          axis.text = element_text(size = 10)) +
-    ylab("Predicted Abundance") + xlab("Lake Number") +
+    theme(#legend.position = "top", #c(0.1,-.15), 
+          #legend.direction = "horizontal",
+          legend.position = c(.99, .99),
+          legend.justification = c(1,1),
+          text = element_text(size = 12), title = element_text(size = 12),
+          axis.text = element_text(size = 12)) +
+    ylab("Predicted abundance") + xlab("Lake number") +
     coord_flip()
   
   ## Add surface area and depth values
@@ -98,17 +100,22 @@ LakePreds <- function() {
     gather(key = attribute, value = value, -lake) %>%
     mutate(attribute = factor(attribute, 
                               levels = c("surf_lm", "depth", "proplake_dry"),
-                              labels = c("Area (sq m)", "Depth (m)", "Prop Dry Yrs")))
+                              labels = c("Area (log sq m)", "Depth (m)", "Prop Dry Yrs")))
   p2 <- ggplot(covs, aes(x = lake, y = value)) +
     facet_wrap(~factor(attribute), ncol = 3, scales = "free") +
     geom_bar(stat = "identity") + 
-    xlab("Lake Number") +
+    xlab("Lake number") +
     ylab(NULL) +
+    theme_bw() +
     theme(text = element_text(size = 12), title = element_text(size = 12),
-          axis.text = element_text(size = 10)) + 
+          axis.text = element_text(size = 12)) + 
     coord_flip()
   
-  save_plot("Figures/LakePreds.png", p1, base_width = 8, base_height = 4)
-  save_plot("Figures/LakeChars.png", p2, base_width = 8, base_height = 4)
+  # save_plot("Figures/LakePreds.png", p1, base_width = 8, base_height = 4)
+  # save_plot("Figures/LakeChars.png", p2, base_width = 8, base_height = 4)
+  
+  pg <- plot_grid(p1, p2, ncol = 1, labels = c("A)", "B)"), rel_heights = c(1.1, 1))
+  save_plot("Figures/Figure4.tiff", pg, base_width = 8, base_height = 6)
   
 }
+# }
